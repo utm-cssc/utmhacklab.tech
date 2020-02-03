@@ -10,5 +10,6 @@ module.exports = {
             { text: 'Projects', link: '/projects/' },
             { text: 'International Students', link: '/international/' },
         ]
-    }
+    },
+    dest: "./docs"
 }
