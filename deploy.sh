@@ -6,5 +6,3 @@ set -e
 # build
 npm i
 npm run build
-
-cd -
