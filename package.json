@@ -1,9 +1,13 @@
 {
     "scripts": {
         "dev": "vuepress dev",
-        "build": "rm -rf docs;mkdir docs;vuepress build"
+        "build": "npm run fa:build --dest=docs;rm -rf docs;mkdir docs;vuepress build",
+        "fa:build": "node node_modules/vuepress-plugin-font-awesome/index.js"
     },
     "devDependencies": {
         "vuepress": "^1.3.0"
+    },
+    "dependencies": {
+        "vuepress-plugin-font-awesome": "^1.90.6"
     }
 }
