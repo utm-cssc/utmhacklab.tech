@@ -1,6 +1,13 @@
-[[toc]]
+# Resources
+
+The Hacklab creates and curates resources that benefit students academically and professionally. We're 
 
 ## Resume Help
+
+### Getting the right experience
+
+![Getting the right experience](./getting-right-exp.png)
+_Taken from Cracking the Coding Interview_
 
 ### [Example Student Resumes](https://drive.google.com/open?id=1fic3p7Hn3QnboPnYahSRJOtIhBHUkjQI)
 
@@ -29,7 +36,7 @@ All positions are open to anyone enrolled in a Bachelor's degree program.
 
 
 
-## Getting Motivated about CS
+## Getting Motivated
 
 It’s a wonderful feeling to be motivated about what you’re learning. Consuming entertaining digital content about your area of education can help you cultivate a sense of wonder. 
 

@@ -1,6 +1,8 @@
-# What is the Hacklab?
+---
+sidebar: auto
+---
 
-[[toc]]
+# What is the Hacklab?
 
 The UTM Hacklab is an MCS department initiative made for the students of UTM.
 

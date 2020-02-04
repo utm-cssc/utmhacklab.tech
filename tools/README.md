@@ -1,4 +1,8 @@
-[[toc]]
+---
+sidebar: auto
+---
+
+# Tools
 
 ## Collaboration    
 

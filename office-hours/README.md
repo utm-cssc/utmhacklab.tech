@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # Office Hours
 
 
@@ -26,5 +30,3 @@ You can import my calendar by adding me from the UofT directory on Outlook.
 ::: tip
 You can access your Outlook calendar via your UofT email [here](https://outlook.office.com/calendar)
 :::
-
-Resume: 

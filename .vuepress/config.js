@@ -2,6 +2,8 @@ module.exports = {
     title: 'UTM Hacklab',
     description: "The support wing of UTM MCS Societies.",
     themeConfig: {
+        smoothScroll: true,
+        sidebar: 'auto',
         nav: [
             { text: 'Home', link: '/' },
             { text: 'About', link: '/about/' },
