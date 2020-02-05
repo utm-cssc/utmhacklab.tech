@@ -12,10 +12,12 @@ UTM's [Google DSC Chapter](https://utm.developerstudentclubs.ca/) launched a com
 
 Students interested in developing software projects have paired up with upper year mentors and university professors to build projects for Google's community project showcase.  
 
+<ClientOnly>
 <ImageCarousel :images="[$withBase('/dsc-projects/map-utm.jpg'), $withBase('/dsc-projects/open-mind.jpg'), $withBase('/dsc-projects/connect-ed.jpg'), $withBase('/dsc-projects/muse.jpg'), $withBase('/dsc-projects/arezue.jpg'), $withBase('/dsc-projects/send-foodz.jpg'), $withBase('/dsc-projects/uoft-course-tools.jpg'), $withBase('/dsc-projects/your-list.jpg')]"/>
+</ClientOnly>
 
 
-## Individual Student Projects
+## Student Projects
 
 The Hacklab provides technical support and mentorship to students working on projects outside of their coursework. 
 
@@ -35,8 +37,19 @@ Toonin is a Chrome Extension coupled with a web app that allows your friends to 
 
 __Contributors__: 
 
-- Arsala Bangash [arsala.bangash@utoronto.ca](arsala.bangash@utoronto.ca)
-- Lakshya Gupta [lakshya.gupta@mail.utoronto.ca](lakshya.gupta@mail.utoronto.ca)
+- Lakshya Gupta __Primary Contact__ [lakshya.gupta@mail.utoronto.ca](lakshya.gupta@mail.utoronto.ca)
+- Arsala Bangash __Primary Contact__ [arsala.bangash@utoronto.ca](arsala.bangash@utoronto.ca)
+
+### Proformance
+
+An Android app that allows squash coaches to record and analyse their athletes' performance in squash matches. 
+
+[__Github Repo__](https://github.com/OsamaSaleh289/Squash-Video-Analysis-Project)
+
+__Contributors__: 
+
+- Osama Saleh __Primary Contact__ [lakshya.gupta@mail.utoronto.ca](lakshya.gupta@mail.utoronto.ca)
+- Arsala Bangash __Technical Consultant__ [arsala.bangash@utoronto.ca](arsala.bangash@utoronto.ca)
 
 
 
