@@ -7,7 +7,7 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'About', link: '/about/' },
-            // { text: 'MCS Clubs', link: '/clubs/' },
+            { text: 'Clubs', link: '/clubs/' },
             { text: 'Office Hours', link: '/office-hours/' },
             { text: 'Projects', link: '/projects/' },
             { text: 'Resources', link: '/resources/' },

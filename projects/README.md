@@ -38,6 +38,7 @@ Toonin is a Chrome Extension coupled with a web app that allows your friends to 
 __Contributors__: 
 
 - Lakshya Gupta __Primary Contact__ [lakshya.gupta@mail.utoronto.ca](lakshya.gupta@mail.utoronto.ca)
+
 - Arsala Bangash __Primary Contact__ [arsala.bangash@utoronto.ca](arsala.bangash@utoronto.ca)
 
 ### Proformance
@@ -48,8 +49,32 @@ An Android app that allows squash coaches to record and analyse their athletes' 
 
 __Contributors__: 
 
-- Osama Saleh __Primary Contact__ [lakshya.gupta@mail.utoronto.ca](lakshya.gupta@mail.utoronto.ca)
+- Osama Saleh __Primary Contact__ [osama.saleh@mail.utoronto.ca](lakshya.gupta@mail.utoronto.ca)
+
 - Arsala Bangash __Technical Consultant__ [arsala.bangash@utoronto.ca](arsala.bangash@utoronto.ca)
+
+### LinkedIn InFocus
+
+A chrome extension that allows you to focus on LinkedIn by hiding the news feed and the 'Emerging News' and Views panel.
+
+### Nox
+
+Nox is a platform designed to enhance the quality of lecture-style education by enabling students to anonymously pose questions and collectively rate their comfort level of the course material, all in real time. 
+
+[__Github Repo__](https://github.com/ShoaibAhmadKhan/Nox)
+
+- Shoaib Khan __Primary Contact__ [shoaiba.khan@mail.utoronto.ca](shoaiba.khan@mail.utoronto.ca)
+
+- Ali Chaudhry __Primary Contact__ [achaudhral.chaudhry@mail.utoronto.ca](achaudhral.chaudhry@mail.utoronto.ca)
+
+### Material Math
+
+A web app allows you to practice math your way!
+
+[__Github Repo__](https://github.com/grey-software/Material-Math)
+
+- Arsala Bangash __Primary Contact__ [arsala.bangash@utoronto.ca](arsala.bangash@utoronto.ca)
+
 
 
 
