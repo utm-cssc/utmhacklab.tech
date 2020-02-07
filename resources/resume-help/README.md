@@ -1,6 +1,8 @@
 ---
-sidebar: auto
+sidebar: false
 ---
+
+# Resume Help
 
 **Your resume is the first piece of information employers see about you. Here’s how to highlight your achievements:**
 
