@@ -1,50 +1,32 @@
+---
+sidebar: auto
+---
+
 # Resources
 
-The Hacklab creates and curates resources that benefit students academically and professionally. We're 
+The Hacklab creates and curates resources that benefit students academically and professionally.
 
-## Resume Guidance
+<!-- ## UTM Courses
 
-Your resume is the first piece of information employers see about you. Here’s how to highlight your achievements:
-
-- Align your skills and experience with the internship or job description
-- Be specific about projects you’ve worked on or managed. What was the outcome? How did you measure success?
-- If you've had a leadership role in a volunteer organization or at a part-time job, tell us about it. How big was the team? What was the scope of your work?
-- Include your GPA, as well as school-related projects or coursework that demonstrate relevant skills and knowledge
-- Keep it short: Aim for one page. If there’s additional information we need during the hiring process, (like a portfolio), your recruiter will work with you to collect it
-
-Get more resume guidance [here](/resume-help)
+### CSC263 -->
 
 
-### Getting the right experience
 
-![Getting the right experience](./getting-right-exp.png)
-_Taken from Cracking the Coding Interview_
+## [Resume Help](/resources/resume-help)
 
-### [Example Student Resumes](https://drive.google.com/open?id=1fic3p7Hn3QnboPnYahSRJOtIhBHUkjQI)
+Your resume is the first piece of information employers see about you. 
 
-A collection of example student resumes from UTM.
+**Learn how to highlight your achievements [here](/resources/resume-help)**
 
+## Tech Internships
 
-## Where can I find Internships to apply to?
+Internships are an excellent way to get co-op education experience, and as a UTM Student, a wide variety of internships are available to you. 
 
-### [Angel List](https://angel.co/jobs)
+### [Where do I apply?](/resources/internship-apps)
 
-Apply privately to startup internships with one application. No middlemen · See salary and equity upfront. 
+<!-- ### How do I prepare for interviews?
 
-::: tip
-If you're interested in working in a startup or are okay with equity instead of pay, Angellist has plenty of options for you!
-::: 
-
-### [Summer 2020 Canadian Tech Internships](https://github.com/ChrisDryden/Canadian-Tech-Internships-Summer-2020)
-
-Crowdsourced list of Canadian tech companies that are hiring interns for Summer 2020 that are interested in tech, SWE, and related fields.
-
-### [Summer 2020 Tech Internships](https://github.com/elaine-zheng/summer2020internships)
-
-Keep track of internships for Summer 2020 for undergraduates interested in tech, SWE, and related fields.
-
-All positions are open to anyone enrolled in a Bachelor's degree program.
-
+## Android Development -->
 
 
 ## Getting Motivated
@@ -66,3 +48,5 @@ PBS makes Computer Science education accessible to people of all ages, and this 
 ::: tip
 I have often used this channel as a guide to provide context for when the content as its taught by professors becomes a bit too technical.
 :::  
+
+

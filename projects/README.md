@@ -55,7 +55,14 @@ __Contributors__:
 
 ### LinkedIn InFocus
 
-A chrome extension that allows you to focus on LinkedIn by hiding the news feed and the 'Emerging News' and Views panel.
+A chrome extension that allows you to focus while on LinkedIn by hiding the news feed and the 'Emerging News and Views' panel.
+
+[__Github Repo__](https://github.com/grey-software/LinkedIn-InFocus)
+
+__Contributors__: 
+
+- Arsala Bangash __Primary Contact__ [arsala.bangash@utoronto.ca](arsala.bangash@utoronto.ca)
+
 
 ### Nox
 
@@ -66,6 +73,8 @@ Nox is a platform designed to enhance the quality of lecture-style education by 
 - Shoaib Khan __Primary Contact__ [shoaiba.khan@mail.utoronto.ca](shoaiba.khan@mail.utoronto.ca)
 
 - Ali Chaudhry __Primary Contact__ [achaudhral.chaudhry@mail.utoronto.ca](achaudhral.chaudhry@mail.utoronto.ca)
+
+- Tahir Muhammad __Primary Contact__ [tahir.muhammad@mail.utoronto.ca](tahir.muhammad@mail.utoronto.ca)
 
 ### Material Math
 
