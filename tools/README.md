@@ -4,6 +4,14 @@ sidebar: auto
 
 # Tools
 
+## Markdown
+
+Markdown is a plain text formatting syntax aimed at making writing for the internet easier.
+
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+[Interactive Markdown Tutorials](https://www.markdowntutorial.com/lesson/1/)
+
 ## Collaboration    
 
 ### Visual Studio Code Live Share
