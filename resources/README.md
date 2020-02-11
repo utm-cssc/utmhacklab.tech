@@ -6,10 +6,15 @@ sidebar: auto
 
 The Hacklab creates and curates resources that benefit students academically and professionally.
 
-<!-- ## UTM Courses
+## Free Tools for Students
 
-### CSC263 -->
 
+
+## UTM Courses
+
+We encourage students to supplement the learning materials from class with resources from the wider internet. We've curated materials for a number of MCS courses below. 
+
+**[CSC358 Principles of Computer Networks](/resources/csc358)**
 
 
 ## [Resume Help](/resources/resume-help)
@@ -24,10 +29,11 @@ Internships are an excellent way to get co-op education experience, and as a UTM
 
 ### [Where do I apply?](/resources/internship-apps)
 
-<!-- ### How do I prepare for interviews?
+### How do I prepare for interviews?
 
-## Android Development -->
+Interviews are a multi-stage process and each stage can consist of vastly different formats.
 
+[__Familiarize yourself with the interview formats__](https://yangshun.github.io/tech-interview-handbook/interview-formats)
 
 ## Getting Motivated
 
@@ -48,5 +54,38 @@ PBS makes Computer Science education accessible to people of all ages, and this 
 ::: tip
 I have often used this channel as a guide to provide context for when the content as its taught by professors becomes a bit too technical.
 :::  
+
+## Markdown
+
+Markdown is a plain text formatting syntax aimed at making writing for the internet easier.
+
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+[Interactive Markdown Tutorials](https://www.markdowntutorial.com/lesson/1/)
+
+## Collaboration    
+
+### Visual Studio Code Live Share
+
+Live Share enables you to collaboratively edit and debug programming projectswith other students in real time. It works regardless what programming languages you're using or app types you're building. 
+
+It allows you to instantly (and securely) share your current project, and then as needed, share debugging sessions, terminal instances, localhost web apps, and more! 
+
+Install VS Code Live Share [here](https://docs.microsoft.com/en-us/visualstudio/liveshare/#install-visual-studio-live-share)
+
+[Learn more about Live Share](https://docs.microsoft.com/en-us/visualstudio/liveshare/faq)
+
+### [Mindmeister](https://www.mindmeister.com/)
+
+![Mindmeister](./mindmeister.png)
+MindMeister is an online mind mapping tool that lets you capture, develop and share ideas visually.
+
+## Focus
+
+### [News Feed Eradicator For Facebook](https://chrome.google.com/webstore/detail/news-feed-eradicator-for/fjcldmjmjhkklehbacihaiopjklihlgg)
+
+![News Feed Eradicator For Facebook](./fb-newsfeed-eradicator.jpg)
+
+Find yourself spending too much time on Facebook? Eradicate distractions by replacing your entire news feed with an inspiring quote!
 
 
