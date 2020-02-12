@@ -9,6 +9,7 @@
     },
     "dependencies": {
         "vue-carousel": "^0.18.0",
+        "vue-gallery": "^2.0.1",
         "vuepress-plugin-font-awesome": "^1.90.6"
     }
 }

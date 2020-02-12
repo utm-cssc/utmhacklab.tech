@@ -6,8 +6,7 @@ sidebar: auto
 
 The Hacklab creates and curates resources that benefit students academically and professionally.
 
-## Free Tools for Students
-
+<!-- ## Free Packs for Students -->
 
 
 ## UTM Courses
@@ -34,6 +33,13 @@ Internships are an excellent way to get co-op education experience, and as a UTM
 Interviews are a multi-stage process and each stage can consist of vastly different formats.
 
 [__Familiarize yourself with the interview formats__](https://yangshun.github.io/tech-interview-handbook/interview-formats)
+
+
+## Design
+
+You may want to use design to explain, to tell a story, to plan, to problem-solve, or to make something look nice. These are all goals you can achieve through designing. 
+
+Often, people think design is about the way things look. That’s just one element of design. Find our more about design [here](/resources/design)
 
 ## Getting Motivated
 

@@ -1,17 +1,21 @@
 <template>
-  <div class="theme-container the-show">
-    <section class="hero is-fullheight">
+  <div class="theme-container">
+    <section class="hero is-fullheight show-bg show-banner">
       <div class="hero-body">
         <div class="container has-text-centered">
-          <div class="column is-8 is-offset-2 is-6-widescreen is-offset-3-widescreen">
-            <p class="title is-1">The Show</p>
-            <p class="subtitle is-3">3/20/2020 | 6:00pm - 12:00am</p>
-            <p class="subtitle is-5">Deerfield Hall, UTM</p>
-          </div>
+          <img class="show-hero-img" src="/the-show/hero.png" />
         </div>
       </div>
     </section>
-    <div class="section is-medium">
+    <section class="hero is-primary is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">A Glimpse Of What Is To Come</h1>
+          <span class="subtitle">Celebrating the culmination of a year-long commitment to changing the culture surrounding the computer science student experience. By inspiring a new standard for what can be achieved when a group of individuals dedicated to seeing a better future comes together to truly “Do My Best”.  This final event is dedicated to showcasing a model of harmonious coexistence of different groups of individuals. As the layers of toxic, competitive, elitism are slowly being peeled away, what remains is a culture of unity, support, engagement, and inclusivity for all.</span>
+        </div>
+      </div>
+    </section>
+    <div class="section is-small">
       <div class="container">
         <nav class="level">
           <div v-for="society in societies" class="level-item has-text-centered society">
@@ -41,16 +45,66 @@ export default {
     };
   },
   methods: {
-      openSocietySite(link) {
-          window.open(link)
-      }
-  },
+    openSocietySite(link) {
+      window.open(link);
+    }
+  }
 };
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap");
+
+.show-details {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 42px;
+  text-shadow: white 0px 0px 10px;
+}
+
+.show-banner {
+  background: url(/the-show/hero-bg.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.show-hero-img {
+  animation: bobble 2.3s ease-out infinite;
+  width: 80%;
+  height: 80%;
+}
+
+@keyframes bobble {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translate3d(0px, 10px, 0px);
+    animation-timing-function: ease-out;
+  }
+  100% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+}
+
+/* .show-bg {
+  background: url(/the-show/hero-bg.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
 .society:hover {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+.bg-black {
+  background: #000000;
 }
 </style>
 
