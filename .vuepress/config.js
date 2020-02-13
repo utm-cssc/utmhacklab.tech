@@ -24,11 +24,5 @@ module.exports = {
 
         ]
     },
-    dest: "./docs",
-    thirdPartyComponents: {
-        fontAwesomeIcons: {
-            regular: ['address-card', 'file-audio'],  // Regular font awesome icon keys here
-            solid: ['battery-quarter']               // Solid font awesome icon keys here
-        }
-    }
+    dest: "./docs"
 }

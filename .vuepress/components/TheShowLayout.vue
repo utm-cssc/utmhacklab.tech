@@ -7,11 +7,16 @@
         </div>
       </div>
     </section>
-    <section class="hero is-primary is-medium">
+    <div class="section is-small">
+       <the-show-countdown />
+    </div>
+    <section class="hero is-primary hero-desc-bg is-medium">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">A Glimpse Of What Is To Come</h1>
-          <span class="subtitle">Celebrating the culmination of a year-long commitment to changing the culture surrounding the computer science student experience. By inspiring a new standard for what can be achieved when a group of individuals dedicated to seeing a better future comes together to truly “Do My Best”.  This final event is dedicated to showcasing a model of harmonious coexistence of different groups of individuals. As the layers of toxic, competitive, elitism are slowly being peeled away, what remains is a culture of unity, support, engagement, and inclusivity for all.</span>
+          <span
+            class="subtitle"
+          >Celebrating the culmination of a year-long commitment to changing the culture surrounding the computer science student experience. By inspiring a new standard for what can be achieved when a group of individuals dedicated to seeing a better future comes together to truly “Do My Best”. This final event is dedicated to showcasing a model of harmonious coexistence of different groups of individuals. As the layers of toxic, competitive, elitism are slowly being peeled away, what remains is a culture of unity, support, engagement, and inclusivity for all.</span>
         </div>
       </div>
     </section>
@@ -32,15 +37,20 @@
 </template>
 
 <script>
+import TheShowCountdown from "./TheShowCountdown";
+
 export default {
+  components: {
+    TheShowCountdown
+  },
   data() {
     return {
       societies: [
-        { name: "robotics", link: "https://utmrobotics.com" },
         { name: "wisc", link: "https://www.facebook.com/wiscutm" },
-        { name: "mcss", link: "https://utmmcss.com" },
         { name: "dsc", link: "https://utm.developerstudentclubs.ca/" },
-        { name: "sam", link: "https://utmsam.sa.utoronto.ca/" }
+        { name: "mcss", link: "https://utmmcss.com" },
+        { name: "sam", link: "https://utmsam.sa.utoronto.ca/" },
+        { name: "robotics", link: "https://utmrobotics.com" },
       ]
     };
   },
@@ -54,6 +64,10 @@ export default {
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap");
+
+.hero-desc-bg {
+ background: #8C64E1 !important;
+}
 
 .show-details {
   font-family: "Montserrat", sans-serif;
@@ -72,7 +86,7 @@ export default {
 }
 
 .show-hero-img {
-  animation: bobble 2.3s ease-out infinite;
+  animation: bobble 2.5s ease-out infinite;
   width: 80%;
   height: 80%;
 }
@@ -80,14 +94,23 @@ export default {
 @keyframes bobble {
   0% {
     transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+  }
+  25% {
+    transform: translate3d(8px, 16px, 0px);
+    animation-timing-function: ease-out;
   }
   50% {
-    transform: translate3d(0px, 10px, 0px);
+    transform: translate3d(0px, 16px, 0px);
+    animation-timing-function: ease-out;
+  }
+  75% {
+    transform: translate3d(8px, 0px, 0px);
     animation-timing-function: ease-out;
   }
   100% {
     transform: translate3d(0px, 0px, 0px);
+    animation-timing-function: ease-out;
   }
 }
 
