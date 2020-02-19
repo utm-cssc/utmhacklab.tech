@@ -18,16 +18,6 @@ module.exports = {
                 label: 'English',
                 // Aria Label for locale in the dropdown
                 ariaLabel: 'Languages',
-                // text for the edit-on-github link
-                // editLinkText: 'Edit this page on GitHub',
-                // // config for Service Worker
-                // serviceWorker: {
-                //     updatePopup: {
-                //         message: "New content is available.",
-                //         buttonText: "Refresh"
-                //     }
-                // },
-                // algolia docsearch options for current locale
                 nav: [
                     { text: 'Home', link: '/' },
                     { text: 'The Show', link: '/the-show/' },
@@ -49,13 +39,6 @@ module.exports = {
             '/zh/': {
                 selectText: '选择语言',
                 label: '简体中文',
-                // editLinkText: '在 GitHub 上编辑此页',
-                // serviceWorker: {
-                //     updatePopup: {
-                //         message: "发现新内容可用.",
-                //         buttonText: "刷新"
-                //     }
-                // },
                 nav: [
                     { text: '首页', link: '/' },
                     { text: 'The Show', link: '/the-show/' },

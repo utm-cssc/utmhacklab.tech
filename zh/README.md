@@ -4,12 +4,8 @@ heroText: UTM Hacklab
 # tagline: Supporting UTM MCS Students
 tagline: 帮助 UTM MCS 学生
 features:
-# - title: Office Space and Guidance
-#   details: The Hacklab provides a space for students at UTM with guidance on their academic and professional roadmaps by students from the community. 
 - title: 工作地点和指导
   details: UTM的同学们可以在Hacklab获得学术和职业选择上的建议
-# - title: Research and Development
-#   details: We R&D creative processes and tools for the student community to succeed. 
 - title: 研究和开发
   details: 我们会寻找或开发出对MCS的同学们有帮助的工具
 # - title: Supporting MCS societies
