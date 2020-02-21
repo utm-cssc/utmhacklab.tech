@@ -16,9 +16,10 @@ footer: UTM Hacklab DH2014
 # Hacklab 是什么？
 
 UTM Hacklab是一个为UTM学生建立的MCS部门
-我们在UTM的Deerfield Hall，2014号教室
+我们位于UTM的Deerfield Hall，2014号教室
 
 ## 如何加入Hacklab？ 
+
 Hacklab还在建立其长期的基础设施
 
 与此同时，最好的加入我们的方法就是查看我们在[微软上的社区](https://teams.microsoft.com), 或者亲自来拜访我们在Deerfield Hall 2014号教室的办公室。  
