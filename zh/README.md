@@ -1,33 +1,32 @@
 ---
 home: true
 heroText: UTM Hacklab
-# tagline: Supporting UTM MCS Students
-tagline: 帮助 UTM MCS 学生
+tagline: 帮助UTM MCS学生
 features:
-- title: 工作地点和指导
+- title: 学术地点和指导
   details: UTM的同学们可以在Hacklab获得学术和职业选择上的建议
 - title: 研究和开发
-  details: 我们会寻找或开发出对MCS的同学们有帮助的工具
-# - title: Supporting MCS societies
-#   details: The Hacklab provides space and resources for MCS clubs that serve particular student needs and concerns.   
-- title: 帮助 MCS 社团
-  details: Hacklab为MCS的学生提供了空间和资源
+  details: 我们通过研发对MCS的同学们有建设性的过程和工具来帮助MCS的学生
+- title: 帮助MCS社区
+  details: Hacklab为有需要的MCS社团提供空间和资源上的帮助
 footer: UTM Hacklab DH2014
 --- 
 
-<!-- # What is the Hacklab? -->
+
 # Hacklab 是什么？
 
-The UTM Hacklab is an MCS department initiative made for the students of UTM. We're located in room 2014 in UTM's Deerfield Hall building. 
+UTM Hacklab是一个为UTM学生建立的MCS部门
+我们位于UTM的Deerfield Hall，2014号教室
 
-## How do I join the Hacklab?
+## 如何加入Hacklab？ 
 
-The Hacklab is still setting up its near to long term infrastructure. 
+Hacklab还在建立其长期的基础设施
 
-At the moment, the best way to get involved is to check out the resources on this website, visit our [digital community on Microsoft Teams](https://teams.microsoft.com), and engage with us in person by visiting our office at UTM in Deerfield Hall Room 2014. Check out our office hour timings [here](/office-hours)
+与此同时，最好的加入我们的方法就是查看我们在[微软上的社区](https://teams.microsoft.com), 或者亲自来拜访我们在Deerfield Hall 2014号教室的办公室。  
+点击[时间表](/office-hours)查看我们的工作时间
 
 ::: tip
-Don't be shy
+不要害羞！
 
-If you come visit us in person when our doors are open, we'll do our best to ensure that you are heard :slightly_smiling_face:
+只要你看到我们的门开着，进来打声招呼，我们会确保听到你的需求:slightly_smiling_face:
 :::

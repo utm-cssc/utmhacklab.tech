@@ -31,31 +31,31 @@ module.exports = {
                     // { text: 'International Students', link: '/international/' },
 
                 ],
-                sidebar: {
-                    '/': [/* ... */],
-                    '/nested/': [/* ... */]
-                }
+                // sidebar: {
+                //     '/': [/* ... */],
+                //     '/nested/': [/* ... */]
+                // }
             },
             '/zh/': {
                 selectText: '选择语言',
                 label: '简体中文',
                 nav: [
-                    { text: '首页', link: '/' },
+                    { text: '首页', link: '/zh/' },
                     { text: 'The Show', link: '/the-show/' },
-                    { text: '关于', link: '/about/' },
-                    { text: '社团', link: '/clubs/' },
-                    { text: '工作时间', link: '/office-hours/' },
-                    { text: '项目', link: '/projects/' },
-                    { text: '资源', link: '/resources/' },
+                    { text: '关于', link: '/zh/about/' },
+                    { text: '社团', link: '/zh/clubs/' },
+                    { text: '工作时间', link: '/zh/office-hours/' },
+                    { text: '项目', link: '/zh/projects/' },
+                    { text: '资源', link: '/zh/resources/' },
                     { text: '日历', link: 'https://calendar.google.com/calendar/b/2?cid=dXRtaGFja2xhYm9mZmljaWFsQGdtYWlsLmNvbQ/' },
                     { text: '加入我们', link: 'https://teams.microsoft.com/l/team/19%3a9a293cfeb0d44967babe95ceaeff8fe2%40thread.skype/conversations?groupId=2dba53aa-e8b2-4a9b-a206-92677860a263&tenantId=78aac226-2f03-4b4d-9037-b46d56c55210/' },
                     // { text: 'International Students', link: '/international/' },
 
                 ],
-                sidebar: {
-                    '/zh/': [/* ... */],
-                    '/zh/nested/': [/* ... */]
-                }
+                // sidebar: {
+                //     '/zh/': [/* ... */],
+                //     '/zh/nested/': [/* ... */]
+                // }
             }
         },
 
