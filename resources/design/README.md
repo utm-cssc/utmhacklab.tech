@@ -12,7 +12,10 @@ Figma helps teams create, test, and ship better designs from start to finish.
 
 [__Figma for Students__](https://www.figma.com/education/)
 
-## [Framer]()
+## [Framer](https://www.framer.com/)
+
+![Framer](./framer.png)
+
 
 Framer allows you to create responsive layouts, design realistic prototypes, and bring everything closer to production—all in one place.
 
