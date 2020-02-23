@@ -12,10 +12,6 @@ UTM's [Google DSC Chapter](https://utm.developerstudentclubs.ca/) launched a com
 
 Students interested in developing software projects have paired up with upper year mentors and university professors to build projects for Google's community project showcase.  
 
-<ClientOnly>
-<ImageCarousel :images="[$withBase('/dsc-projects/map-utm.jpg'), $withBase('/dsc-projects/open-mind.jpg'), $withBase('/dsc-projects/connect-ed.jpg'), $withBase('/dsc-projects/muse.jpg'), $withBase('/dsc-projects/arezue.jpg'), $withBase('/dsc-projects/send-foodz.jpg'), $withBase('/dsc-projects/uoft-course-tools.jpg'), $withBase('/dsc-projects/your-list.jpg')]"/>
-</ClientOnly>
-
 
 ## Student Projects
 

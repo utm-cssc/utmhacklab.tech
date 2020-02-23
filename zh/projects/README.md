@@ -12,10 +12,6 @@ UTM的[谷歌开发者学生社团](https://utm.developerstudentclubs.ca/)今年
 
 对软件开发感兴趣的学生们与高年级导师和大学教授一起为展示谷歌社区项目建立项目
 
-<ClientOnly>
-<ImageCarousel :images="[$withBase('/dsc-projects/map-utm.jpg'), $withBase('/dsc-projects/open-mind.jpg'), $withBase('/dsc-projects/connect-ed.jpg'), $withBase('/dsc-projects/muse.jpg'), $withBase('/dsc-projects/arezue.jpg'), $withBase('/dsc-projects/send-foodz.jpg'), $withBase('/dsc-projects/uoft-course-tools.jpg'), $withBase('/dsc-projects/your-list.jpg')]"/>
-</ClientOnly>
-
 
 ## 学生项目
 
