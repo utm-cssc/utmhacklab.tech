@@ -25,7 +25,6 @@ export default {
       const today = new Date().getTime();
       const theShowDate = new Date("Mar 20, 2020 18:00:00").getTime();
       const diff = theShowDate - today;
-      console.log(diff);
       this.days = Math.floor(diff / (1000 * 60 * 60 * 24));
       this.hours = Math.floor(
         (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)

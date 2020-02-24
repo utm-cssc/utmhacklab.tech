@@ -1,202 +1,26 @@
 <template>
-  <div class="theme-container">
-    <section class="hero is-fullheight show-bg show-banner">
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <img class="show-hero-img" src="/the-show/hero.png" />
+  <div class="columns is-multiline">
+    <div v-for="image in images" class="column is-one-quarter-desktop is-half-tablet">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image">
+            <img :src="image" alt/>
+          </figure>
         </div>
-      </div>
-    </section>
-    <section id="countdown" class="is-small">
-      <the-show-countdown />
-    </section>
-    <section id="overview" class="hero is-primary hero-desc-bg is-medium">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">A Glimpse Of What Is To Come</h1>
-          <span
-            class="is-size-5"
-          >Celebrating the culmination of a year-long commitment to changing the culture surrounding the computer science student experience. By inspiring a new standard for what can be achieved when a group of individuals dedicated to seeing a better future comes together to truly “Do My Best”. This final event is dedicated to showcasing a model of harmonious coexistence of different groups of individuals. As the layers of toxic, competitive, elitism are slowly being peeled away, what remains is a culture of unity, support, engagement, and inclusivity for all.</span>
-        </div>
-      </div>
-    </section>
-    <section id="gold-prizes">
-      <item-row-with-title :items="goldPrizes" title="Gold Prizes" />
-    </section>
-
-
-    <!-- <section class="grand-prizes" id="grand-prizes">
-      <div class="grand-prizes-title columns">
-        <div class="column"></div>
-        <div class="column title has-text-centered">Silver Prizes</div>
-        <div class="column"></div>
-      </div>
-      <div class="grand-prizes-container columns">
-        <div v-for="grandPrize in grandPrizes" class="grand-prize column">
-            <figure class="image is-128x128 grand-prize-image">
-              <img :src="`/the-show/assets/${grandPrize.image}`" />
-            </figure>
-            <div class="is-size-5">{{grandPrize.name}}</div>
-        </div>
-      </div>
-    </section>
-    <section class="grand-prizes" id="grand-prizes">
-      <div class="grand-prizes-title columns">
-        <div class="column"></div>
-        <div class="column title has-text-centered">Bronze Prizes</div>
-        <div class="column"></div>
-      </div>
-      <div class="grand-prizes-container columns">
-        <div v-for="grandPrize in grandPrizes" class="grand-prize column">
-            <figure class="image is-128x128 grand-prize-image">
-              <img :src="`/the-show/assets/${grandPrize.image}`" />
-            </figure>
-            <div class="is-size-5">{{grandPrize.name}}</div>
-        </div>
-      </div>
-    </section> -->
-    <div id="club-banners" class="section is-small">
-      <div class="container">
-        <nav class="level">
-          <div v-for="society in societies" class="level-item has-text-centered society">
-            <div>
-              <figure class="image is-128x128">
-                <img @click="openSocietySite(society.link)" :src="`/logos/${society.name}.png`" />
-              </figure>
-            </div>
-          </div>
-        </nav>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import TheShowCountdown from "./TheShowCountdown";
-import ItemRowWithTitle from "./ItemRowWithTitle";
-
 export default {
-  components: {
-    TheShowCountdown,
-    ItemRowWithTitle
-  },
-  data() {
-    return {
-      societies: [
-        { name: "wisc", link: "https://www.facebook.com/wiscutm" },
-        { name: "dsc", link: "https://utm.developerstudentclubs.ca/" },
-        { name: "mcss", link: "https://utmmcss.com" },
-        { name: "sam", link: "https://utmsam.sa.utoronto.ca/" },
-        { name: "robotics", link: "https://utmrobotics.com" }
-      ],
-      goldPrizes: [
-        { text: "Nintendo Switch", image: "nintendo.svg" },
-        { text: "Raptors Tickets", image: "pass.svg" },
-        { text: "Monitor", image: "monitor.svg" }
-      ],
-      SilverPrizes: [
-        { text: "Disney+", image: ".svg" },
-        { text: "Uber Credit", image: ".svg" },
-        { text: "Walmart Card", image: ".svg" },
-      ],
-    };
-  },
-  methods: {
-    openSocietySite(link) {
-      window.open(link);
-    }
+  props: {
+    images: Array
   }
 };
-
 </script>
 
 
-
-<style scoped>
-
-
-.grand-prizes-title {
-  margin: 0px !important; 
-}
-
-.grand-prizes-container {
-  margin: 0px !important; 
-}
-
-.grand-prize {
-  flex-direction: column !important;
-  display: flex !important;
-  align-items: center;
-}
-
-.grand-prize-image {
-  margin-bottom: 12px;
-}
-
-.hero-desc-bg {
-  background: #8c64e1 !important;
-}
-
-.show-details {
-  color: white;
-  font-weight: bold;
-  font-size: 42px;
-  text-shadow: white 0px 0px 10px;
-}
-
-.show-banner {
-  background: url(/the-show/hero-bg.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.show-hero-img {
-  animation: bobble 2.5s ease-out infinite;
-  width: 80%;
-  height: 80%;
-}
-
-@keyframes bobble {
-  0% {
-    transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: ease-out;
-  }
-  25% {
-    transform: translate3d(8px, 16px, 0px);
-    animation-timing-function: ease-out;
-  }
-  50% {
-    transform: translate3d(0px, 16px, 0px);
-    animation-timing-function: ease-out;
-  }
-  75% {
-    transform: translate3d(8px, 0px, 0px);
-    animation-timing-function: ease-out;
-  }
-  100% {
-    transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: ease-out;
-  }
-}
-
-/* .show-bg {
-  background: url(/the-show/hero-bg.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
-
-.society:hover {
-  cursor: pointer;
-}
-
-.bg-black {
-  background: #000000;
-}
-</style>
 
 <style scoped>
 /*! bulma.io v0.8.0 | MIT License | github.com/jgthms/bulma */

@@ -8,8 +8,10 @@
     },
     "dependencies": {
         "@chenfengyuan/vue-countdown": "^1.1.4",
+        "bulma": "^0.8.0",
         "vue": "^2.6.11",
         "vue-carousel": "^0.18.0",
-        "vue-gallery": "^2.0.1"
+        "vue-gallery": "^2.0.1",
+        "vue-svg-loader": "^0.16.0"
     }
 }

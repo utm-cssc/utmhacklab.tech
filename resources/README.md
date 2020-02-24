@@ -51,7 +51,7 @@ It’s a wonderful feeling to be motivated about what you’re learning. Consumi
 
 This Youtube channels explores the domain of Computer Science by interviewing academics and industry professionals. 
 
-::: tip
+::: tip Passion is contagious
 The guests on Computerphile have an enthusiasm for computers that can be contagious!
 ::: 
 
@@ -59,7 +59,7 @@ The guests on Computerphile have an enthusiasm for computers that can be contagi
 
 PBS makes Computer Science education accessible to people of all ages, and this crash course goes into a surprising amount of technical detail. 
 
-::: tip
+::: tip CS Education for everyone
 I have often used this channel as a guide to provide context for when the content as its taught by professors becomes a bit too technical.
 :::  
 

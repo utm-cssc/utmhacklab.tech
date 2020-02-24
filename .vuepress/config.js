@@ -26,15 +26,10 @@ module.exports = {
                     { text: 'Office Hours', link: '/office-hours/' },
                     { text: 'Projects', link: '/projects/' },
                     { text: 'Resources', link: '/resources/' },
-                    { text: 'Calendar', link: 'https://calendar.google.com/calendar/b/2?cid=dXRtaGFja2xhYm9mZmljaWFsQGdtYWlsLmNvbQ/' },
                     { text: 'Community', link: 'https://teams.microsoft.com/l/team/19%3a9a293cfeb0d44967babe95ceaeff8fe2%40thread.skype/conversations?groupId=2dba53aa-e8b2-4a9b-a206-92677860a263&tenantId=78aac226-2f03-4b4d-9037-b46d56c55210/' },
                     // { text: 'International Students', link: '/international/' },
 
                 ],
-                // sidebar: {
-                //     '/': [/* ... */],
-                //     '/nested/': [/* ... */]
-                // }
             },
             '/zh/': {
                 selectText: '选择语言',
@@ -48,14 +43,9 @@ module.exports = {
                     { text: '项目', link: '/zh/projects/' },
                     { text: '资源', link: '/zh/resources/' },
                     { text: '日历', link: 'https://calendar.google.com/calendar/b/2?cid=dXRtaGFja2xhYm9mZmljaWFsQGdtYWlsLmNvbQ/' },
-                    { text: '加入我们', link: 'https://teams.microsoft.com/l/team/19%3a9a293cfeb0d44967babe95ceaeff8fe2%40thread.skype/conversations?groupId=2dba53aa-e8b2-4a9b-a206-92677860a263&tenantId=78aac226-2f03-4b4d-9037-b46d56c55210/' },
                     // { text: 'International Students', link: '/international/' },
 
                 ],
-                // sidebar: {
-                //     '/zh/': [/* ... */],
-                //     '/zh/nested/': [/* ... */]
-                // }
             }
         },
 
@@ -67,12 +57,21 @@ module.exports = {
         '/': {
             lang: 'en-US', // this will be set as the lang attribute on <html>
             title: 'UTM Hacklab',
-            description:'Supporting UTM MCS Students'
+            description: 'Supporting UTM MCS Students'
         },
         '/zh/': {
             lang: 'zh-CN',
             title: 'UTM Hacklab',
-            description:'帮助 UTM MCS 学生'
+            description: '帮助 UTM MCS 学生'
         }
+    },
+    chainWebpack: config => {
+        config.module.rules.delete('svg')
+        config.module
+            .rule('svg')
+            .test(/\.svg$/)
+            .use('vue-svg-loader')
+            .loader('vue-svg-loader')
+            .end()
     }
 }
