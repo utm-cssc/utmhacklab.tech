@@ -2,7 +2,7 @@
   <div>
     <div class="margin-0 columns">
       <div class="column"></div>
-      <div class="column title has-text-centered">Gold Prizes</div>
+      <div class="column mb-0 mt-24 title has-text-centered">{{title}}</div>
       <div class="column"></div>
     </div>
     <div class="margin-0 columns">
@@ -44,6 +44,15 @@ export default {
 .mb-12 {
   margin-bottom: 12px;
 }
+
+.mb-0 {
+  margin-bottom: 0px !important;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
 </style>
 
 

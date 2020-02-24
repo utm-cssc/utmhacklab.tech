@@ -23,38 +23,12 @@
     <section id="gold-prizes">
       <item-row-with-title :items="goldPrizes" title="Gold Prizes" />
     </section>
-
-
-    <!-- <section class="grand-prizes" id="grand-prizes">
-      <div class="grand-prizes-title columns">
-        <div class="column"></div>
-        <div class="column title has-text-centered">Silver Prizes</div>
-        <div class="column"></div>
-      </div>
-      <div class="grand-prizes-container columns">
-        <div v-for="grandPrize in grandPrizes" class="grand-prize column">
-            <figure class="image is-128x128 grand-prize-image">
-              <img :src="`/the-show/assets/${grandPrize.image}`" />
-            </figure>
-            <div class="is-size-5">{{grandPrize.name}}</div>
-        </div>
-      </div>
+    <section id="silver-prizes">
+      <item-row-with-title :items="silverPrizes" title="Silver Prizes" />
     </section>
-    <section class="grand-prizes" id="grand-prizes">
-      <div class="grand-prizes-title columns">
-        <div class="column"></div>
-        <div class="column title has-text-centered">Bronze Prizes</div>
-        <div class="column"></div>
-      </div>
-      <div class="grand-prizes-container columns">
-        <div v-for="grandPrize in grandPrizes" class="grand-prize column">
-            <figure class="image is-128x128 grand-prize-image">
-              <img :src="`/the-show/assets/${grandPrize.image}`" />
-            </figure>
-            <div class="is-size-5">{{grandPrize.name}}</div>
-        </div>
-      </div>
-    </section> -->
+        <section id="bronze-prizes">
+      <item-row-with-title :items="bronzePrizes" title="Bronze Prizes" />
+    </section>
     <div id="club-banners" class="section is-small">
       <div class="container">
         <nav class="level">
@@ -94,11 +68,21 @@ export default {
         { text: "Raptors Tickets", image: "pass.svg" },
         { text: "Monitor", image: "monitor.svg" }
       ],
-      SilverPrizes: [
-        { text: "Disney+", image: ".svg" },
-        { text: "Uber Credit", image: ".svg" },
-        { text: "Walmart Card", image: ".svg" },
+      silverPrizes: [
+        { text: "Disney+", image: "disneyland.svg" },
+        { text: "Uber Credit", image: "uber.svg" },
+        { text: "Walmart Card", image: "walmart.svg" },
+        { text: "Drawing Tablet", image: "tablet.svg" },
+        { text: "Backpack", image: "backpack.svg" },
+        { text: "Headphone", image: "headphones.svg" },
+
       ],
+      bronzePrizes: [
+        { text: "$10 - $20 Steam Gift Cards", image: "steam.svg" },
+        { text: "$10 - $20 Amazon Gift Cards", image: "amazon.svg" },
+        { text: "$10 - $20 The Alley Gift Cards", image: "bubble-tea.svg" },
+        { text: "$10 - $20 Cineplex Gift Cards", image: "cinema.svg" },        
+      ]
     };
   },
   methods: {
@@ -113,26 +97,6 @@ export default {
 
 
 <style scoped>
-
-
-.grand-prizes-title {
-  margin: 0px !important; 
-}
-
-.grand-prizes-container {
-  margin: 0px !important; 
-}
-
-.grand-prize {
-  flex-direction: column !important;
-  display: flex !important;
-  align-items: center;
-}
-
-.grand-prize-image {
-  margin-bottom: 12px;
-}
-
 .hero-desc-bg {
   background: #8c64e1 !important;
 }
