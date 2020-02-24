@@ -8,6 +8,12 @@ module.exports = {
         ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }]
     ],
     themeConfig: {
+        logo: '/logos/hacklab.png',
+        repo: 'utm-hacklab/utmhacklab.tech',
+        editLinks: true,
+        editLinkText: 'Help us improve the Hacklab website!',
+        lastUpdated: 'Last Updated',
+        searchPlaceholder: 'Explore...',
         smoothScroll: true,
         sidebar: 'auto',
         locales: {
@@ -19,16 +25,11 @@ module.exports = {
                 // Aria Label for locale in the dropdown
                 ariaLabel: 'Languages',
                 nav: [
-                    { text: 'Home', link: '/' },
-                    { text: 'The Show', link: '/the-show/' },
-                    { text: 'About', link: '/about/' },
-                    { text: 'Clubs', link: '/clubs/' },
-                    { text: 'Office Hours', link: '/office-hours/' },
-                    { text: 'Projects', link: '/projects/' },
                     { text: 'Resources', link: '/resources/' },
+                    { text: 'Projects', link: '/projects/' },
+                    { text: 'The Show', link: '/the-show/' },
                     { text: 'Community', link: 'https://teams.microsoft.com/l/team/19%3a9a293cfeb0d44967babe95ceaeff8fe2%40thread.skype/conversations?groupId=2dba53aa-e8b2-4a9b-a206-92677860a263&tenantId=78aac226-2f03-4b4d-9037-b46d56c55210/' },
                     // { text: 'International Students', link: '/international/' },
-
                 ],
             },
             '/zh/': {

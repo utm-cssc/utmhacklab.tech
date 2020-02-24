@@ -33,9 +33,9 @@ Toonin是一个Chrome扩展的网页程序，可以让你的朋友们知道你�
 
 __贡献者__: 
 
-- Lakshya Gupta __联系方式__ [lakshya.gupta@mail.utoronto.ca](lakshya.gupta@mail.utoronto.ca)
+- Lakshya Gupta __联系方式__ **lakshya.gupta**
 
-- Arsala Bangash __联系方式__ [arsala.bangash@utoronto.ca](arsala.bangash@utoronto.ca)
+- Arsala Bangash __联系方式__ **arsala.bangash@utoronto.ca**
 
 ### Proformance
 
@@ -45,9 +45,9 @@ __贡献者__:
 
 __贡献者__: 
 
-- Osama Saleh __联系方式__ [osama.saleh@mail.utoronto.ca](lakshya.gupta@mail.utoronto.ca)
+- Osama Saleh __联系方式__ **osama.saleh**
 
-- Arsala Bangash __技术顾问__ [arsala.bangash@utoronto.ca](arsala.bangash@utoronto.ca)
+- Arsala Bangash __技术顾问__ **arsala.bangash**
 
 ### LinkedIn InFocus
 
@@ -57,7 +57,7 @@ __贡献者__:
 
 __贡献者__: 
 
-- Arsala Bangash __联系方式__ [arsala.bangash@utoronto.ca](arsala.bangash@utoronto.ca)
+- Arsala Bangash __联系方式__ **arsala.bangash**
 
 
 ### Nox
@@ -66,11 +66,11 @@ Nox是一个平台，通过实时让学生匿名提出问题并评估他们对�
 
 [__Github Repo__](https://github.com/ShoaibAhmadKhan/Nox)
 
-- Shoaib Khan __联系方式__ [shoaiba.khan@mail.utoronto.ca](shoaiba.khan@mail.utoronto.ca)
+- Shoaib Khan __联系方式__ **shoaiba.khan**
 
-- Ali Chaudhry __联系方式__ [achaudhral.chaudhry@mail.utoronto.ca](achaudhral.chaudhry@mail.utoronto.ca)
+- Ali Chaudhry __联系方式__ **achaudhral.chaudhry**
 
-- Tahir Muhammad __联系方式__ [tahir.muhammad@mail.utoronto.ca](tahir.muhammad@mail.utoronto.ca)
+- Tahir Muhammad __联系方式__ **tahir.muhammad**
 
 ### Material Math
 
@@ -78,7 +78,7 @@ Nox是一个平台，通过实时让学生匿名提出问题并评估他们对�
 
 [__Github Repo__](https://github.com/grey-software/Material-Math)
 
-- Arsala Bangash __联系方式__ [arsala.bangash@utoronto.ca](arsala.bangash@utoronto.ca)
+- Arsala Bangash __联系方式__ **arsala.bangash**
 
 
 

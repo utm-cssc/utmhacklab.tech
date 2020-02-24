@@ -1,6 +1,7 @@
 ---
 home: true
 heroText: UTM Hacklab
+heroImage: /logos/hacklab.png
 tagline: Supporting UTM MCS Students
 features:
 - title: Office Space and Guidance
@@ -15,6 +16,28 @@ footer: UTM Hacklab DH2014
 # What is the Hacklab?
 
 The UTM Hacklab is an MCS department initiative made for the students of UTM. We're located in room 2014 in UTM's Deerfield Hall building. 
+
+## A collaborative project space
+
+Projects are an important component of a student candidate's evaluation package because technology companies are looking for students that:
+
+- Have experienced the exploratory self-initiated nature of working on real world projects
+- Have exposed themselves to similar processes and technologies involved in building projects in the industry. 
+
+## We research and develop for the student community
+
+Hacklab coordinators and members R&D processes and technologies that help students succeed academically and professionally.
+
+With the interest of students in mind, we curate resources from around the internet and produce original content. 
+
+Check out our [resources](/resources)
+
+## The support wing for MCS societies
+
+The UTM MCS community is home to a number of clubs that the Hacklab supports logistically and technically.
+
+Learn more about the clubs available to you [here](/clubs)
+
 
 ## How do I join the Hacklab?
 
