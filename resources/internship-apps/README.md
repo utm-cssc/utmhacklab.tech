@@ -10,7 +10,7 @@ Apply privately to startup internships with one application. No middlemen · See
 If you're interested in working in a startup or are okay with equity instead of pay, Angellist has plenty of options for you!
 ::: 
 
-## Canadian Summer Internships 2020
+## Canadian Summer 2020 Tech Internships
 
 <LevelWithButton link="https://github.com/ChrisDryden/Canadian-Tech-Internships-Summer-2020" image="https://i.itworldcanada.com/wp-content/uploads/2019/02/bigstock-Canadian-Technology-Concept-130056503.jpg" desc="Crowdsourced list of Canadian tech companies that are hiring interns for Summer 2020 that are interested in tech, SWE, and related fields." button="Find out more"/>
 
