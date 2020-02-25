@@ -2,25 +2,47 @@
   <div class="level">
     <!-- Left side -->
     <div class="level-left">
-      <figure v-if="!imageRight" class="image is-128x128">
-        <img :src="image" />
-      </figure>
+      <a :href="link" v-if="!imageRight">
+        <figure :href="link" class="image is-128x128">
+          <img :src="image" />
+        </figure>
+      </a>
       <div v-else>
-        <div class="is-size-3">{{title}}</div>
-        <div class="is-size-6">{{desc}}</div>
+        <a :href="link">
+          <div class="is-size-4">{{title}}</div>
+        </a>
+        <div class="is-size-7 paragraph">{{desc}}</div>
       </div>
     </div>
 
     <!-- Right side -->
     <div class="level-right">
-      <figure v-if="imageRight" class="image is-128x128">
-        <img :src="image" />
-      </figure>
+      <a v-if="imageRight" :href="link">
+        <figure :href="link" class="image is-128x128">
+          <img :src="image" />
+        </figure>
+      </a>
       <div v-else>
-        <div class="is-size-3">{{title}}</div>
-        <div class="is-size-6">{{desc}}</div>
+        <a :href="link">
+          <div class="is-size-4">{{title}}</div>
+        </a>
+        <div class="is-size-7 paragraph">{{desc}}</div>
       </div>
     </div>
+    <!-- 
+    <div class="container">
+      <div class="columns reverse-row-order">
+        <div class="column">
+          <h3 class="is-size-3">{{title}}</h3>
+          <p
+            class="has-text-green paragraph"
+          >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+        </div>
+        <div class="column">
+          <img class="feature-img" src="img/feature1.png" alt="feature" />
+        </div>
+      </div>
+    </div>-->
   </div>
 </template>
 
@@ -33,11 +55,25 @@ export default {
     },
     title: String,
     image: String,
-    desc: String
+    desc: String,
+    link: String
   }
 };
 </script>
 
+
+<style scoped>
+.paragraph {
+  margin-top: 12px;
+  max-width: 384px;
+  font-weight: 500;
+}
+
+a {
+  color: #3eaf7c !important;
+  font-weight: 500;
+}
+</style>
 
 
 <style scoped>
