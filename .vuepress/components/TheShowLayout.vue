@@ -12,7 +12,7 @@
     </section>
     <section id="overview" class="hero is-primary hero-desc-bg is-medium">
       <div class="hero-body">
-        <div class="container">
+        <div class="container show-overview">
           <h1 class="title">A Glimpse Of What Is To Come</h1>
           <span
             class="is-size-5"
@@ -23,7 +23,6 @@
     <section id="gold-prizes">
       <item-row-with-title :items="goldPrizes" title="Gold Prizes" />
     </section>
-
 
     <!-- <section class="grand-prizes" id="grand-prizes">
       <div class="grand-prizes-title columns">
@@ -54,7 +53,7 @@
             <div class="is-size-5">{{grandPrize.name}}</div>
         </div>
       </div>
-    </section> -->
+    </section>-->
     <div id="club-banners" class="section is-small">
       <div class="container">
         <nav class="level">
@@ -97,8 +96,8 @@ export default {
       SilverPrizes: [
         { text: "Disney+", image: ".svg" },
         { text: "Uber Credit", image: ".svg" },
-        { text: "Walmart Card", image: ".svg" },
-      ],
+        { text: "Walmart Card", image: ".svg" }
+      ]
     };
   },
   methods: {
@@ -107,20 +106,22 @@ export default {
     }
   }
 };
-
 </script>
 
 
 
 <style scoped>
-
+.show-overview {
+  margin: 0 16em;
+  text-align: justify;
+}
 
 .grand-prizes-title {
-  margin: 0px !important; 
+  margin: 0px !important;
 }
 
 .grand-prizes-container {
-  margin: 0px !important; 
+  margin: 0px !important;
 }
 
 .grand-prize {
