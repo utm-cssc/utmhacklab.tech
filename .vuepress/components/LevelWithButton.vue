@@ -2,74 +2,62 @@
   <div class="level level-container">
     <!-- Left side -->
     <div class="level-left">
-      <a :href="link" v-if="!imageRight">
-        <figure :href="link" class="image ">
+      <div v-if="!imageRight">
+        <figure class="image ">
           <img :src="image" />
         </figure>
-      </a>
+      </div>
       <div v-else>
+        <div class="is-size-10 paragraph">{{desc}}</div>
         <a :href="link">
-          <div class="is-size-4">{{title}}</div>
+          <button class="button is-link mybutton">{{button}}</button>
         </a>
-        <div class="is-size-7 paragraph">{{desc}}</div>
       </div>
     </div>
 
     <!-- Right side -->
     <div class="level-right">
-      <a v-if="imageRight" :href="link">
-        <figure :href="link" class="image">
+      <div v-if="imageRight">
+        <figure class="image">
           <img :src="image" />
         </figure>
-      </a>
+      </div>
       <div v-else>
+        <div class="is-size-10 paragraph">{{desc}}</div>
         <a :href="link">
-          <div class="is-size-4">{{title}}</div>
+          <button class="button is-link mybutton">{{button}}</button>
         </a>
-        <div class="is-size-7 paragraph">{{desc}}</div>
       </div>
     </div>
-    <!-- 
-    <div class="container">
-      <div class="columns reverse-row-order">
-        <div class="column">
-          <h3 class="is-size-3">{{title}}</h3>
-          <p
-            class="has-text-green paragraph"
-          >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-        </div>
-        <div class="column">
-          <img class="feature-img" src="img/feature1.png" alt="feature" />
-        </div>
-      </div>
-    </div>-->
+
   </div>
 </template>
 
+
 <script>
 export default {
-  props: {
+    props: {
     imageRight: {
       type: Boolean,
       default: true
     },
-    title: String,
     image: String,
     desc: String,
-    link: String
+    link: String,
+    button: String
   }
 };
 </script>
 
-
 <style scoped>
 
 .image {
-  max-width: 230px;
-  /* max-height: 120px !important; */
-  
+  max-width: 260px;
+}
 
-
+.button.is-link.mybutton {
+    margin-top: 25px;
+    height: 20px;
 }
 .level-container {
   margin: 15px 0px;
@@ -84,6 +72,7 @@ a {
   color: #3eaf7c !important;
   font-weight: 500;
 }
+
 </style>
 
 
