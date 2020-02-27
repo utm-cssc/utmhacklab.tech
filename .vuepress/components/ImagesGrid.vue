@@ -21,7 +21,6 @@ export default {
 </script>
 
 
-
 <style scoped>
 /*! bulma.io v0.8.0 | MIT License | github.com/jgthms/bulma */
 @-webkit-keyframes spinAround {

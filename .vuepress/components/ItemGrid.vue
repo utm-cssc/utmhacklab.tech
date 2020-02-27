@@ -1,224 +1,63 @@
 <template>
-  <div class="theme-container">
-    <section class="hero is-fullheight show-bg show-banner">
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <img class="show-hero-img" src="/the-show/hero.png" />
-        </div>
-      </div>
-    </section>
-    <section id="countdown" class="is-small">
-      <the-show-countdown />
-    </section>
-    <section id="overview" class="hero is-primary hero-desc-bg is-medium">
-      <div class="hero-body">
-        <div class="container show-overview">
-          <h1 class="title">A Glimpse Of What Is To Come</h1>
-          <span
-            class="is-size-5"
-          >Celebrating the culmination of a year-long commitment to changing the culture surrounding the computer science student experience. By inspiring a new standard for what can be achieved when a group of individuals dedicated to seeing a better future comes together to truly “Do My Best”. This final event is dedicated to showcasing a model of harmonious coexistence of different groups of individuals. As the layers of toxic, competitive, elitism are slowly being peeled away, what remains is a culture of unity, support, engagement, and inclusivity for all.</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="hero is-medium">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title"> Projects </h1>
-          <p class="is-size-5"> Why call it The Show? Cause we’ve got amazing students projects we want to show off! These students have been working hard all year long to develop really innovative and cool stuff! Walk around our science fair and chat with the developers about their experience working on the project.</p>
-          <ItemGrid :items="projects"></ItemGrid>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="gold-prizes">
-      <item-row-with-title :items="goldPrizes" title="Gold Prizes" />
-    </section>
-
-    <!-- <section class="grand-prizes" id="grand-prizes">
-      <div class="grand-prizes-title columns">
-        <div class="column"></div>
-        <div class="column title has-text-centered">Silver Prizes</div>
-        <div class="column"></div>
-      </div>
-      <div class="grand-prizes-container columns">
-        <div v-for="grandPrize in grandPrizes" class="grand-prize column">
-            <figure class="image is-128x128 grand-prize-image">
-              <img :src="`/the-show/assets/${grandPrize.image}`" />
-            </figure>
-            <div class="is-size-5">{{grandPrize.name}}</div>
-        </div>
-      </div>
-    </section>
-    <section class="grand-prizes" id="grand-prizes">
-      <div class="grand-prizes-title columns">
-        <div class="column"></div>
-        <div class="column title has-text-centered">Bronze Prizes</div>
-        <div class="column"></div>
-      </div>
-      <div class="grand-prizes-container columns">
-        <div v-for="grandPrize in grandPrizes" class="grand-prize column">
-            <figure class="image is-128x128 grand-prize-image">
-              <img :src="`/the-show/assets/${grandPrize.image}`" />
-            </figure>
-            <div class="is-size-5">{{grandPrize.name}}</div>
-        </div>
-      </div>
-    </section>-->
-    <div id="club-banners" class="section is-small">
-      <div class="container">
-        <nav class="level">
-          <div v-for="society in societies" class="level-item has-text-centered society">
-            <div>
-              <figure class="image is-128x128">
-                <img @click="openSocietySite(society.link)" :src="`/logos/${society.name}.png`" />
-              </figure>
-            </div>
+  <div>
+    <div class="columns row" v-for="i in rowCount">
+        <div class="column is-one-third" v-for="j in cols">
+          <div v-if="itemExists(i,j)" class="card rounded-card project-box">
+              <div class="title has-text-centered">{{ getItem(i,j).name }}</div>
+              <div card-content>{{ getItem(i,j).desc }}</div>
           </div>
-        </nav>
-      </div>
+        </div>
     </div>
   </div>
 </template>
 
 <script>
-import TheShowCountdown from "./TheShowCountdown";
-import ItemRowWithTitle from "./ItemRowWithTitle";
-import ItemGrid from "./ItemGrid";
-
 export default {
-  components: {
-    TheShowCountdown,
-    ItemRowWithTitle
+  name: "item-grid",
+  props: {
+    cols: {
+      type: Number, 
+      default: 3
+    },
+    items: {
+      type: Array
+    }
   },
-  data() {
-    return {
-      societies: [
-        { name: "wisc", link: "https://www.facebook.com/wiscutm" },
-        { name: "dsc", link: "https://utm.developerstudentclubs.ca/" },
-        { name: "mcss", link: "https://utmmcss.com" },
-        { name: "sam", link: "https://utmsam.sa.utoronto.ca/" },
-        { name: "robotics", link: "https://utmrobotics.com" }
-      ],
-      goldPrizes: [
-        { text: "Nintendo Switch", image: "nintendo.svg" },
-        { text: "Raptors Tickets", image: "pass.svg" },
-        { text: "Monitor", image: "monitor.svg" }
-      ],
-      SilverPrizes: [
-        { text: "Disney+", image: ".svg" },
-        { text: "Uber Credit", image: ".svg" },
-        { text: "Walmart Card", image: ".svg" }
-      ],
-      projects:[
-        {name:"Arezue", desc:"Arezue is a recruitment app that strives to put the job seekers first by giving them every right to get their dream job and break all barriers of discrimination!" },
-        {name: "MapUTM", desc: "Map UTM is a specialized web application that focuses on helping students find rooms on campus through path routing and 3D visualization." },
-        {name: "Send-Foodz", desc: "A multi-platform (web app & mobile) service that helps grocery retailers donate to-be-discarded but edible produce to nearby food banks. The service will connect volunteer drivers to deliver matched goods. In return, volunteer drivers will earn reward points for free grocery produce." },
-        {name: "ConnectEd", desc: "ConnectEd is a platform that helps MCSS students to connect with other students and discover new projects to collaborate on. Students can create a portfolio of projects, interests, and skills and our platform will match students based on shared personal objectives and project ideas." },
-        {name: "Your List", desc: "An Android and iOS application that primarily allows you to create a shared shopping list that can be easily distributed among your family or roommates. This application will also have the ability to notify users of the surrounding locations for shops related to their list. If the application finds a shop mentioned in one of the lists, it will notify the user that one of the actions listed shops are nearby. YourList can also be used to act a shared notepad and todo-list, and the location-based notification makes it an excellent tool for reminders at school, work and at home." },
-        {name: "Open Mind", desc: "Students around the world are used to taking notes in a monochromatic and linear manner. Taking notes should be a more personal task where associations, colors, opinions, and thoughts appear. We're creating an open standard for organizing learning and research notes using mind maps. We hope to demonstrate the efficacy of this standard by building an app that allows users to create and share their mind maps." },
-        {name: "UofT Course Tools", desc: "When you enter a well-run tech organization like Google, you’re met with a suite of software tools created by Googlers to make other Googlers' lives easier. UofT students could make use of tools made by other UofT students that would allow them to do things like: Suggest timetables that optimize for their preferred timings Plan for courses based on course evaluation metrics that they care about Write plugins to expand the core functionality with their creative ideas We're unifying UofT's course data, and using it to build a course guide and timetable planner." },
-      ]
-    };
-  },
-  methods: {
-    openSocietySite(link) {
-      window.open(link);
+  computed: {
+    rowCount() {
+      const quotient = Math.floor(this.items.length / this.cols);
+      const remainder = this.items.length % this.cols;
+      return quotient + (remainder === 0 ? 0 : 1);
+    }
+  }, 
+  methods:{
+    itemIndex: function(row, col){
+      return (row - 1) * this.cols + (col -1)
+    }, 
+    getItem: function(row, col){
+      return this.items[this.itemIndex(row,col)]
+    },
+    itemExists: function(row, col){
+      return this.getItem(row,col) != null
     }
   }
 };
 </script>
 
-
-
 <style scoped>
-.show-overview {
-  margin: 0 16em;
-  text-align: justify;
+.project-box {
+  border-radius: 8px;
+  padding: 15px;
+  height: 100%;
 }
 
-.grand-prizes-title {
-  margin: 0px !important;
+.row {
+    margin: 1em !important;
 }
 
-.grand-prizes-container {
-  margin: 0px !important;
-}
-
-.grand-prize {
-  flex-direction: column !important;
-  display: flex !important;
-  align-items: center;
-}
-
-.grand-prize-image {
-  margin-bottom: 12px;
-}
-
-.hero-desc-bg {
-  background: #8c64e1 !important;
-}
-
-.show-details {
-  color: white;
-  font-weight: bold;
-  font-size: 42px;
-  text-shadow: white 0px 0px 10px;
-}
-
-.show-banner {
-  background: url(/the-show/hero-bg.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.show-hero-img {
-  animation: bobble 2.5s ease-out infinite;
-  width: 80%;
-  height: 80%;
-}
-
-@keyframes bobble {
-  0% {
-    transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: ease-out;
-  }
-  25% {
-    transform: translate3d(8px, 16px, 0px);
-    animation-timing-function: ease-out;
-  }
-  50% {
-    transform: translate3d(0px, 16px, 0px);
-    animation-timing-function: ease-out;
-  }
-  75% {
-    transform: translate3d(8px, 0px, 0px);
-    animation-timing-function: ease-out;
-  }
-  100% {
-    transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: ease-out;
-  }
-}
-
-/* .show-bg {
-  background: url(/the-show/hero-bg.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
-
-.society:hover {
-  cursor: pointer;
-}
-
-.bg-black {
-  background: #000000;
-}
+.title{
+  font-size: 50px !important;
+} 
 </style>
 
 <style scoped>
