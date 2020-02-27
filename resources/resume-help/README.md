@@ -51,3 +51,8 @@ Read what she has to say [here](https://yangshun.github.io/tech-interview-handbo
 _Taken from Cracking the Coding Interview_
 
 
+## Next Steps: Applications
+
+When you're ready to apply and show off your resume, check out our [**guide**](/resources/internship-apps) on where to apply.
+
+

@@ -24,23 +24,27 @@ We encourage students to supplement the learning materials from class with resou
 
 **[CSC358 Principles of Computer Networks](/resources/csc358)**
 
-## [Resume Help](/resources/resume-help)
+## All About Job Applications
 
-Your resume is the first piece of information employers see about you.
+<LevelWithButton link="/resources/job-apps" image="https://caccf.ca/wp-content/uploads/2019/04/apply-jobs-eng.jpg" desc="If you want help with your resume, or you're looking to apply for an internship or a full-time job, check out our job application guide." button="Take me there!"/>
 
-**Learn how to highlight your achievements [here](/resources/resume-help)**
+<!-- If you want help with your resume, or you're looking to apply for an internship or a full-time job, check out our job application guide [here](/resources/job-apps). -->
 
-## Tech Internships
+<!-- Your resume is the first piece of information employers see about you. -->
 
-Internships are an excellent way to get co-op education experience, and as a UTM Student, a wide variety of internships are available to you.
+<!-- **Learn how to highlight your achievements [here](/resources/resume-help)** -->
 
-### [Where do I apply?](/resources/internship-apps)
+<!-- ## Tech Internships -->
 
-### How do I prepare for interviews?
+<!-- Internships are an excellent way to get co-op education experience, and as a UTM Student, a wide variety of internships are available to you. -->
 
-Interviews are a multi-stage process and each stage can consist of vastly different formats.
+<!-- ### [Where do I apply?](/resources/internship-apps) -->
 
-[**Familiarize yourself with the interview formats**](https://yangshun.github.io/tech-interview-handbook/interview-formats)
+<!-- ### How do I prepare for interviews? -->
+
+<!-- Interviews are a multi-stage process and each stage can consist of vastly different formats. -->
+
+<!-- [**Familiarize yourself with the interview formats**](https://yangshun.github.io/tech-interview-handbook/interview-formats) -->
 
 <!-- ## Web Development -->
 
