@@ -1,19 +1,13 @@
 <template>
   <div>
-  <div class="columns" v-for="i in rowCount">
-      <div class="column is-one-third" v-for="j in cols">
-        <div v-if="itemExists(i,j)" class="box rounded-box project-box">
-            <div>{{ getItem(i,j).name }}</div>
-            <span>{{ getItem(i,j).desc }}</span>
+    <div class="columns row" v-for="i in rowCount">
+        <div class="column is-one-third" v-for="j in cols">
+          <div v-if="itemExists(i,j)" class="card rounded-card project-box">
+              <div class="title has-text-centered">{{ getItem(i,j).name }}</div>
+              <div card-content>{{ getItem(i,j).desc }}</div>
+          </div>
         </div>
-      </div>
-  </div>
-
-  <!-- <div class="columns">
-    <div v-for="item in items" class="col is-one-third">
-      <div class="box project-box">{{ item }}</div>
-    </div> -->
-  </div>
+    </div>
   </div>
 </template>
 
@@ -53,8 +47,17 @@ export default {
 <style scoped>
 .project-box {
   border-radius: 8px;
-  padding: 10px;
+  padding: 15px;
+  height: 100%;
 }
+
+.row {
+    margin: 1em !important;
+}
+
+.title{
+  font-size: 50px !important;
+} 
 </style>
 
 <style scoped>
