@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="margin-0 columns">
-      <div class="column"></div>
+      <div class="coluumn"></div>
       <div class="column title has-text-centered">Gold Prizes</div>
       <div class="column"></div>
     </div>
