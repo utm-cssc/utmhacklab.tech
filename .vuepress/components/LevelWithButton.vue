@@ -9,8 +9,8 @@
       </div>
       <div v-else>
         <div class="is-size-10 paragraph">{{desc}}</div>
-        <a :href="link" class="mybutton">
-          <button class="button is-link mybutton">{{button}}</button>
+        <a :href="link" class="action-button">
+          <button class="button is-link action-button">{{button}}</button>
         </a>
       </div>
     </div>
@@ -24,8 +24,8 @@
       </div>
       <div v-else>
         <div class="is-size-10 paragraph">{{desc}}</div>
-        <a :href="link" class="mybutton">
-          <button :href="link" class="button is-link mybutton right">{{button}}</button>
+        <a :href="link" class="action-button">
+          <button :href="link" class="button is-link action-button right">{{button}}</button>
         </a>
       </div>
     </div>
@@ -53,14 +53,14 @@ export default {
   max-width: 260px;
 }
 
-.button.is-link.mybutton {
+.button.is-link.action-button {
   margin-top: 25px;
-  height: 35px;
+  height: 2em;
 }
-.button.is-link.mybutton.right {
-  float:right;
+.button.is-link.action-button.right {
+  float: right;
 }
-.button.is-link.mybutton:hover {
+.button.is-link.action-button:hover {
   text-decoration: none;
   background-color: #378dff;
 }
@@ -72,18 +72,15 @@ export default {
   max-width: 380px;
   /* font-weight: 500; */
 }
-
 a {
   color: #3eaf7c !important;
   font-weight: 500;
 }
 
-a.mybutton:hover {
+a.action-button:hover {
   text-decoration: none;
 }
-
 </style>
-
 
 <style scoped>
 /*! bulma.io v0.8.0 | MIT License | github.com/jgthms/bulma */
