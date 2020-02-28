@@ -1,5 +1,16 @@
+# Credits
+
+## Hacklab Website Contributors
+
+<LevelWithButton link="https://github.com/UTM-Hacklab/utmhacklab.tech/graphs/contributors" image="/images/hacklab-contributors.png" desc="We thank the utmhacklab.tech contributors for their commitment to open source and for making this happen." button="Our Contributors"/>
+
+## Graphics Attributions
+
+
 <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 Icons made by <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 
 <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+Icons made by <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>

@@ -64,10 +64,6 @@ Search these _edu-tainment_ channels for topics in your courses. They may not te
 
 <LevelWithButton link="https://www.youtube.com/user/Computerphile" image="https://yt3.ggpht.com/a/AGF-l792GDOem_pwvOA8KztTpl9Iwe2eOj6vq7LOfQ=s900-c-k-c0xffffffff-no-rj-mo" desc="This Youtube channels explores the domain of Computer Science by interviewing academics and industry professionals. The guests on Computerphile have an enthusiasm for computers that can be contagious!" button="Get Inspired"/>
 
-::: tip Passion is contagious
-
-:::
-
 ### [PBS Crash Course](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
 
 PBS makes Computer Science education accessible to people of all ages, and this crash course goes into a surprising amount of technical detail.
