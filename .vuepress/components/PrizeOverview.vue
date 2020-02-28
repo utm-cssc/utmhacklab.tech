@@ -1,194 +1,143 @@
 <template>
-  <div class="theme-container">
-    <section class="hero is-fullheight show-bg show-banner">
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <img class="show-hero-img" src="/the-show/hero.png" />
-        </div>
-      </div>
-    </section>
-    <section id="countdown" class="is-small">
-      <the-show-countdown />
-    </section>    
-    <section id="overview" class="hero is-primary hero-desc-bg is-medium">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">A Glimpse Of What Is To Come</h1>
-          <span
-            class="is-size-5"
-          >Celebrating the culmination of a year-long commitment to changing the culture surrounding the computer science student experience. By inspiring a new standard for what can be achieved when a group of individuals dedicated to seeing a better future comes together to truly “Do My Best”. This final event is dedicated to showcasing a model of harmonious coexistence of different groups of individuals. As the layers of toxic, competitive, elitism are slowly being peeled away, what remains is a culture of unity, support, engagement, and inclusivity for all.</span>
-        </div>
-      </div>
-    </section>
-
-    <section id="prize-title" class="hero">
-      <prize-overview/>
-    </section>
-
-    <section id="gold-prizes">
-      <prize-item-row-with-title :items="goldPrizes" title="Gold Pool" titleAlignment="left" numberOfPrizes="3"/>
-    </section>
-    <section id="silver-prizes">
-      <prize-item-row-with-title :items="silverPrizes" title="Silver Pool" titleAlignment="right" numberOfPrizes="6"/>
-    </section>
-    <section id="bronze-prizes">
-      <prize-item-row-with-title :items="bronzePrizes" title="Bronze Pool" titleAlignment="left" numberOfPrizes="3"/>
-    </section>
-    <section id="drone-race-prizes">
-      <prize-item-row-with-title :items="dronePrize" title="Drone Race Winner" titleAlignment="left" numberOfPrizes="1"/>
-    </section>
-    <section id="scavenger-hunt-prizes">
-      <prize-item-row-with-title :items="giftCardPrizes" title="Social Media Scavenger Winners" titleAlignment="right" numberOfPrizes="3"/>
-    </section>
-    <section id="other-activites-prizes">
-      <prize-item-row-with-title :items="giftCardPrizes" title="Juice Pong, Bingo and Cup Stacking Winners" titleAlignment="right" numberOfPrizes="3"/>
-    </section>   
-    </section>  
-    <div id="club-banners" class="section is-small">
+  <div class="hero">
+    <div class="hero-body">
       <div class="container">
-        <nav class="level">
-          <div v-for="society in societies" class="level-item has-text-centered society">
-            <div>
-              <figure class="image is-128x128">
-                <img @click="openSocietySite(society.link)" :src="`/logos/${society.name}.png`" />
-              </figure>
+        <h1 class="title">Prizes</h1>
+        <div class="box box-style">
+          <p>Did we mention we’re also giving away a ton of great prizes~ 🎁🥳🙌</p>
+          <p>
+            Throughout the night we’ll be handing out raffle tickets that are used in our raffle draws.
+            You could win any of the prizes listed in our <b><span class="show-blue">Gold, Silver</span></b> and <b><span class="show-blue">Bronze Prize Pool</span></b> from our raffle draw!
+          </p>
+          <p>To increase your chances of winning you can do certain things to gain more raffle tickets. 
+              Such as. . . 
+            </p>
+          <div class="level mt">
+            <div class="level-item has-text-centered">
+              <div>
+                <p><b>Watch a Project Demo at our Science Fair</b></p>
+                <p>5 Tickets</p>
+                <p>🎟️🎟️🎟️🎟️🎟️</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p><b>Go to a Workshop</b></p>
+                <p>1 Tickets</p>
+                <p>🎟️</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p><b>Stay till end of Workshop</b></p>
+                <p>2 Tickets</p>
+                <p>🎟️🎟️</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p><b>Participate in Competition Or Activity</b></p>
+                <p>1 Tickets</p>
+                <p>🎟️</p>
+              </div>
             </div>
           </div>
-        </nav>
+          <p> Winners of our <b><span class="show-purple">Social Media Scavenger Hunt, Juice Pong, Bingo</span></b> and <b><span class="show-purple">Cup Stacking</span></b>, 
+              will enter for a random draw of the <b><span class="show-purple">gift card</span></b> prizes we have listed below! 
+            </p>
+            <p> Winning the <b><span class="show-pink">AI Competition, Chess Tournament, Poker Tournament, Trivia, Capture The Flag</span></b>
+                and/or <b><span class="show-pink">Deer Hunt</span></b> will help you earn more raffle tickets! Below is the breakdown of how many
+                tickets you could win depending on your place in the competitions: 
+            </p>  
+          <div class="level mt">
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="title is-4">1st Place</p>
+                <p>10 Tickets</p>
+                <p>
+                  🎟️🎟️🎟️🎟️🎟️
+                  <br />🎟️🎟️🎟️🎟️🎟️
+                </p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="title is-4">2nd Place</p>
+                <p>8 Tickets</p>
+                <p>
+                  🎟️🎟️🎟️🎟️
+                  <br />🎟️🎟️🎟️🎟️
+                </p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="title is-4">3rd Place</p>
+                <p>6 Tickets</p>
+                <p>
+                  🎟️🎟️🎟️
+                  <br />🎟️🎟️🎟️
+                </p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="title is-4">4th Place</p>
+                <p>4 Tickets</p>
+                <p>🎟️🎟️🎟️🎟️</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import TheShowCountdown from "./TheShowCountdown";
-import ItemRowWithTitle from "./ItemRowWithTitle";
-import PrizeItemRowWithTitle from "./PrizeItemRowWithTitle";
-import PrizeOverview from "./PrizeOverview";
-
-
 export default {
-  components: {
-    TheShowCountdown,
-    ItemRowWithTitle,
-    PrizeItemRowWithTitle,
-    PrizeOverview
-  },
-  data() {
-    return {
-      societies: [
-        { name: "wisc", link: "https://www.facebook.com/wiscutm" },
-        { name: "dsc", link: "https://utm.developerstudentclubs.ca/" },
-        { name: "mcss", link: "https://utmmcss.com" },
-        { name: "sam", link: "https://utmsam.sa.utoronto.ca/" },
-        { name: "robotics", link: "https://utmrobotics.com" }
-      ],
-      goldPrizes: [
-        { text: "Nintendo Switch", image: "nintendo.svg" },
-        { text: "Raptors Tickets", image: "pass.svg" },
-        { text: "Monitor", image: "monitor.svg" }
-      ],
-      silverPrizes: [
-        { text: "Disney+", image: "disneyland.svg" },
-        { text: "Uber Credit", image: "uber.svg" },
-        { text: "Walmart Card", image: "walmart.svg" },
-        { text: "Drawing Tablet", image: "tablet.svg" },
-        { text: "Backpack", image: "backpack.svg" },
-        { text: "Headphone", image: "headphones.svg" }
-      ],
-      bronzePrizes: [
-        { text: "$20 Steam Gift Cards", image: "steam.svg" },
-        { text: "$20 Amazon Gift Cards", image: "amazon.svg" },
-        { text: "$20 The Alley Gift Cards", image: "bubble-tea.svg" },
-        { text: "$20 Cineplex Gift Cards", image: "cinema.svg" }
-      ],
-      giftCardPrizes: [
-        { text: "$10 Steam Gift Cards", image: "steam.svg" },
-        { text: "$10 Amazon Gift Cards", image: "amazon.svg" },
-        { text: "$10 The Alley Gift Cards", image: "bubble-tea.svg" },
-        { text: "$10 Cineplex Gift Cards", image: "cinema.svg" }
-      ],
-      dronePrize: [
-        { text: "Drone", image: "drone.svg" }
-      ]
-    };
-  },
-  methods: {
-    openSocietySite(link) {
-      window.open(link);
-    }
-  }
+  name: "prize-overview",
+  props: {}
 };
 </script>
 
-
 <style scoped>
-
-
-.hero-desc-bg {
-  background: #8c64e1 !important;
+.box-style {
+  border-radius: 25px !important;
+  background-color: rgba(70, 70, 70, 1) !important;
+  color: white !important;
+  padding: 5% !important;
 }
 
-.show-details {
-  color: white;
-  font-weight: bold;
-  font-size: 42px;
-  text-shadow: white 0px 0px 10px;
+p {
+  color: white !important;
+  margin: 10px !important;
 }
 
-.show-banner {
-  background: url(/the-show/hero-bg.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.mt {
+  margin-top: 1rem !important;
 }
 
-.show-hero-img {
-  animation: bobble 2.5s ease-out infinite;
-  width: 80%;
-  height: 80%;
+.column-spacing {
+  padding: 0px !important;
+  margin-bottom: -12px !important;
 }
 
-@keyframes bobble {
-  0% {
-    transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: ease-out;
-  }
-  25% {
-    transform: translate3d(8px, 16px, 0px);
-    animation-timing-function: ease-out;
-  }
-  50% {
-    transform: translate3d(0px, 16px, 0px);
-    animation-timing-function: ease-out;
-  }
-  75% {
-    transform: translate3d(8px, 0px, 0px);
-    animation-timing-function: ease-out;
-  }
-  100% {
-    transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: ease-out;
-  }
+.show-blue {
+    color:rgba(0, 249, 255, 1)
 }
 
-/* .show-bg {
-  background: url(/the-show/hero-bg.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
-
-.society:hover {
-  cursor: pointer;
+.show-purple {
+    color:rgba(140, 100, 255, 1)
 }
 
-.bg-black {
-  background: #000000;
+.show-pink {
+    color:rgba(255, 179, 221, 1)
 }
+
 </style>
+
+
 
 <style scoped>
 /*! bulma.io v0.8.0 | MIT License | github.com/jgthms/bulma */

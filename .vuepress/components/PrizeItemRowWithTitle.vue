@@ -1,194 +1,85 @@
 <template>
-  <div class="theme-container">
-    <section class="hero is-fullheight show-bg show-banner">
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <img class="show-hero-img" src="/the-show/hero.png" />
+  <div class="container-size container">
+    <div>
+      <div :class="`column mb-0 mt-24 title has-text-${titleAlignment}`">{{title}}</div>
+    </div>    
+    <div class="box prize-box">
+      <div class="margin-0 columns">
+        <div v-for="item in items" class="column-centered column" >
+          <figure class="image is-128x128 mb-12">
+            <img :src="`/the-show/assets/${item.image}`" />
+          </figure>
+          <div class="is-size-5 white-color has-text-centered">{{item.text}}</div>
         </div>
-      </div>
-    </section>
-    <section id="countdown" class="is-small">
-      <the-show-countdown />
-    </section>    
-    <section id="overview" class="hero is-primary hero-desc-bg is-medium">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">A Glimpse Of What Is To Come</h1>
-          <span
-            class="is-size-5"
-          >Celebrating the culmination of a year-long commitment to changing the culture surrounding the computer science student experience. By inspiring a new standard for what can be achieved when a group of individuals dedicated to seeing a better future comes together to truly “Do My Best”. This final event is dedicated to showcasing a model of harmonious coexistence of different groups of individuals. As the layers of toxic, competitive, elitism are slowly being peeled away, what remains is a culture of unity, support, engagement, and inclusivity for all.</span>
-        </div>
-      </div>
-    </section>
-
-    <section id="prize-title" class="hero">
-      <prize-overview/>
-    </section>
-
-    <section id="gold-prizes">
-      <prize-item-row-with-title :items="goldPrizes" title="Gold Pool" titleAlignment="left" numberOfPrizes="3"/>
-    </section>
-    <section id="silver-prizes">
-      <prize-item-row-with-title :items="silverPrizes" title="Silver Pool" titleAlignment="right" numberOfPrizes="6"/>
-    </section>
-    <section id="bronze-prizes">
-      <prize-item-row-with-title :items="bronzePrizes" title="Bronze Pool" titleAlignment="left" numberOfPrizes="3"/>
-    </section>
-    <section id="drone-race-prizes">
-      <prize-item-row-with-title :items="dronePrize" title="Drone Race Winner" titleAlignment="left" numberOfPrizes="1"/>
-    </section>
-    <section id="scavenger-hunt-prizes">
-      <prize-item-row-with-title :items="giftCardPrizes" title="Social Media Scavenger Winners" titleAlignment="right" numberOfPrizes="3"/>
-    </section>
-    <section id="other-activites-prizes">
-      <prize-item-row-with-title :items="giftCardPrizes" title="Juice Pong, Bingo and Cup Stacking Winners" titleAlignment="right" numberOfPrizes="3"/>
-    </section>   
-    </section>  
-    <div id="club-banners" class="section is-small">
-      <div class="container">
-        <nav class="level">
-          <div v-for="society in societies" class="level-item has-text-centered society">
-            <div>
-              <figure class="image is-128x128">
-                <img @click="openSocietySite(society.link)" :src="`/logos/${society.name}.png`" />
-              </figure>
-            </div>
-          </div>
-        </nav>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import TheShowCountdown from "./TheShowCountdown";
-import ItemRowWithTitle from "./ItemRowWithTitle";
-import PrizeItemRowWithTitle from "./PrizeItemRowWithTitle";
-import PrizeOverview from "./PrizeOverview";
-
-
 export default {
-  components: {
-    TheShowCountdown,
-    ItemRowWithTitle,
-    PrizeItemRowWithTitle,
-    PrizeOverview
-  },
-  data() {
-    return {
-      societies: [
-        { name: "wisc", link: "https://www.facebook.com/wiscutm" },
-        { name: "dsc", link: "https://utm.developerstudentclubs.ca/" },
-        { name: "mcss", link: "https://utmmcss.com" },
-        { name: "sam", link: "https://utmsam.sa.utoronto.ca/" },
-        { name: "robotics", link: "https://utmrobotics.com" }
-      ],
-      goldPrizes: [
-        { text: "Nintendo Switch", image: "nintendo.svg" },
-        { text: "Raptors Tickets", image: "pass.svg" },
-        { text: "Monitor", image: "monitor.svg" }
-      ],
-      silverPrizes: [
-        { text: "Disney+", image: "disneyland.svg" },
-        { text: "Uber Credit", image: "uber.svg" },
-        { text: "Walmart Card", image: "walmart.svg" },
-        { text: "Drawing Tablet", image: "tablet.svg" },
-        { text: "Backpack", image: "backpack.svg" },
-        { text: "Headphone", image: "headphones.svg" }
-      ],
-      bronzePrizes: [
-        { text: "$20 Steam Gift Cards", image: "steam.svg" },
-        { text: "$20 Amazon Gift Cards", image: "amazon.svg" },
-        { text: "$20 The Alley Gift Cards", image: "bubble-tea.svg" },
-        { text: "$20 Cineplex Gift Cards", image: "cinema.svg" }
-      ],
-      giftCardPrizes: [
-        { text: "$10 Steam Gift Cards", image: "steam.svg" },
-        { text: "$10 Amazon Gift Cards", image: "amazon.svg" },
-        { text: "$10 The Alley Gift Cards", image: "bubble-tea.svg" },
-        { text: "$10 Cineplex Gift Cards", image: "cinema.svg" }
-      ],
-      dronePrize: [
-        { text: "Drone", image: "drone.svg" }
-      ]
-    };
-  },
-  methods: {
-    openSocietySite(link) {
-      window.open(link);
+  name: "prize-item-row-with-title",
+  props: {
+    title: {
+      type: String
+    },
+    items: {
+      type: Array
+    },
+    titleAlignment: {
+      type: String
+    },
+    numberOfPrizes: {
+      type: Number
     }
   }
 };
 </script>
 
-
 <style scoped>
-
-
-.hero-desc-bg {
-  background: #8c64e1 !important;
+.container-size {
+  width: 90% !important;
 }
 
-.show-details {
+.white-color {
   color: white;
-  font-weight: bold;
-  font-size: 42px;
-  text-shadow: white 0px 0px 10px;
 }
 
-.show-banner {
-  background: url(/the-show/hero-bg.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.prize-box {
+  border-radius: 25px !important;
+  background-color: rgba(70, 70, 70, 1) !important;
 }
 
-.show-hero-img {
-  animation: bobble 2.5s ease-out infinite;
-  width: 80%;
-  height: 80%;
+.margin-0 {
+  margin: 0px !important;
 }
 
-@keyframes bobble {
-  0% {
-    transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: ease-out;
-  }
-  25% {
-    transform: translate3d(8px, 16px, 0px);
-    animation-timing-function: ease-out;
-  }
-  50% {
-    transform: translate3d(0px, 16px, 0px);
-    animation-timing-function: ease-out;
-  }
-  75% {
-    transform: translate3d(8px, 0px, 0px);
-    animation-timing-function: ease-out;
-  }
-  100% {
-    transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: ease-out;
-  }
+.column-centered {
+  flex-direction: column !important;
+  display: flex !important;
+  align-items: center;
 }
 
-/* .show-bg {
-  background: url(/the-show/hero-bg.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
-
-.society:hover {
-  cursor: pointer;
+.mb-12 {
+  margin-bottom: 12px;
 }
 
-.bg-black {
-  background: #000000;
+.mb-0 {
+  margin-bottom: 0px !important;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.circle { 
+   width: 160px;
+   height: 160px;
+   background: white; 
+   border-radius: 80px;
 }
 </style>
+
 
 <style scoped>
 /*! bulma.io v0.8.0 | MIT License | github.com/jgthms/bulma */
