@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "serve": "vuepress dev",
+        "start": "vuepress dev",
         "build": "rm -rf docs;mkdir docs;vuepress build;echo utmhacklab.tech > docs/CNAME"
     },
     "devDependencies": {
