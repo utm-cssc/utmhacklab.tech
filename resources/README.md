@@ -58,10 +58,14 @@ Often, people think design is about the way things look. That’s just one eleme
 
 It’s a wonderful feeling to be motivated about what you’re learning. Consuming entertaining digital content about your area of education can help you cultivate a sense of wonder.
 
-<Level link="https://www.youtube.com/user/Computerphile" image="https://yt3.ggpht.com/a/AGF-l792GDOem_pwvOA8KztTpl9Iwe2eOj6vq7LOfQ=s900-c-k-c0xffffffff-no-rj-mo" title="Computerphile" desc="This Youtube channels explores the domain of Computer Science by interviewing academics and industry professionals. "/>
+::: tip Supplementing Course Content
+Search these _edu-tainment_ channels for topics in your courses. They may not teach you how to pass a test, but they may help build an understanding of how what you're learning fits in. 
+:::
+
+<LevelWithButton link="https://www.youtube.com/user/Computerphile" image="https://yt3.ggpht.com/a/AGF-l792GDOem_pwvOA8KztTpl9Iwe2eOj6vq7LOfQ=s900-c-k-c0xffffffff-no-rj-mo" desc="This Youtube channels explores the domain of Computer Science by interviewing academics and industry professionals. The guests on Computerphile have an enthusiasm for computers that can be contagious!" button="Get Inspired"/>
 
 ::: tip Passion is contagious
-The guests on Computerphile have an enthusiasm for computers that can be contagious!
+
 :::
 
 ### [PBS Crash Course](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
@@ -84,7 +88,7 @@ Markdown is a plain text formatting syntax aimed at making writing for the inter
 
 ### Visual Studio Code Live Share
 
-Live Share enables you to collaboratively edit and debug programming projectswith other students in real time. It works regardless what programming languages you're using or app types you're building.
+Live Share enables you to collaboratively edit and debug programming projects with other students in real time. It works regardless what programming languages you're using or app types you're building.
 
 It allows you to instantly (and securely) share your current project, and then as needed, share debugging sessions, terminal instances, localhost web apps, and more!
 

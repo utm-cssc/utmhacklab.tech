@@ -25,10 +25,27 @@ module.exports = {
                 // Aria Label for locale in the dropdown
                 ariaLabel: 'Languages',
                 nav: [
-                    { text: 'Resources', link: '/resources/' },
+                    {
+                        text: 'Resources', items: [
+                            { text: 'Home', link: '/resources/' },
+                            { text: 'Podcasts', link: '/resources/#hacklab-podcasts' },
+                            { text: 'Course Supplements', link: '/resources/#utm-courses' },
+                            { text: 'Jobs', link: '/resources/#all-about-job-applications' },
+                            { text: 'Design Tips', link: '/resources/#design' },
+                            { text: 'Motivated Learning', link: '/resources/#getting-motivated' },
+                            { text: 'Markdown How-to', link: '/resources/#markdown' },
+                            { text: 'Code Collaboration', link: '/resources/#collaboration' },
+                            { text: 'Tools for focusing', link: '/resources/#focus' },
+                        ]
+                    },
                     { text: 'Projects', link: '/projects/' },
                     { text: 'The Show', link: '/the-show/' },
-                    { text: 'Community', link: 'https://teams.microsoft.com/l/team/19%3a9a293cfeb0d44967babe95ceaeff8fe2%40thread.skype/conversations?groupId=2dba53aa-e8b2-4a9b-a206-92677860a263&tenantId=78aac226-2f03-4b4d-9037-b46d56c55210/' },
+                    {
+                        text: 'Communities', items: [
+                            { text: 'UTM Clubs', link: '/clubs/' },
+                            { text: 'Microsoft Teams', link: 'https://teams.microsoft.com/l/team/19%3a9a293cfeb0d44967babe95ceaeff8fe2%40thread.skype/conversations?groupId=2dba53aa-e8b2-4a9b-a206-92677860a263&tenantId=78aac226-2f03-4b4d-9037-b46d56c55210/' },
+                        ]
+                    },
                     // { text: 'International Students', link: '/international/' },
                 ],
             },
