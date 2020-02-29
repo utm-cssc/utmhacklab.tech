@@ -3,116 +3,86 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title">Prizes</h1>
-        <div class="box box-style">
+        <div class="box-style">
           <p>Did we mention we’re also giving away a ton of great prizes~ 🎁🥳🙌</p>
-          <h3 class="title title-margin is-4">Grand Raffle</h3>
-          <p>
-            Throughout the night we'll be handing out tickets for our raffle to draw from the
-            <b>
-              <span class="show-pink">Premium Prize Pool</span>
-            </b>! To increase your chances of winning you can . . .
-          </p>
-          <div class="level mt">
-            <div class="level-item has-text-centered inner-box">
-              <div>
-                <p>
-                  <b>
-                    Demo at
-                    <br />Science Fair
-                  </b>
-                </p>
-                <p>🎟️🎟️🎟️🎟️🎟️</p>
-              </div>
-            </div>
-            <div class="level-item has-text-centered inner-box">
-              <div>
-                <p>
-                  <b>
-                    Checkout a
-                    <br />Project
-                  </b>
-                </p>
-                <p>🎟️</p>
-              </div>
-            </div>
-            <div class="level-item has-text-centered inner-box">
-              <div>
-                <p>
-                  <b>
-                    Attend a
-                    <br />Workshop
-                  </b>
-                </p>
-                <p>🎟️🎟️</p>
-              </div>
-            </div>
-            <div class="level-item has-text-centered inner-box">
-              <div>
-                <p>
-                  <b>
-                    Attend a
-                    <br />Competition
-                  </b>
-                </p>
-                <p>🎟️</p>
-              </div>
-            </div>
-            <div class="level-item has-text-centered inner-box">
-              <div>
-                <p>
-                  <b>
-                    Attend an
-                    <br />Activity
-                  </b>
-                </p>
-                <p>🎟️</p>
+          <div id="grandRaffle" class="mt">
+            <h3 class="title title-margin is-4">Grand Raffle</h3>
+            <p>
+              Throughout the night we'll be handing out tickets for our raffle to draw from the
+              <b>
+                <span class="show-pink">Premium Prize Pool</span>
+              </b>! To increase your chances of winning you can . . .
+            </p>
+            <div class="level mt">
+              <div v-for="item in grandRaffle" class="level-item has-text-centered inner-box-1">
+                <div>
+                  <p v-html="item.ptext" />
+                  <p v-html="item.tickets" />
+                </div>
               </div>
             </div>
           </div>
-          <h3 class="title title-margin is-4">Prizes Throughout the Night</h3>
-          <p>
-            Winners of Juice Pong, Bingo, Cup Stacking and Social Media Scavenger Hunt will randomly draw from our
-            <b>
-              <span class="show-purple">Bronze Prize Pool.</span>
-            </b>
-          </p>
-
-          <h3 class="title title-margin is-4">Competition Prizes</h3>
-
-          <p>Winners of each competition will randomly draw from our Prize Pools and receive additional raffle tickets based on placement.</p>
-          <div class="level mt">
-            <div class="level-item has-text-centered">
-              <div class="box inner-box-tall">
-                <p class="title is-4">1st Place</p>
-                <p>🎟️🎟️</p>
-                <p>+</p>
-                <p>
-                  Random
-                  <b>
-                    <span class="show-pink">Gold Prize</span>
-                  </b>
-                </p>
+        </div>
+        <div class="columns mt">
+          <div class="column is-three-fifths">
+            <div id="competitions" class="box-style">
+              <h3 class="title title-margin is-4">Competition Prizes</h3>
+              <p>Winners of each competition will randomly draw from our Prize Pools and receive additional raffle tickets based on placement.</p>
+              <div class="level mt">
+                <div class="level-item has-text-centered">
+                  <div class="box inner-box-2">
+                    <p class="title is-4">1st Place</p>
+                    <p>🎟️🎟️</p>
+                    <p>+</p>
+                    <p>
+                      Random
+                      <b>
+                        <span class="show-pink">Gold Prize</span>
+                      </b>
+                    </p>
+                  </div>
+                </div>
+                <div class="level-item has-text-centered">
+                  <div class="box inner-box-2">
+                    <p class="title is-4">2nd Place</p>
+                    <p>🎟️🎟️🎟️</p>
+                    <p>+</p>
+                    <p>
+                      Random
+                      <b>
+                        <span class="show-blue">Silver Prize</span>
+                      </b>
+                    </p>
+                  </div>
+                </div>
+                <div class="level-item has-text-centered">
+                  <div class="box inner-box-2">
+                    <p>&nbsp;</p>
+                    <p class="title is-4">3rd Place</p>
+                    <p>🎟️🎟️🎟️🎟️</p>
+                    <p>&nbsp;</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="level-item has-text-centered">
-              <div class="box inner-box-tall">
-                <p class="title is-4">2nd Place</p>
-                <p>🎟️🎟️🎟️</p>
-                <p>+</p>
-                <p>
-                  Random
-                  <b>
-                    <span class="show-blue">Silver Prize</span>
-                  </b>
-                </p>
-              </div>
-            </div>
-            <div class="level-item has-text-centered">
-              <div class="box inner-box-tall">
-                <p>&nbsp;</p>
-                <p class="title is-4">3rd Place</p>
-                <p>🎟️🎟️🎟️🎟️</p>
-                <p>&nbsp;</p>
+          </div>
+          <div class="column">
+            <div id="throughoutNight" class="box-style">
+              <h3 class="title title-margin is-4">Prizes Throughout the Night</h3>
+              <p>
+                Winners of Juice Pong, Bingo, Cup Stacking and Social Media Scavenger Hunt will randomly draw from our
+                <b>
+                  <span class="show-purple">Bronze Prize Pool.</span>
+                </b>
+              </p>
+              <div class="level mt">
+                <div class="level-item has-text-centered">
+                  <div class="box inner-box-2">
+                    <p class="title is-4">Winner</p>
+                    <p>Random <b><span class="show-purple">Bronze Prize</span></b></p>
+                    <p>&nbsp;</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -125,7 +95,18 @@
 <script>
 export default {
   name: "prize-overview",
-  props: {}
+  props: {},
+  data() {
+    return {
+      grandRaffle: [
+        { ptext: "<b>Demo at<br />Science Fair</b>", tickets: "🎟️🎟️🎟️🎟️🎟️" },
+        { ptext: "<b>Checkout a<br />Project</b>", tickets: "🎟️" },
+        { ptext: "<b>Attend a<br />Workshop</b>", tickets: "🎟️🎟️" },
+        { ptext: "<b>Attend a<br />Competition</b>", tickets: "🎟️" },
+        { ptext: "<b>Attend an<br />Acitivity</b>", tickets: "🎟️" }
+      ]
+    };
+  }
 };
 </script>
 
@@ -134,7 +115,8 @@ export default {
   border-radius: 25px !important;
   background-color: rgba(70, 70, 70, 1) !important;
   color: white !important;
-  padding: 2.5% !important;
+  padding: 20px !important;
+  margin: 0px !important;
 }
 
 p {
@@ -172,7 +154,7 @@ p {
   margin-bottom: 12px !important;
 }
 
-.inner-box {
+.inner-box-1 {
   border-radius: 20px !important;
   background-color: rgba(255, 255, 255, 1) !important;
   background-color: rgba(100, 100, 100, 1) !important;
@@ -180,7 +162,7 @@ p {
   padding: 0px !important;
 }
 
-.inner-box-tall {
+.inner-box-2 {
   border-radius: 20px !important;
   background-color: rgba(255, 255, 255, 1) !important;
   background-color: rgba(100, 100, 100, 1) !important;
