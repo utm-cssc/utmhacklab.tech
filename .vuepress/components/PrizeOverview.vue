@@ -5,86 +5,114 @@
         <h1 class="title">Prizes</h1>
         <div class="box box-style">
           <p>Did we mention we’re also giving away a ton of great prizes~ 🎁🥳🙌</p>
+          <h3 class="title title-margin is-4">Grand Raffle</h3>
           <p>
-            Throughout the night we’ll be handing out raffle tickets that are used in our raffle draws.
-            You could win any of the prizes listed in our <b><span class="show-blue">Gold, Silver</span></b> and <b><span class="show-blue">Bronze Prize Pool</span></b> from our raffle draw!
+            Throughout the night we'll be handing out tickets for our raffle to draw from the
+            <b>
+              <span class="show-pink">Premium Prize Pool</span>
+            </b>! To increase your chances of winning you can . . .
           </p>
-          <p>To increase your chances of winning you can do certain things to gain more raffle tickets. 
-              Such as. . . 
-            </p>
           <div class="level mt">
-            <div class="level-item has-text-centered">
+            <div class="level-item has-text-centered inner-box">
               <div>
-                <p><b>Watch a Project Demo at our Science Fair</b></p>
-                <p>5 Tickets</p>
+                <p>
+                  <b>
+                    Demo at
+                    <br />Science Fair
+                  </b>
+                </p>
                 <p>🎟️🎟️🎟️🎟️🎟️</p>
               </div>
             </div>
-            <div class="level-item has-text-centered">
+            <div class="level-item has-text-centered inner-box">
               <div>
-                <p><b>Go to a Workshop</b></p>
-                <p>1 Tickets</p>
+                <p>
+                  <b>
+                    Checkout a
+                    <br />Project
+                  </b>
+                </p>
                 <p>🎟️</p>
               </div>
             </div>
-            <div class="level-item has-text-centered">
+            <div class="level-item has-text-centered inner-box">
               <div>
-                <p><b>Stay till end of Workshop</b></p>
-                <p>2 Tickets</p>
+                <p>
+                  <b>
+                    Attend a
+                    <br />Workshop
+                  </b>
+                </p>
                 <p>🎟️🎟️</p>
               </div>
             </div>
-            <div class="level-item has-text-centered">
+            <div class="level-item has-text-centered inner-box">
               <div>
-                <p><b>Participate in Competition Or Activity</b></p>
-                <p>1 Tickets</p>
+                <p>
+                  <b>
+                    Attend a
+                    <br />Competition
+                  </b>
+                </p>
+                <p>🎟️</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered inner-box">
+              <div>
+                <p>
+                  <b>
+                    Attend an
+                    <br />Activity
+                  </b>
+                </p>
                 <p>🎟️</p>
               </div>
             </div>
           </div>
-          <p> Winners of our <b><span class="show-purple">Social Media Scavenger Hunt, Juice Pong, Bingo</span></b> and <b><span class="show-purple">Cup Stacking</span></b>, 
-              will enter for a random draw of the <b><span class="show-purple">gift card</span></b> prizes we have listed below! 
-            </p>
-            <p> Winning the <b><span class="show-pink">AI Competition, Chess Tournament, Poker Tournament, Trivia, Capture The Flag</span></b>
-                and/or <b><span class="show-pink">Deer Hunt</span></b> will help you earn more raffle tickets! Below is the breakdown of how many
-                tickets you could win depending on your place in the competitions: 
-            </p>  
+          <h3 class="title title-margin is-4">Prizes Throughout the Night</h3>
+          <p>
+            Winners of Juice Pong, Bingo, Cup Stacking and Social Media Scavenger Hunt will randomly draw from our
+            <b>
+              <span class="show-purple">Bronze Prize Pool.</span>
+            </b>
+          </p>
+
+          <h3 class="title title-margin is-4">Competition Prizes</h3>
+
+          <p>Winners of each competition will randomly draw from our Prize Pools and receive additional raffle tickets based on placement.</p>
           <div class="level mt">
             <div class="level-item has-text-centered">
-              <div>
+              <div class="box inner-box-tall">
                 <p class="title is-4">1st Place</p>
-                <p>10 Tickets</p>
+                <p>🎟️🎟️</p>
+                <p>+</p>
                 <p>
-                  🎟️🎟️🎟️🎟️🎟️
-                  <br />🎟️🎟️🎟️🎟️🎟️
+                  Random
+                  <b>
+                    <span class="show-pink">Gold Prize</span>
+                  </b>
                 </p>
               </div>
             </div>
             <div class="level-item has-text-centered">
-              <div>
+              <div class="box inner-box-tall">
                 <p class="title is-4">2nd Place</p>
-                <p>8 Tickets</p>
+                <p>🎟️🎟️🎟️</p>
+                <p>+</p>
                 <p>
-                  🎟️🎟️🎟️🎟️
-                  <br />🎟️🎟️🎟️🎟️
+                  Random
+                  <b>
+                    <span class="show-blue">Silver Prize</span>
+                  </b>
                 </p>
               </div>
             </div>
             <div class="level-item has-text-centered">
-              <div>
+              <div class="box inner-box-tall">
+                <p>&nbsp;</p>
                 <p class="title is-4">3rd Place</p>
-                <p>6 Tickets</p>
-                <p>
-                  🎟️🎟️🎟️
-                  <br />🎟️🎟️🎟️
-                </p>
-              </div>
-            </div>
-            <div class="level-item has-text-centered">
-              <div>
-                <p class="title is-4">4th Place</p>
-                <p>4 Tickets</p>
                 <p>🎟️🎟️🎟️🎟️</p>
+                <p>&nbsp;</p>
               </div>
             </div>
           </div>
@@ -106,7 +134,7 @@ export default {
   border-radius: 25px !important;
   background-color: rgba(70, 70, 70, 1) !important;
   color: white !important;
-  padding: 5% !important;
+  padding: 2.5% !important;
 }
 
 p {
@@ -124,17 +152,39 @@ p {
 }
 
 .show-blue {
-    color:rgba(0, 249, 255, 1)
+  color: #00f9ff;
 }
 
 .show-purple {
-    color:rgba(140, 100, 255, 1)
+  color: rgba(140, 100, 255, 1);
 }
 
 .show-pink {
-    color:rgba(255, 179, 221, 1)
+  color: rgba(255, 179, 221, 1);
 }
 
+.title {
+  color: white !important;
+}
+
+.title-margin {
+  margin-top: 24px !important;
+  margin-bottom: 12px !important;
+}
+
+.inner-box {
+  border-radius: 20px !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+  background-color: rgba(100, 100, 100, 1) !important;
+  margin: 18px !important;
+  padding: 0px !important;
+}
+
+.inner-box-tall {
+  border-radius: 20px !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+  background-color: rgba(100, 100, 100, 1) !important;
+}
 </style>
 
 

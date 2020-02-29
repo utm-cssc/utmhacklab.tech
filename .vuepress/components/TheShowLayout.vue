@@ -24,26 +24,19 @@
     <section id="prize-title" class="hero">
       <prize-overview/>
     </section>
-
+    <section id="premuim-prizes">
+      <prize-item-row-with-title :items="premiumPrizes" title="Premium Pool" titleAlignment="left" numberOfPrizes="3"/>
+    </section>
     <section id="gold-prizes">
-      <prize-item-row-with-title :items="goldPrizes" title="Gold Pool" titleAlignment="left" numberOfPrizes="3"/>
+      <prize-item-row-with-title :items="goldPrizes" title="Gold Pool" titleAlignment="right" numberOfPrizes="6"/>
     </section>
     <section id="silver-prizes">
-      <prize-item-row-with-title :items="silverPrizes" title="Silver Pool" titleAlignment="right" numberOfPrizes="6"/>
+      <prize-item-row-with-title :items="silverPrizes" title="Silver Pool" titleAlignment="left" numberOfPrizes="6"/>
     </section>
     <section id="bronze-prizes">
-      <prize-item-row-with-title :items="bronzePrizes" title="Bronze Pool" titleAlignment="left" numberOfPrizes="3"/>
+      <prize-item-row-with-title :items="bronzePrizes" title="Bronze Pool" titleAlignment="right" numberOfPrizes="3"/>
     </section>
-    <section id="drone-race-prizes">
-      <prize-item-row-with-title :items="dronePrize" title="Drone Race Winner" titleAlignment="left" numberOfPrizes="1"/>
-    </section>
-    <section id="scavenger-hunt-prizes">
-      <prize-item-row-with-title :items="giftCardPrizes" title="Social Media Scavenger Winners" titleAlignment="right" numberOfPrizes="3"/>
-    </section>
-    <section id="other-activites-prizes">
-      <prize-item-row-with-title :items="giftCardPrizes" title="Juice Pong, Bingo and Cup Stacking Winners" titleAlignment="right" numberOfPrizes="3"/>
-    </section>   
-    </section>  
+  
     <div id="club-banners" class="section is-small">
       <div class="container">
         <nav class="level">
@@ -83,33 +76,34 @@ export default {
         { name: "sam", link: "https://utmsam.sa.utoronto.ca/" },
         { name: "robotics", link: "https://utmrobotics.com" }
       ],
-      goldPrizes: [
+      premiumPrizes: [
         { text: "Nintendo Switch", image: "nintendo.svg" },
         { text: "Raptors Tickets", image: "pass.svg" },
         { text: "Monitor", image: "monitor.svg" }
       ],
-      silverPrizes: [
-        { text: "Disney+", image: "disneyland.svg" },
-        { text: "Uber Credit", image: "uber.svg" },
-        { text: "Walmart Card", image: "walmart.svg" },
+      goldPrizes: [
+        { text: "Disney+ ", image: "disneyland.svg" },
+        { text: "$50 Uber Credit", image: "uber.svg" },
+        { text: "$50 Walmart Credit", image: "walmart.svg" },
         { text: "Drawing Tablet", image: "tablet.svg" },
         { text: "Backpack", image: "backpack.svg" },
         { text: "Headphone", image: "headphones.svg" }
       ],
+      silverPrizes: [
+        { text: "$20 Steam Credit", image: "steam.svg" },
+        { text: "$20 Amazon Credit", image: "amazon.svg" },
+        { text: "$20 The Alley Credit", image: "bubble-tea.svg" },
+        { text: "$20 Cineplex Credit", image: "cinema.svg" },
+        { text: "$20 Uber Credit", image: "uber.svg" },
+        { text: "$20 Walmart Credit", image: "walmart.svg" },
+      ],
       bronzePrizes: [
-        { text: "$20 Steam Gift Cards", image: "steam.svg" },
-        { text: "$20 Amazon Gift Cards", image: "amazon.svg" },
-        { text: "$20 The Alley Gift Cards", image: "bubble-tea.svg" },
-        { text: "$20 Cineplex Gift Cards", image: "cinema.svg" }
-      ],
-      giftCardPrizes: [
-        { text: "$10 Steam Gift Cards", image: "steam.svg" },
-        { text: "$10 Amazon Gift Cards", image: "amazon.svg" },
-        { text: "$10 The Alley Gift Cards", image: "bubble-tea.svg" },
-        { text: "$10 Cineplex Gift Cards", image: "cinema.svg" }
-      ],
-      dronePrize: [
-        { text: "Drone", image: "drone.svg" }
+        { text: "$10 Steam Credit", image: "steam.svg" },
+        { text: "$10 Amazon Credit", image: "amazon.svg" },
+        { text: "$10 The Alley Credit", image: "bubble-tea.svg" },
+        { text: "$10 Cineplex Credit", image: "cinema.svg" },
+        { text: "$10 Uber Credit", image: "uber.svg" },
+        { text: "$10 Walmart Credit", image: "walmart.svg" },
       ]
     };
   },
