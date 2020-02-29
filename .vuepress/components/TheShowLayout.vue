@@ -2,6 +2,7 @@
   <div class="theme-container">
     <section class="hero is-fullheight show-bg show-banner">
       <div class="hero-body">
+        <a href="https://utmhacklab.tech" class="icon is-large"><i class="fas fa-3x fa-angle-left"></i></a>
         <div class="container has-text-centered">
           <img class="show-hero-img" src="/the-show/hero.png" />
         </div>
@@ -167,7 +168,18 @@ export default {
   margin: 0 16em;
   text-align: justify;
 }
-
+.icon {
+  position: fixed;
+  left: 40px;
+  top: 25px;
+  display: block;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  z-index: 9999;
+  border-radius: 50%;
+  color: white;
+}
 .grand-prizes-title {
   margin: 0px !important;
 }
