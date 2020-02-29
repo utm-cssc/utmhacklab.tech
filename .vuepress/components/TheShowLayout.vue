@@ -31,6 +31,23 @@
       </div>
     </section>
 
+    <section>
+      <div class="container">
+        <h1 class="title"> Contests </h1>
+        <p class="is-size-5"> We’ll also be announcing the winners of the Instagram and Discord contest! These contests are on going up until the day of The Show so make sure you go check them out! 🎉🥳<p>
+        <div class="columns row">
+          <div class="column is-one-half" v-for="contest in contests">
+            <div class="box rounded-box has-text-centered contest">
+              <figure class="image is-128x128 mb-12 is-inline-block">
+                <img :src="`/the-show/assets/${contest.image}.png`" />
+              </figure>
+              <div class="is-size-5" v-html="contest.text"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <section id="gold-prizes">
       <item-row-with-title :items="goldPrizes" title="Gold Prizes" />
@@ -119,6 +136,10 @@ export default {
         {name: "Your List", desc: "An Android and iOS application that primarily allows you to create a shared shopping list that can be easily distributed among your family or roommates. This application will also have the ability to notify users of the surrounding locations for shops related to their list. If the application finds a shop mentioned in one of the lists, it will notify the user that one of the actions listed shops are nearby. YourList can also be used to act a shared notepad and todo-list, and the location-based notification makes it an excellent tool for reminders at school, work and at home." },
         {name: "Open Mind", desc: "Students around the world are used to taking notes in a monochromatic and linear manner. Taking notes should be a more personal task where associations, colors, opinions, and thoughts appear. We're creating an open standard for organizing learning and research notes using mind maps. We hope to demonstrate the efficacy of this standard by building an app that allows users to create and share their mind maps." },
         {name: "UofT Course Tools", desc: "When you enter a well-run tech organization like Google, you’re met with a suite of software tools created by Googlers to make other Googlers' lives easier. UofT students could make use of tools made by other UofT students that would allow them to do things like: Suggest timetables that optimize for their preferred timings Plan for courses based on course evaluation metrics that they care about Write plugins to expand the core functionality with their creative ideas We're unifying UofT's course data, and using it to build a course guide and timetable planner." },
+      ],
+      contests:[
+        {image: 'discord_color', text: "Our Best Meme contest is happening on our <a href='http://discord.gg/fwdHJQa'>Discord Server</a> where the best meme maker wins a <b>Cherry MX Blue Mechanical Keyboard</b> (with 6 color backlit)!"},
+        {image: 'instagram-color', text: "Follow us on Instagram @<a href='https://www.instagram.com/p/B8sYu7CBIH6/'>utmmcss</a> to learn more about how you could win a <b>Google Home Mini</b>!"}
       ]
     };
   },
@@ -133,6 +154,14 @@ export default {
 
 
 <style scoped>
+.contest{
+  height: 90% !important;
+}
+
+.row {
+    margin: 2em !important;
+}
+
 .show-overview {
   margin: 0 16em;
   text-align: justify;
