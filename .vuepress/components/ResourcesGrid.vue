@@ -1,12 +1,9 @@
 <template>
   <div class="columns is-multiline">
     <div v-for="item in items" class="column is-one-quarter-desktop is-half-tablet">
-      <div class="card">
-        <div class="card-image">
-          <figure class="image">
-            <img :src="image" alt/>
-          </figure>
-        </div>
+      <div class="box resource-box">
+        <div class=""></div>
+        <div class="resource-title">{{title}}</div>
       </div>
     </div>
   </div>
@@ -21,6 +18,17 @@ export default {
 </script>
 
 
+<style scoped>
+.resource-box {
+
+}
+
+.resource-title {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+</style>
 
 <style scoped>
 /*! bulma.io v0.8.0 | MIT License | github.com/jgthms/bulma */

@@ -8,7 +8,7 @@
         </figure>
       </div>
       <div v-else>
-        <div class="is-size-10 paragraph">{{desc}}</div>
+        <div class="is-size-10 desc">{{desc}}</div>
         <a :href="link" class="action-button">
           <button class="button is-link action-button">{{button}}</button>
         </a>
@@ -23,7 +23,7 @@
         </figure>
       </div>
       <div v-else>
-        <div class="is-size-10 paragraph">{{desc}}</div>
+        <div class="is-size-10 desc align-right">{{desc}}</div>
         <a :href="link" class="action-button">
           <button :href="link" class="button is-link action-button right">{{button}}</button>
         </a>
@@ -67,10 +67,13 @@ export default {
 .level-container {
   margin: 15px 0px;
 }
-.paragraph {
+.desc {
   margin-top: 12px;
   max-width: 380px;
   /* font-weight: 500; */
+}
+.align-right {
+  text-align: right;
 }
 a {
   color: #3eaf7c !important;

@@ -26,7 +26,7 @@
         <div class="container">
           <h1 class="title"> Projects </h1>
           <p class="is-size-5"> Why call it The Show? Cause we’ve got amazing students projects we want to show off! These students have been working hard all year long to develop really innovative and cool stuff! Walk around our science fair and chat with the developers about their experience working on the project.</p>
-          <ItemGrid :items="projects"></ItemGrid>
+          <the-show-projects :items="projects"></the-show-projects>
         </div>
       </div>
     </section>
@@ -102,12 +102,13 @@
 <script>
 import TheShowCountdown from "./TheShowCountdown";
 import ItemRowWithTitle from "./ItemRowWithTitle";
-import ItemGrid from "./ItemGrid";
+import TheShowProjects from "./TheShowProjects";
 
 export default {
   components: {
     TheShowCountdown,
-    ItemRowWithTitle
+    ItemRowWithTitle,
+    TheShowProjects
   },
   data() {
     return {

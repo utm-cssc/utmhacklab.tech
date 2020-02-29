@@ -1,14 +1,20 @@
-## CSC358 Principles of Computer Networks
+# CSC358: Principles of Computer Networks
+
+## Videos
 
 ### Ben Eater's Networking Tutorial
 
-**[Youtube Playlist](https://www.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW)**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### PBS Crash Course: Computer Networks
+### PBS Crash Course: Intro to Computer Networks
 
-**[Computer Networks: Crash Course Computer Science #28](https://www.youtube.com/watch?v=3QhU9jd03a0)**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3QhU9jd03a0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**[The Internet: Crash Course Computer Science #29](https://www.youtube.com/watch?v=AEaKrq3SpW8)**
+### PBS Crash Course: The Internet
 
-**[The World Wide Web: Crash Course Computer Science #30](https://www.youtube.com/watch?v=guvsH5OFizE)**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AEaKrq3SpW8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+### PBS Crash Course: The World Wide Web
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/guvsH5OFizE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
