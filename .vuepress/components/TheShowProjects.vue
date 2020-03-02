@@ -47,7 +47,7 @@ export default {
 <style scoped>
 .project-box {
   border-radius: 8px;
-  padding: 15px;
+  padding: 12px 20px;
   height: 100%;
 }
 
@@ -56,7 +56,8 @@ export default {
 }
 
 .title{
-  font-size: 50px !important;
+  font-size: 36px !important;
+  color: #3eaf7c !important;
 } 
 </style>
 

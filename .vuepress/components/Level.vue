@@ -2,49 +2,30 @@
   <div class="level level-container">
     <!-- Left side -->
     <div class="level-left">
-      <a :href="link" v-if="!imageRight">
-        <figure :href="link" class="image ">
+      <div v-if="!imageRight">
+        <figure class="image">
           <img :src="image" />
         </figure>
-      </a>
+      </div>
       <div v-else>
-        <a :href="link">
-          <div class="is-size-4">{{title}}</div>
-        </a>
-        <div class="is-size-7 paragraph">{{desc}}</div>
+        <div class="is-size-10 desc">{{desc}}</div>
       </div>
     </div>
 
     <!-- Right side -->
     <div class="level-right">
-      <a v-if="imageRight" :href="link">
-        <figure :href="link" class="image">
+      <div v-if="imageRight">
+        <figure class="image">
           <img :src="image" />
         </figure>
-      </a>
+      </div>
       <div v-else>
-        <a :href="link">
-          <div class="is-size-4">{{title}}</div>
-        </a>
-        <div class="is-size-7 paragraph">{{desc}}</div>
+        <div class="is-size-10 desc align-right">{{desc}}</div>
       </div>
     </div>
-    <!-- 
-    <div class="container">
-      <div class="columns reverse-row-order">
-        <div class="column">
-          <h3 class="is-size-3">{{title}}</h3>
-          <p
-            class="has-text-green paragraph"
-          >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-        </div>
-        <div class="column">
-          <img class="feature-img" src="img/feature1.png" alt="feature" />
-        </div>
-      </div>
-    </div>-->
   </div>
 </template>
+
 
 <script>
 export default {
@@ -53,39 +34,49 @@ export default {
       type: Boolean,
       default: true
     },
-    title: String,
     image: String,
     desc: String,
-    link: String
+    link: String,
   }
 };
 </script>
 
-
 <style scoped>
-
 .image {
-  max-width: 230px;
-  /* max-height: 120px !important; */
-  
+  max-width: 260px;
+}
 
-
+.button.is-link.action-button {
+  margin-top: 25px;
+  height: 2em;
+}
+.button.is-link.action-button.right {
+  float: right;
+}
+.button.is-link.action-button:hover {
+  text-decoration: none;
+  background-color: #378dff;
 }
 .level-container {
   margin: 15px 0px;
 }
-.paragraph {
+.desc {
   margin-top: 12px;
-  max-width: 384px;
-  font-weight: 500;
+  max-width: 380px;
+  /* font-weight: 500; */
 }
-
+.align-right {
+  text-align: right;
+}
 a {
   color: #3eaf7c !important;
   font-weight: 500;
 }
-</style>
 
+a.action-button:hover {
+  text-decoration: none;
+}
+</style>
 
 <style scoped>
 /*! bulma.io v0.8.0 | MIT License | github.com/jgthms/bulma */

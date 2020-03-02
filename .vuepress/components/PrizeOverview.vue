@@ -4,21 +4,21 @@
       <div class="container">
         <h1 class="title">Prizes</h1>
         <div class="box-style">
-          <p>Did we mention we’re also giving away a ton of great prizes~ 🎁🥳🙌</p>
+          <span>Did we mention we’re also giving away a ton of great prizes~ 🎁🥳🙌</span>
           <div id="grandRaffle" class="mt">
             <h3 class="title title-margin is-4">Grand Raffle</h3>
-            <p>
+            <span>
               Throughout the night we'll be handing out tickets for our raffle to draw from the
               <b>
                 <span class="show-pink">Premium Prize Pool</span>
               </b>! To increase your chances of winning you can . . .
-            </p>
+            </span>
             <div class="level mt">
-              <div v-for="item in grandRaffle" class="level-item has-text-centered inner-box-1">
-                <div>
-                  <p v-html="item.ptext" />
-                  <p v-html="item.tickets" />
-                </div>
+              <div v-for="item in grandRaffle" class="level-item has-text-centered inner-box-1 ">
+                  <div class="grand-raffle-bubble">
+                  <div v-html="item.ptext" />
+                  <div class="tickets" v-html="item.tickets" />
+                  </div>
               </div>
             </div>
           </div>
@@ -27,13 +27,13 @@
           <div class="column is-three-fifths">
             <div id="competitions" class="box-style">
               <h3 class="title title-margin is-4">Competition Prizes</h3>
-              <p>Winners of each competition will randomly draw from our Prize Pools and receive additional raffle tickets based on placement.</p>
+              <span>Winners of each competition will randomly draw from our Prize Pools and receive additional raffle tickets based on placement.</span>
               <div class="level mt">
                 <div class="level-item has-text-centered">
                   <div class="box inner-box-2">
                     <p class="title is-4">1st Place</p>
-                    <p>🎟️🎟️</p>
-                    <p>+</p>
+                    <p class="tickets">🎟️🎟️</p>
+                    <p class="tickets">+</p>
                     <p>
                       Random
                       <b>
@@ -45,8 +45,8 @@
                 <div class="level-item has-text-centered">
                   <div class="box inner-box-2">
                     <p class="title is-4">2nd Place</p>
-                    <p>🎟️🎟️🎟️</p>
-                    <p>+</p>
+                    <p class="tickets">🎟️🎟️🎟️</p>
+                    <p class="tickets">+</p>
                     <p>
                       Random
                       <b>
@@ -57,9 +57,10 @@
                 </div>
                 <div class="level-item has-text-centered">
                   <div class="box inner-box-2">
-                    <p>&nbsp;</p>
                     <p class="title is-4">3rd Place</p>
-                    <p>🎟️🎟️🎟️🎟️</p>
+                    <p class="tickets">🎟️🎟️🎟️🎟️</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
                     <p>&nbsp;</p>
                   </div>
                 </div>
@@ -69,12 +70,12 @@
           <div class="column">
             <div id="throughoutNight" class="box-style">
               <h3 class="title title-margin is-4">Prizes Throughout the Night</h3>
-              <p>
+              <span>
                 Winners of Juice Pong, Bingo, Cup Stacking and Social Media Scavenger Hunt will randomly draw from our
                 <b>
                   <span class="show-purple">Bronze Prize Pool.</span>
                 </b>
-              </p>
+              </span>
               <div class="level mt">
                 <div class="level-item has-text-centered">
                   <div class="box inner-box-2">
@@ -111,6 +112,18 @@ export default {
 </script>
 
 <style scoped>
+.grand-raffle-bubble {
+  margin-top: 8px;
+  
+  font-size: 1.5em;
+}
+
+.tickets {
+  font-size: 2em;
+}
+
+
+
 .box-style {
   border-radius: 25px !important;
   background-color: rgba(70, 70, 70, 1) !important;
@@ -122,6 +135,10 @@ export default {
 p {
   color: white !important;
   margin: 10px !important;
+}
+
+span {
+  font-size: 18px;
 }
 
 .mt {
@@ -150,7 +167,7 @@ p {
 }
 
 .title-margin {
-  margin-top: 24px !important;
+  margin-top: 6px !important;
   margin-bottom: 12px !important;
 }
 
@@ -158,14 +175,17 @@ p {
   border-radius: 20px !important;
   background-color: rgba(255, 255, 255, 1) !important;
   background-color: rgba(100, 100, 100, 1) !important;
-  margin: 18px !important;
-  padding: 0px !important;
+  margin: 12px !important;
+  padding: 0px 12px;
+  height: 90%;
+  max-width: 244px;
 }
 
 .inner-box-2 {
   border-radius: 20px !important;
   background-color: rgba(255, 255, 255, 1) !important;
   background-color: rgba(100, 100, 100, 1) !important;
+  height: 90%;
 }
 </style>
 

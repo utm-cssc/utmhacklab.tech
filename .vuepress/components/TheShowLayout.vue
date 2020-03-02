@@ -24,26 +24,15 @@
       </div>
     </section>
 
-    <section class="hero is-medium">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">Projects</h1>
-          <p
-            class="is-size-5"
-          >Why call it The Show? Cause we’ve got amazing students projects we want to show off! These students have been working hard all year long to develop really innovative and cool stuff! Walk around our science fair and chat with the developers about their experience working on the project.</p>
-          <the-show-projects :items="projects"></the-show-projects>
-        </div>
-      </div>
-    </section>
-
 
     <section>
       <div class="container">
+        <div class="contests-text-container">
         <h1 class="title">Contests</h1>
         <p
           class="is-size-5"
         >We’ll also be announcing the winners of the Instagram and Discord contest! These contests are on going up until the day of The Show so make sure you go check them out! 🎉🥳</p>
-        <p></p>
+        </div>
         <div class="columns row">
           <div class="column is-one-half" v-for="contest in contests">
             <div class="box rounded-box has-text-centered contest">
@@ -57,6 +46,31 @@
       </div>
     </section>
 
+    <section class="hero is-medium is-primary projects-section">
+        <div class="container">
+          <div class="projects-text-container">
+          <h1 class="title">Projects</h1>
+          <span
+            class="is-size-5"
+          >Why call it The Show? Cause we’ve got amazing students projects we want to showcase! Your fellow students have been working hard all year long to develop innovative and cool ideas! Walk around our science fair and chat with the developers about their experience working on the project.</span>
+          </div>
+          <the-show-projects :items="projects"></the-show-projects>
+        </div>
+    </section>
+
+        <!-- <section class="hero is-medium is-primary workshops-section">
+        <div class="container">
+          <div class="workshops-text-container">
+          <h1 class="title">Workshops</h1>
+          <span
+            class="is-size-5"
+          >It wouldn’t be a night of the nerds without some learning and what better way than by having workshops! We’ve even got 2 workshops that are led by Google employees themselves and another led by an RBC Rep 🤯</span>
+          </div>
+        </div>
+    </section> -->
+
+
+
   <section id="main-content" class="hero show-banner-repeat">
 
     <section id="prize-title" class="hero">
@@ -66,7 +80,7 @@
       <prize-item-row-with-title :items="premiumPrizes" title="Premium Pool" titleAlignment="left" numberOfPrizes="3"/>
     </section>
     <section id="gold-prizes">
-      <prize-item-row-with-title :itemss="goldPrizes" title="Gold Pool" titleAlignment="right" numberOfPrizes="6"/>
+      <prize-item-row-with-title :items="goldPrizes" title="Gold Pool" titleAlignment="right" numberOfPrizes="6"/>
     </section>
     <section id="silver-prizes">
       <prize-item-row-with-title :items="silverPrizes" title="Silver Pool" titleAlignment="left" numberOfPrizes="6"/>
@@ -100,6 +114,7 @@ import ItemRowWithTitle from "./ItemRowWithTitle";
 import TheShowProjects from "./TheShowProjects";
 import PrizeItemRowWithTitle from "./PrizeItemRowWithTitle";
 import PrizeOverview from "./PrizeOverview";
+import Level from "./Level"
 
 
 export default {
@@ -107,11 +122,9 @@ export default {
     TheShowCountdown,
     ItemRowWithTitle,
     TheShowProjects,
-<<<<<<< HEAD
     PrizeItemRowWithTitle,
-    PrizeOverview
-=======
->>>>>>> e886336c1e9718582f3e8e04b4d841ca7ba65c8a
+    PrizeOverview,
+    Level
   },
   data() {
     return {
@@ -174,7 +187,7 @@ export default {
           image: "instagram-color",
           text:
             "Follow us on Instagram @<a href='https://www.instagram.com/p/B8sYu7CBIH6/'>utmmcss</a> to learn more about how you could win a <b>Google Home Mini</b>!"
-        }
+        }],
       goldPrizes: [
         { text: "Disney+ ", image: "disneyland.svg" },
         { text: "$50 Uber Credit", image: "uber.svg" },
@@ -211,6 +224,30 @@ export default {
 
 
 <style scoped>
+
+.projects-section {
+  padding: 2em 0;
+  background-color: #3eaf7c;
+}
+
+.projects-text-container {
+  margin: 2em;
+}
+
+.workshops-section {
+  padding: 2em 0;
+  background-color: #3eaf7c;
+}
+
+.workshops-text-container {
+  margin: 2em;
+}
+
+.contests-text-container {
+  margin: 2em;
+}
+
+
 .contest {
   height: 90% !important;
 }
