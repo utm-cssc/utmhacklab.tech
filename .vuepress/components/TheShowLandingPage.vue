@@ -1,64 +1,24 @@
 <template>
-  <div class="theme-container">
-    <section class="hero is-primary is-fullheight show-bg show-banner">
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <the-show-landing-page />
-
-          <img class="show-hero-img" src="/the-show/hero.png" />
-
-          <div id="club-banners" class="section is-small">
-            <div class="container">
-              <nav class="level">
-                <div v-for="society in societies" class="level-item has-text-centered society">
-                  <div>
-                    <figure class="image is-96x96">
-                      <img
-                        @click="openSocietySite(society.link)"
-                        :src="`/logos/${society.name}.png`"
-                      />
-                    </figure>
-                  </div>
-                </div>
-              </nav>
-            </div>
-          </div>
+  <nav class="navbar box navigation-bar" role="navigation" aria-label="main navigation">
+    <div id="theShowNavigationBar" class="navbar-menu">
+      <div class="navbar-start">
+        <div class="navbar-item">
+          <a href="https://www.eventbrite.ca/e/the-show-a-night-of-the-nerds-tickets-93866562415" class="title white-text">TICKETS</a>
         </div>
       </div>
-    </section>
-
-    <section id="countdown" class="is-small">
-      <the-show-countdown />
-    </section>
-
-    <section id="overview" class="hero is-primary hero-desc-bg is-medium">
-      <div class="hero-body">
-        <div class="container show-overview">
-          <h1 class="title">A Glimpse Of What Is To Come</h1>
-          <span
-            class="is-size-5"
-          >Celebrating the culmination of a year-long commitment to changing the culture surrounding the computer science student experience. By inspiring a new standard for what can be achieved when a group of individuals dedicated to seeing a better future comes together to truly “Do My Best”. This final event is dedicated to showcasing a model of harmonious coexistence of different groups of individuals. As the layers of toxic, competitive, elitism are slowly being peeled away, what remains is a culture of unity, support, engagement, and inclusivity for all.</span>
+      <div class="navbar-end">
+        <div v-for="link in navigationBar" class="navbar-item">
+          <a :href="link.anchor" class="white-text">{{link.name}}</a>
         </div>
       </div>
-    </section>
-    <section id="gold-prizes">
-      <item-row-with-title :items="goldPrizes" title="Gold Prizes" />
-    </section>
-  </div>
+    </div>
+  </nav>
 </template>
 
 <script>
-import TheShowCountdown from "./TheShowCountdown";
-import ItemRowWithTitle from "./ItemRowWithTitle";
-import TheShowLandingPage from "./TheShowLandingPage";
-
 export default {
-  components: {
-    TheShowCountdown,
-    ItemRowWithTitle,
-    TheShowLandingPage
-  },
-  data() {
+  name: "the-show-landing-page",
+  data: function() {
     return {
       navigationBar: [
         { name: "About", anchor: "#overview" },
@@ -67,122 +27,34 @@ export default {
         { name: "Workshop", anchor: "#overview" },
         { name: "Projects", anchor: "#overview" },
         { name: "Prizes", anchor: "#overview" }
-      ],
-      societies: [
-        { name: "wisc", link: "https://www.facebook.com/wiscutm" },
-        { name: "dsc", link: "https://utm.developerstudentclubs.ca/" },
-        { name: "mcss", link: "https://utmmcss.com" },
-        { name: "sam", link: "https://utmsam.sa.utoronto.ca/" },
-        { name: "robotics", link: "https://utmrobotics.com" }
-      ],
-      goldPrizes: [
-        { text: "Nintendo Switch", image: "nintendo.svg" },
-        { text: "Raptors Tickets", image: "pass.svg" },
-        { text: "Monitor", image: "monitor.svg" }
-      ],
-      SilverPrizes: [
-        { text: "Disney+", image: ".svg" },
-        { text: "Uber Credit", image: ".svg" },
-        { text: "Walmart Card", image: ".svg" }
       ]
     };
-  },
-  methods: {
-    openSocietySite(link) {
-      window.open(link);
-    }
   }
 };
 </script>
 
+<style>
+.navigation-bar {
+  border-radius: 25px !important;
+  background-color: rgba(47, 47, 47, 0.75) !important;
+  border-bottom: none;
 
-
-<style scoped>
-.show-overview {
-  margin: 0 16em;
-  text-align: justify;
 }
 
-.grand-prizes-title {
-  margin: 0px !important;
-}
-
-.grand-prizes-container {
-  margin: 0px !important;
-}
-
-.grand-prize {
-  flex-direction: column !important;
-  display: flex !important;
-  align-items: center;
-}
-
-.grand-prize-image {
-  margin-bottom: 12px;
-}
-
-.hero-desc-bg {
-  background: #8c64e1 !important;
-}
-
-.show-details {
-  color: white;
-  font-weight: bold;
-  font-size: 42px;
-  text-shadow: white 0px 0px 10px;
-}
-
-.show-banner {
-  background: url(/the-show/hero-bg.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.show-hero-img {
-  animation: bobble 2.5s ease-out infinite;
-  width: 80%;
-  height: 80%;
-}
-
-@keyframes bobble {
-  0% {
-    transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: ease-out;
-  }
-  25% {
-    transform: translate3d(8px, 16px, 0px);
-    animation-timing-function: ease-out;
-  }
-  50% {
-    transform: translate3d(0px, 16px, 0px);
-    animation-timing-function: ease-out;
-  }
-  75% {
-    transform: translate3d(8px, 0px, 0px);
-    animation-timing-function: ease-out;
-  }
-  100% {
-    transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: ease-out;
+@media screen and (max-width: 1024px) {
+  .navigation-bar {
+    visibility: hidden !important;
   }
 }
 
-/* .show-bg {
-  background: url(/the-show/hero-bg.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
-
-.society:hover {
-  cursor: pointer;
+@media screen and (min-width: 1024px) {
+  .navigation-bar {
+    visibility: visible !important;
+  }
 }
 
-.bg-black {
-  background: #000000;
+.white-text {
+  color: white !important;
 }
 </style>
 
