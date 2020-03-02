@@ -2,7 +2,7 @@
   <div class="theme-container">
     <section class="hero is-fullheight show-bg show-banner">
       <a href="https://utmhacklab.tech" class="icon is-large">
-        <i class="fas fa-3x fa-angle-left"></i>
+        <i class="fas fa-3x fa-angle-left"/>
       </a>
       <div class="hero-body">
         <div class="container has-text-centered">
