@@ -21,6 +21,8 @@
       </div>
     </section>
 
+  <section id="main-content" class="hero show-banner-repeat">
+
     <section id="prize-title" class="hero">
       <prize-overview/>
     </section>
@@ -50,6 +52,9 @@
         </nav>
       </div>
     </div>
+
+    </section>
+
   </div>
 </template>
 
@@ -136,6 +141,12 @@ export default {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.show-banner-repeat {
+  background: url(/the-show/hero-bg-full.png);
+  background-size: 100% 35%;
+  background-repeat: repeat-y;
 }
 
 .show-hero-img {

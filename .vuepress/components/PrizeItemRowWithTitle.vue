@@ -45,6 +45,9 @@ export default {
   color: white;
 }
 
+.title {
+  color: white !important;
+}
 .prize-box {
   border-radius: 25px !important;
   background-color: rgba(70, 70, 70, 1) !important;
