@@ -1,110 +1,76 @@
 <template>
-  <div class="columns row">
-    <div v-for="item in items" class="column is-one-quarter">
-      <a :href="item.link">
-        <div class="box resource-box">
-          <figure class="image is-48x48 resource-icon">
-            <img :src="`/icons/${item.icon}`" />
-          </figure>
-          <div class="resource-title">{{item.name}}</div>
+  <nav class="navbar box navigation-bar the-show-nav" role="navigation" aria-label="main navigation">
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <div class="navbar-item">
+          <a href="https://www.eventbrite.ca/e/the-show-a-night-of-the-nerds-tickets-93866562415" class="title white-text">
+          <figure class="image is-48x48 tickets-icon">
+            <img src="/icons/tickets.svg" />
+            </figure>
+            TICKETS
+            </a>
         </div>
-      </a>
+      </div>
+      <div class="navbar-end">
+        <div v-for="link in navigationBar" class="navbar-item">
+          <a :href="link.anchor" class="white-text">{{link.name}}</a>
+        </div>
+      </div>
     </div>
-  </div>
+  </nav>
 </template>
 
 <script>
 export default {
-  name: "resources-grid",
-  data() {
+  name: "the-show-nav-bar",
+  data: function() {
     return {
-      items: [
-        {
-          name: "Course Supplements",
-          icon: "course-supplements.svg",
-          link: "/resources/#utm-courses/",
-          desc: "Curated tools resources that supplement UTM course content."
-        },
-        {
-          name: "Design",
-          icon: "design.svg",
-          link: "/resources/design/",
-          desc: "Curated tools resources that supplement UTM course content."
-        },
-        {
-          name: "Android Development",
-          icon: "android.svg",
-          link: "/resources/android/",
-          desc: "Build apps for phones, tablets, cars and the next billion mobile users on Android!"
-        },
-        {
-          name: "Web Development",
-          icon: "web.svg",
-          link: "/resources/web/",
-          desc: "Build sites and complex apps for the world's most open and universal computing platform. "
-        },
-        {
-          name: "Podcasts",
-          icon: "podcast.svg",
-          link: "/resources/podcasts/",
-          desc: "Curated tools resources that supplement UTM course content."
-        },
-        {
-          name: "Vue",
-          icon: "vue.svg",
-          link: "/resources/vue/",
-          desc: "Develop web applications easily with a community powered javascript framework!"
-        }
+      navigationBar: [
+        { name: "About", anchor: "#about" },
+        { name: "Activities", anchor: "#soon" },
+        { name: "Competitions", anchor: "#soon" },
+        { name: "Workshops", anchor: "#soon" },
+        { name: "Projects", anchor: "#projects" },
+        { name: "Prizes", anchor: "#prizes" }
       ]
     };
-  },
-  computed: {
-    rowCount() {
-      const quotient = Math.floor(this.items.length / this.cols);
-      const remainder = this.items.length % this.cols;
-      return quotient + (remainder === 0 ? 0 : 1);
-    }
-  },
-  methods: {
-    itemIndex: function(row, col) {
-      return (row - 1) * this.cols + (col - 1);
-    },
-    getItem: function(row, col) {
-      return this.items[this.itemIndex(row, col)];
-    },
-    itemExists: function(row, col) {
-      return this.getItem(row, col) != null;
-    }
   }
 };
 </script>
 
-
 <style scoped>
+.the-show-nav {
+  padding: 0.2rem 1.25rem !important;
+}
+
+.tickets-icon {
+  margin-right: 8px;
+}
+
 a {
-  text-decoration: none !important;
+  display: flex;
+  font-size: 18px;
 }
-.box.resource-box {
-  background: #11991c;
-  max-width: 172px;
-  height: 72%;
-  transition: opacity 0.2s ease-in-out;
-}
-
-.box.resource-box:hover {
-  opacity: 0.75;
+.navigation-bar {
+  border-radius: 25px !important;
+  background-color: rgba(47, 47, 47, 0.75) !important;
+  border-bottom: none;
 }
 
-.resource-icon {
-  margin-bottom: 24px;
+@media screen and (max-width: 1024px) {
+  .navigation-bar {
+    visibility: hidden !important;
+  }
 }
 
-.resource-title {
-  font-size: 20px;
-  color: #ffffff;
-  font-weight: 500;
-  word-wrap: break-word;
-  line-height: 1.2em;
+@media screen and (min-width: 1024px) {
+  .navigation-bar {
+    visibility: visible !important;
+  }
+}
+
+.white-text {
+  color: white !important;
 }
 </style>
 

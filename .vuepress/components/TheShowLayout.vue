@@ -1,19 +1,36 @@
 <template>
   <div class="theme-container">
-    <section class="hero is-fullheight show-bg show-banner">
-      <a href="https://utmhacklab.tech" class="icon is-large">
-        <i class="fas fa-3x fa-angle-left"/>
-      </a>
+    <section class="hero is-primary is-fullheight show-bg show-banner">
       <div class="hero-body">
         <div class="container has-text-centered">
+          <the-show-nav-bar />
+
           <img class="show-hero-img" src="/the-show/hero.png" />
+
+          <div id="club-banners" class="section is-small">
+            <div class="container">
+              <nav class="level">
+                <div v-for="society in societies" class="level-item has-text-centered society">
+                  <div>
+                    <figure class="image is-96x96">
+                      <img
+                        @click="openSocietySite(society.link)"
+                        :src="`/logos/${society.name}.png`"
+                      />
+                    </figure>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
     <section id="countdown" class="is-small">
       <the-show-countdown />
     </section>    
-    <section id="overview" class="hero is-primary hero-desc-bg is-medium">
+    <section id="about" class="hero is-primary hero-desc-bg is-medium">
       <div class="hero-body">
         <div class="container show-overview">
           <h1 class="title">A Glimpse Of What Is To Come</h1>
@@ -25,13 +42,13 @@
     </section>
 
 
-    <section>
+    <section id="contests">
       <div class="container">
         <div class="contests-text-container">
         <h1 class="title">Contests</h1>
         <p
           class="is-size-5"
-        >We’ll also be announcing the winners of the Instagram and Discord contest! These contests are on going up until the day of The Show so make sure you go check them out! 🎉🥳</p>
+        >We have Instagram and Discord contests going until the day of The Show so make sure you go check them out! 🎉🥳</p>
         </div>
         <div class="columns row">
           <div class="column is-one-half" v-for="contest in contests">
@@ -46,7 +63,7 @@
       </div>
     </section>
 
-    <section class="hero is-medium is-primary projects-section">
+    <section id="projects" class="hero is-medium is-primary projects-section">
         <div class="container">
           <div class="projects-text-container">
           <h1 class="title">Projects</h1>
@@ -58,35 +75,22 @@
         </div>
     </section>
 
-        <!-- <section class="hero is-medium is-primary workshops-section">
-        <div class="container">
-          <div class="workshops-text-container">
-          <h1 class="title">Workshops</h1>
-          <span
-            class="is-size-5"
-          >It wouldn’t be a night of the nerds without some learning and what better way than by having workshops! We’ve even got 2 workshops that are led by Google employees themselves and another led by an RBC Rep 🤯</span>
-          </div>
-        </div>
-    </section> -->
-
-
-
-  <section id="main-content" class="hero show-banner-repeat">
+  <section id="prizes" class="hero show-banner-repeat">
 
     <section id="prize-title" class="hero">
       <prize-overview/>
     </section>
     <section id="premuim-prizes">
-      <prize-item-row-with-title :items="premiumPrizes" title="Premium Pool" titleAlignment="left" numberOfPrizes="3"/>
+      <prize-item-row-with-title :items="premiumPrizes" title="Premium Pool" titleAlignment="left" :numberOfPrizes="3"/>
     </section>
     <section id="gold-prizes">
-      <prize-item-row-with-title :items="goldPrizes" title="Gold Pool" titleAlignment="right" numberOfPrizes="6"/>
+      <prize-item-row-with-title :items="goldPrizes" title="Gold Pool" titleAlignment="right" :numberOfPrizes="6"/>
     </section>
     <section id="silver-prizes">
-      <prize-item-row-with-title :items="silverPrizes" title="Silver Pool" titleAlignment="left" numberOfPrizes="6"/>
+      <prize-item-row-with-title :items="silverPrizes" title="Silver Pool" titleAlignment="left" :numberOfPrizes="6"/>
     </section>
     <section id="bronze-prizes">
-      <prize-item-row-with-title :items="bronzePrizes" title="Bronze Pool" titleAlignment="right" numberOfPrizes="3"/>
+      <prize-item-row-with-title :items="bronzePrizes" title="Bronze Pool" titleAlignment="right" :numberOfPrizes="3"/>
     </section>
   
     <div id="club-banners" class="section is-small">
@@ -102,6 +106,15 @@
         </nav>
       </div>
     </div>
+    </section>
+
+
+         <section id="soon" class="hero is-medium is-primary">
+      <div class="container hero-body">
+        <div class="projects-text-container">
+        <h1 class="title">Coming Soon</h1>
+        </div>
+      </div>
 
     </section>
 
@@ -115,7 +128,7 @@ import TheShowProjects from "./TheShowProjects";
 import PrizeItemRowWithTitle from "./PrizeItemRowWithTitle";
 import PrizeOverview from "./PrizeOverview";
 import Level from "./Level"
-
+import TheShowNavBar from "./TheShowNavBar";
 
 export default {
   components: {
@@ -124,10 +137,19 @@ export default {
     TheShowProjects,
     PrizeItemRowWithTitle,
     PrizeOverview,
-    Level
+    Level,
+    TheShowNavBar
   },
   data() {
     return {
+      navigationBar: [
+        { name: "About", anchor: "#overview" },
+        { name: "Activities", anchor: "#overview" },
+        { name: "Competition", anchor: "#overview" },
+        { name: "Workshop", anchor: "#overview" },
+        { name: "Projects", anchor: "#overview" },
+        { name: "Prizes", anchor: "#overview" }
+      ],
       societies: [
         { name: "wisc", link: "https://www.facebook.com/wiscutm" },
         { name: "dsc", link: "https://utm.developerstudentclubs.ca/" },
@@ -224,6 +246,10 @@ export default {
 
 
 <style scoped>
+
+#soon {
+  padding: 6rem;
+}
 
 .projects-section {
   padding: 2em 0;

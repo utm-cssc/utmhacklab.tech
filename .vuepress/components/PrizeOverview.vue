@@ -2,7 +2,7 @@
   <div class="hero">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title">Prizes</h1>
+        <h1 class="prizes-title">Prizes</h1>
         <div class="box-style">
           <span>Did we mention we’re also giving away a ton of great prizes~ 🎁🥳🙌</span>
           <div id="grandRaffle" class="mt">
@@ -112,9 +112,16 @@ export default {
 </script>
 
 <style scoped>
+
+.prizes-title {
+  font-size: 42px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
 .grand-raffle-bubble {
   margin-top: 8px;
-  
   font-size: 1.5em;
 }
 
