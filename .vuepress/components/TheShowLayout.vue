@@ -36,6 +36,7 @@
       </div>
     </section>
 
+
     <section>
       <div class="container">
         <h1 class="title">Contests</h1>
@@ -115,7 +116,7 @@ export default {
   components: {
     TheShowCountdown,
     ItemRowWithTitle,
-    TheShowProjects
+    TheShowProjects,
   },
   data() {
     return {
@@ -140,37 +141,37 @@ export default {
         {
           name: "Arezue",
           desc:
-            "Arezue is a recruitment app that strives to put the job seekers first by giving them every right to get their dream job and break all barriers of discrimination!"
+            "We're creating a recruitment app that gives job seekers to get their dream job without facing discrimination."
         },
         {
           name: "MapUTM",
           desc:
-            "Map UTM is a specialized web application that focuses on helping students find rooms on campus through path routing and 3D visualization."
+            "We're creating a web app to help students find rooms on campus through path routing and 3D visualization."
         },
         {
-          name: "Send-Foodz",
+          name: "Send Foodz",
           desc:
-            "A multi-platform (web app & mobile) service that helps grocery retailers donate to-be-discarded but edible produce to nearby food banks. The service will connect volunteer drivers to deliver matched goods. In return, volunteer drivers will earn reward points for free grocery produce."
+            "We're creating a service that helps grocery retailers donate to-be-discarded but edible produce to nearby food banks."
         },
         {
           name: "ConnectEd",
           desc:
-            "ConnectEd is a platform that helps MCSS students to connect with other students and discover new projects to collaborate on. Students can create a portfolio of projects, interests, and skills and our platform will match students based on shared personal objectives and project ideas."
+            "We're creating a platform that helps MCSS students connect with other students and discover new projects to collaborate on."
         },
         {
           name: "Your List",
           desc:
-            "An Android and iOS application that primarily allows you to create a shared shopping list that can be easily distributed among your family or roommates. This application will also have the ability to notify users of the surrounding locations for shops related to their list. If the application finds a shop mentioned in one of the lists, it will notify the user that one of the actions listed shops are nearby. YourList can also be used to act a shared notepad and todo-list, and the location-based notification makes it an excellent tool for reminders at school, work and at home."
+            "We're creating a mobile app that allows you to create a shared shopping list for your family or roommates."
         },
         {
           name: "Open Mind",
           desc:
-            "Students around the world are used to taking notes in a monochromatic and linear manner. Taking notes should be a more personal task where associations, colors, opinions, and thoughts appear. We're creating an open standard for organizing learning and research notes using mind maps. We hope to demonstrate the efficacy of this standard by building an app that allows users to create and share their mind maps."
+            "We're creating an open standard for organizing learning and research notes using mind maps. "
         },
         {
           name: "UofT Course Tools",
           desc:
-            "When you enter a well-run tech organization like Google, you’re met with a suite of software tools created by Googlers to make other Googlers' lives easier. UofT students could make use of tools made by other UofT students that would allow them to do things like: Suggest timetables that optimize for their preferred timings Plan for courses based on course evaluation metrics that they care about Write plugins to expand the core functionality with their creative ideas We're unifying UofT's course data, and using it to build a course guide and timetable planner."
+            "We're unifying UofT's course data and building useful apps like a timetable planner and a course selection guide."
         }
       ],
       contests: [
