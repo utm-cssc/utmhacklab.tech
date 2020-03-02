@@ -28,12 +28,7 @@ module.exports = {
                     {
                         text: 'Resources', items: [
                             { text: 'Home', link: '/resources/' },
-                            { text: 'Podcasts', link: '/resources/#hacklab-podcasts' },
-                            { text: 'Course Supplements', link: '/resources/#utm-courses' },
-                            { text: 'Jobs', link: '/resources/#all-about-job-applications' },
-                            { text: 'Design Tips', link: '/resources/#design' },
                             { text: 'Motivated Learning', link: '/resources/#getting-motivated' },
-                            { text: 'Markdown How-to', link: '/resources/#markdown' },
                             { text: 'Code Collaboration', link: '/resources/#collaboration' },
                             { text: 'Tools for focusing', link: '/resources/#focus' },
                         ]

@@ -15,31 +15,6 @@ The Hacklab creates and curates resources that benefit students academically and
 
 <LevelWithButton link="/resources/job-apps" image="https://caccf.ca/wp-content/uploads/2019/04/apply-jobs-eng.jpg" desc="If you want help with your resume, or you're looking to apply for an internship or a full-time job, check out our job application guide." button="Take me there!"/>
 
-<!-- If you want help with your resume, or you're looking to apply for an internship or a full-time job, check out our job application guide [here](/resources/job-apps). -->
-
-<!-- Your resume is the first piece of information employers see about you. -->
-
-<!-- **Learn how to highlight your achievements [here](/resources/resume-help)** -->
-
-<!-- ## Tech Internships -->
-
-<!-- Internships are an excellent way to get co-op education experience, and as a UTM Student, a wide variety of internships are available to you. -->
-
-<!-- ### [Where do I apply?](/resources/internship-apps) -->
-
-<!-- ### How do I prepare for interviews? -->
-
-<!-- Interviews are a multi-stage process and each stage can consist of vastly different formats. -->
-
-<!-- [**Familiarize yourself with the interview formats**](https://yangshun.github.io/tech-interview-handbook/interview-formats) -->
-
-<!-- ## Web Development -->
-
-## Design
-
-You may want to use design to explain, to tell a story, to plan, to problem-solve, or to make something look nice. These are all goals you can achieve through designing.
-
-Often, people think design is about the way things look. That’s just one element of design. Find our more about design [here](/resources/design)
 
 ## Getting Motivated
 

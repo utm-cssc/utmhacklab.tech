@@ -63,7 +63,7 @@
       </div>
     </section>
 
-    <section id="projects" class="hero is-medium is-primary projects-section">
+    <section id="projects" class="hero is-medium is-primary projects-section hero-desc-bg">
         <div class="container">
           <div class="projects-text-container">
           <h1 class="title">Projects</h1>
@@ -109,7 +109,7 @@
     </section>
 
 
-         <section id="soon" class="hero is-medium is-primary">
+         <section id="soon" class="hero is-medium is-primary hero-desc-bg">
       <div class="container hero-body">
         <div class="projects-text-container">
         <h1 class="title">Coming Soon</h1>
@@ -154,7 +154,7 @@ export default {
         { name: "wisc", link: "https://www.facebook.com/wiscutm" },
         { name: "dsc", link: "https://utm.developerstudentclubs.ca/" },
         { name: "mcss", link: "https://utmmcss.com" },
-        { name: "sam", link: "https://utmsam.sa.utoronto.ca/" },
+        { name: "sam-inverted", link: "https://utmsam.sa.utoronto.ca/" },
         { name: "robotics", link: "https://utmrobotics.com" }
       ],
       premiumPrizes: [

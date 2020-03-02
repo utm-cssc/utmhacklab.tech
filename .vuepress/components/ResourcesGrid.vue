@@ -1,14 +1,14 @@
 <template>
-  <div class="columns row">
-    <div v-for="item in items" class="column is-one-quarter">
-      <a :href="item.link">
-        <div class="box resource-box">
-          <figure class="image is-48x48 resource-icon">
-            <img :src="`/icons/${item.icon}`" />
+  <div>
+    <div class="columns row" v-for="i in rowCount">
+      <div class="column is-one-quarter" v-for="j in cols">
+        <a class="box resource-box" v-if="itemExists(i,j)" :href="getItem(i,j).link">
+          <figure class="image is-32x32 resource-icon">
+            <img :src="`/icons/${getItem(i,j).icon}`" />
           </figure>
-          <div class="resource-title">{{item.name}}</div>
-        </div>
-      </a>
+          <div class="resource-title">{{getItem(i,j).name}}</div>
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -18,11 +18,12 @@ export default {
   name: "resources-grid",
   data() {
     return {
+      cols: 4,
       items: [
         {
           name: "Course Supplements",
           icon: "course-supplements.svg",
-          link: "/resources/#utm-courses/",
+          link: "/resources/courses/",
           desc: "Curated tools resources that supplement UTM course content."
         },
         {
@@ -49,12 +50,12 @@ export default {
           link: "/resources/podcasts/",
           desc: "Curated tools resources that supplement UTM course content."
         },
-        {
-          name: "Vue",
-          icon: "vue.svg",
-          link: "/resources/vue/",
-          desc: "Develop web applications easily with a community powered javascript framework!"
-        }
+        // {
+        //   name: "Vue",
+        //   icon: "vue.svg",
+        //   link: "/resources/vue/",
+        //   desc: "Develop web applications easily with a community powered javascript framework!"
+        // }
       ]
     };
   },
@@ -88,7 +89,7 @@ a {
   background: #11991c;
   max-width: 172px;
   height: 72%;
-  transition: opacity 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .box.resource-box:hover {
@@ -96,7 +97,7 @@ a {
 }
 
 .resource-icon {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 .resource-title {
