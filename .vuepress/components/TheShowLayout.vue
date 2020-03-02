@@ -36,6 +36,7 @@
       </div>
     </section>
 
+
     <section>
       <div class="container">
         <h1 class="title">Contests</h1>
@@ -106,8 +107,11 @@ export default {
     TheShowCountdown,
     ItemRowWithTitle,
     TheShowProjects,
+<<<<<<< HEAD
     PrizeItemRowWithTitle,
     PrizeOverview
+=======
+>>>>>>> e886336c1e9718582f3e8e04b4d841ca7ba65c8a
   },
   data() {
     return {
