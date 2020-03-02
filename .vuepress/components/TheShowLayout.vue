@@ -12,7 +12,7 @@
     </section>
     <section id="countdown" class="is-small">
       <the-show-countdown />
-    </section>
+    </section>    
     <section id="overview" class="hero is-primary hero-desc-bg is-medium">
       <div class="hero-body">
         <div class="container show-overview">
@@ -56,40 +56,24 @@
       </div>
     </section>
 
-    <section id="gold-prizes">
-      <item-row-with-title :items="goldPrizes" title="Gold Prizes" />
-    </section>
+  <section id="main-content" class="hero show-banner-repeat">
 
-    <!-- <section class="grand-prizes" id="grand-prizes">
-      <div class="grand-prizes-title columns">
-        <div class="column"></div>
-        <div class="column title has-text-centered">Silver Prizes</div>
-        <div class="column"></div>
-      </div>
-      <div class="grand-prizes-container columns">
-        <div v-for="grandPrize in grandPrizes" class="grand-prize column">
-            <figure class="image is-128x128 grand-prize-image">
-              <img :src="`/the-show/assets/${grandPrize.image}`" />
-            </figure>
-            <div class="is-size-5">{{grandPrize.name}}</div>
-        </div>
-      </div>
+    <section id="prize-title" class="hero">
+      <prize-overview/>
     </section>
-    <section class="grand-prizes" id="grand-prizes">
-      <div class="grand-prizes-title columns">
-        <div class="column"></div>
-        <div class="column title has-text-centered">Bronze Prizes</div>
-        <div class="column"></div>
-      </div>
-      <div class="grand-prizes-container columns">
-        <div v-for="grandPrize in grandPrizes" class="grand-prize column">
-            <figure class="image is-128x128 grand-prize-image">
-              <img :src="`/the-show/assets/${grandPrize.image}`" />
-            </figure>
-            <div class="is-size-5">{{grandPrize.name}}</div>
-        </div>
-      </div>
-    </section>-->
+    <section id="premuim-prizes">
+      <prize-item-row-with-title :items="premiumPrizes" title="Premium Pool" titleAlignment="left" numberOfPrizes="3"/>
+    </section>
+    <section id="gold-prizes">
+      <prize-item-row-with-title :itemss="goldPrizes" title="Gold Pool" titleAlignment="right" numberOfPrizes="6"/>
+    </section>
+    <section id="silver-prizes">
+      <prize-item-row-with-title :items="silverPrizes" title="Silver Pool" titleAlignment="left" numberOfPrizes="6"/>
+    </section>
+    <section id="bronze-prizes">
+      <prize-item-row-with-title :items="bronzePrizes" title="Bronze Pool" titleAlignment="right" numberOfPrizes="3"/>
+    </section>
+  
     <div id="club-banners" class="section is-small">
       <div class="container">
         <nav class="level">
@@ -103,6 +87,9 @@
         </nav>
       </div>
     </div>
+
+    </section>
+
   </div>
 </template>
 
@@ -110,12 +97,17 @@
 import TheShowCountdown from "./TheShowCountdown";
 import ItemRowWithTitle from "./ItemRowWithTitle";
 import TheShowProjects from "./TheShowProjects";
+import PrizeItemRowWithTitle from "./PrizeItemRowWithTitle";
+import PrizeOverview from "./PrizeOverview";
+
 
 export default {
   components: {
     TheShowCountdown,
     ItemRowWithTitle,
     TheShowProjects,
+    PrizeItemRowWithTitle,
+    PrizeOverview
   },
   data() {
     return {
@@ -126,15 +118,10 @@ export default {
         { name: "sam", link: "https://utmsam.sa.utoronto.ca/" },
         { name: "robotics", link: "https://utmrobotics.com" }
       ],
-      goldPrizes: [
+      premiumPrizes: [
         { text: "Nintendo Switch", image: "nintendo.svg" },
         { text: "Raptors Tickets", image: "pass.svg" },
         { text: "Monitor", image: "monitor.svg" }
-      ],
-      SilverPrizes: [
-        { text: "Disney+", image: ".svg" },
-        { text: "Uber Credit", image: ".svg" },
-        { text: "Walmart Card", image: ".svg" }
       ],
       projects: [
         {
@@ -184,6 +171,29 @@ export default {
           text:
             "Follow us on Instagram @<a href='https://www.instagram.com/p/B8sYu7CBIH6/'>utmmcss</a> to learn more about how you could win a <b>Google Home Mini</b>!"
         }
+      goldPrizes: [
+        { text: "Disney+ ", image: "disneyland.svg" },
+        { text: "$50 Uber Credit", image: "uber.svg" },
+        { text: "$50 Walmart Credit", image: "walmart.svg" },
+        { text: "Drawing Tablet", image: "tablet.svg" },
+        { text: "Backpack", image: "backpack.svg" },
+        { text: "Headphone", image: "headphones.svg" }
+      ],
+      silverPrizes: [
+        { text: "$20 Steam Credit", image: "steam.svg" },
+        { text: "$20 Amazon Credit", image: "amazon.svg" },
+        { text: "$20 The Alley Credit", image: "bubble-tea.svg" },
+        { text: "$20 Cineplex Credit", image: "cinema.svg" },
+        { text: "$20 Uber Credit", image: "uber.svg" },
+        { text: "$20 Walmart Credit", image: "walmart.svg" },
+      ],
+      bronzePrizes: [
+        { text: "$10 Steam Credit", image: "steam.svg" },
+        { text: "$10 Amazon Credit", image: "amazon.svg" },
+        { text: "$10 The Alley Credit", image: "bubble-tea.svg" },
+        { text: "$10 Cineplex Credit", image: "cinema.svg" },
+        { text: "$10 Uber Credit", image: "uber.svg" },
+        { text: "$10 Walmart Credit", image: "walmart.svg" },
       ]
     };
   },
@@ -194,7 +204,6 @@ export default {
   }
 };
 </script>
-
 
 
 <style scoped>
@@ -255,6 +264,12 @@ export default {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.show-banner-repeat {
+  background: url(/the-show/hero-bg-full.png);
+  background-size: 100% 35%;
+  background-repeat: repeat-y;
 }
 
 .show-hero-img {

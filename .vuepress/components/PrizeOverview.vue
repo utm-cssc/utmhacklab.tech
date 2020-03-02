@@ -1,16 +1,92 @@
 <template>
-  <div>
-    <div class="margin-0 columns">
-      <div class="column"></div>
-      <div class="column mb-0 mt-24 title has-text-centered">{{title}}</div>
-      <div class="column"></div>
-    </div>
-    <div class="margin-0 columns">
-      <div v-for="item in items" class="column-centered column">
-        <figure class="image is-128x128 mb-12">
-          <img :src="`/the-show/assets/${item.image}`" />
-        </figure>
-        <div class="is-size-5">{{item.text}}</div>
+  <div class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">Prizes</h1>
+        <div class="box-style">
+          <p>Did we mention we’re also giving away a ton of great prizes~ 🎁🥳🙌</p>
+          <div id="grandRaffle" class="mt">
+            <h3 class="title title-margin is-4">Grand Raffle</h3>
+            <p>
+              Throughout the night we'll be handing out tickets for our raffle to draw from the
+              <b>
+                <span class="show-pink">Premium Prize Pool</span>
+              </b>! To increase your chances of winning you can . . .
+            </p>
+            <div class="level mt">
+              <div v-for="item in grandRaffle" class="level-item has-text-centered inner-box-1">
+                <div>
+                  <p v-html="item.ptext" />
+                  <p v-html="item.tickets" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columns mt">
+          <div class="column is-three-fifths">
+            <div id="competitions" class="box-style">
+              <h3 class="title title-margin is-4">Competition Prizes</h3>
+              <p>Winners of each competition will randomly draw from our Prize Pools and receive additional raffle tickets based on placement.</p>
+              <div class="level mt">
+                <div class="level-item has-text-centered">
+                  <div class="box inner-box-2">
+                    <p class="title is-4">1st Place</p>
+                    <p>🎟️🎟️</p>
+                    <p>+</p>
+                    <p>
+                      Random
+                      <b>
+                        <span class="show-pink">Gold Prize</span>
+                      </b>
+                    </p>
+                  </div>
+                </div>
+                <div class="level-item has-text-centered">
+                  <div class="box inner-box-2">
+                    <p class="title is-4">2nd Place</p>
+                    <p>🎟️🎟️🎟️</p>
+                    <p>+</p>
+                    <p>
+                      Random
+                      <b>
+                        <span class="show-blue">Silver Prize</span>
+                      </b>
+                    </p>
+                  </div>
+                </div>
+                <div class="level-item has-text-centered">
+                  <div class="box inner-box-2">
+                    <p>&nbsp;</p>
+                    <p class="title is-4">3rd Place</p>
+                    <p>🎟️🎟️🎟️🎟️</p>
+                    <p>&nbsp;</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div id="throughoutNight" class="box-style">
+              <h3 class="title title-margin is-4">Prizes Throughout the Night</h3>
+              <p>
+                Winners of Juice Pong, Bingo, Cup Stacking and Social Media Scavenger Hunt will randomly draw from our
+                <b>
+                  <span class="show-purple">Bronze Prize Pool.</span>
+                </b>
+              </p>
+              <div class="level mt">
+                <div class="level-item has-text-centered">
+                  <div class="box inner-box-2">
+                    <p class="title is-4">Winner</p>
+                    <p>Random <b><span class="show-purple">Bronze Prize</span></b></p>
+                    <p>&nbsp;</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -18,42 +94,81 @@
 
 <script>
 export default {
-  name: "item-row-with-title",
-  props: {
-    title: {
-      type: String
-    },
-    items: {
-      type: Array
-    }
+  name: "prize-overview",
+  props: {},
+  data() {
+    return {
+      grandRaffle: [
+        { ptext: "<b>Demo at<br />Science Fair</b>", tickets: "🎟️🎟️🎟️🎟️🎟️" },
+        { ptext: "<b>Checkout a<br />Project</b>", tickets: "🎟️" },
+        { ptext: "<b>Attend a<br />Workshop</b>", tickets: "🎟️🎟️" },
+        { ptext: "<b>Attend a<br />Competition</b>", tickets: "🎟️" },
+        { ptext: "<b>Attend an<br />Acitivity</b>", tickets: "🎟️" }
+      ]
+    };
   }
 };
 </script>
 
 <style scoped>
-.margin-0 {
+.box-style {
+  border-radius: 25px !important;
+  background-color: rgba(70, 70, 70, 1) !important;
+  color: white !important;
+  padding: 20px !important;
   margin: 0px !important;
 }
 
-.column-centered {
-  flex-direction: column !important;
-  display: flex !important;
-  align-items: center;
+p {
+  color: white !important;
+  margin: 10px !important;
 }
 
-.mb-12 {
-  margin-bottom: 12px;
+.mt {
+  margin-top: 1rem !important;
 }
 
-.mb-0 {
-  margin-bottom: 0px !important;
+.column-spacing {
+  padding: 0px !important;
+  margin-bottom: -12px !important;
 }
 
-.mt-24 {
-  margin-top: 24px;
+.show-blue {
+  color: #00f9ff;
 }
 
+.show-purple {
+  color: rgba(140, 100, 255, 1);
+}
+
+.show-pink {
+  color: rgba(255, 179, 221, 1);
+}
+
+.title {
+  color: white !important;
+}
+
+.title-margin {
+  margin-top: 24px !important;
+  margin-bottom: 12px !important;
+}
+
+.inner-box-1 {
+  border-radius: 20px !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+  background-color: rgba(100, 100, 100, 1) !important;
+  margin: 18px !important;
+  padding: 0px !important;
+}
+
+.inner-box-2 {
+  border-radius: 20px !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+  background-color: rgba(100, 100, 100, 1) !important;
+}
 </style>
+
 
 
 <style scoped>
