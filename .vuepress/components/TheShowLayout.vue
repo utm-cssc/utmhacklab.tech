@@ -30,50 +30,66 @@
     <section id="countdown" class="is-small">
       <the-show-countdown />
     </section>    
-    <section id="about" class="hero is-primary hero-desc-bg is-medium">
+    <section id="about" class="hero is-primary is-medium show-banner">
       <div class="hero-body">
-        <div class="container show-overview">
-          <h1 class="title">A Glimpse Of What Is To Come</h1>
-          <span
-            class="is-size-5"
-          >Celebrating the culmination of a year-long commitment to changing the culture surrounding the computer science student experience. By inspiring a new standard for what can be achieved when a group of individuals dedicated to seeing a better future comes together to truly “Do My Best”. This final event is dedicated to showcasing a model of harmonious coexistence of different groups of individuals. As the layers of toxic, competitive, elitism are slowly being peeled away, what remains is a culture of unity, support, engagement, and inclusivity for all.</span>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="contests">
-      <div class="container">
-        <div class="contests-text-container">
-        <h1 class="title">Contests</h1>
-        <p
-          class="is-size-5"
-        >We have Instagram and Discord contests going until the day of The Show so make sure you go check them out! 🎉🥳</p>
-        </div>
-        <div class="columns row">
-          <div class="column is-one-half" v-for="contest in contests">
-            <div class="box rounded-box has-text-centered contest">
-              <figure class="image is-128x128 mb-12 is-inline-block">
-                <img :src="`/the-show/assets/${contest.image}.png`" />
-              </figure>
-              <div class="is-size-5" v-html="contest.text"></div>
+        <div class="container">
+          <h1 class="section-title">About</h1>
+          <div class="box-style">
+            <div class="contests-text-container">
+            <p class="is-size-5"
+            >Celebrating the culmination of a year-long commitment to changing the culture surrounding the computer science student experience. By inspiring a new standard for what can be achieved when a group of individuals dedicated to seeing a better future comes together to truly “Do My Best”. This final event is dedicated to showcasing a model of harmonious coexistence of different groups of individuals. As the layers of toxic, competitive, elitism are slowly being peeled away, what remains is a culture of unity, support, engagement, and inclusivity for all.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="projects" class="hero is-medium is-primary projects-section hero-desc-bg">
-        <div class="container">
-          <div class="projects-text-container">
-          <h1 class="title">Projects</h1>
-          <span
-            class="is-size-5"
-          >Why call it The Show? Cause we’ve got amazing students projects we want to showcase! Your fellow students have been working hard all year long to develop innovative and cool ideas! Walk around our science fair and chat with the developers about their experience working on the project.</span>
+    <section class="hero show-banner-repeat">
+      <section id="contests" class="hero projects-section show-banner">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="section-title">Contests</h1>
+            <div class="box-style">
+              <div class="contests-text-container">
+              <p
+                class="is-size-5"
+              >We have Instagram and Discord contests going until the day of The Show so make sure you go check them out! 🎉🥳</p>
+              </div>
+              <div class="columns row">
+                <div class="column is-one-half" v-for="contest in contests">
+                  <div class="box has-text-centered contest">
+                    <figure class="image is-128x128 mb-12 is-inline-block">
+                      <img :src="`/the-show/assets/${contest.image}.png`" />
+                    </figure>
+                    <div class="is-size-5" v-html="contest.text"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <the-show-projects :items="projects"></the-show-projects>
         </div>
+      </section>
     </section>
+
+    <section class="hero show-banner-repeat">
+      <section id="projects" class="hero projects-section show-banner">
+          <div class="hero-body">
+            <div class="container">
+              <h1 class="section-title">Projects</h1>
+              <div class="box-style">
+                <div class="projects-text-container">
+                <span
+                  class="is-size-5"
+                >Why call it The Show? Cause we’ve got amazing students projects we want to showcase! Your fellow students have been working hard all year long to develop innovative and cool ideas! Walk around our science fair and chat with the developers about their experience working on the project.</span>
+                </div>
+                <div class="project-grid">
+                  <the-show-projects :items="projects"></the-show-projects>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+  </section>
 
   <section id="prizes" class="hero show-banner-repeat">
 
@@ -256,6 +272,21 @@ export default {
   background-color: #3eaf7c;
 }
 
+.section-title{
+  font-size: 42px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.box-style {
+  border-radius: 25px !important;
+  background-color: rgba(70, 70, 70, 1) !important;
+  color: white !important;
+  padding: 20px !important;
+  margin: 0px !important;
+}
+
 .projects-text-container {
   margin: 2em;
 }
@@ -276,10 +307,18 @@ export default {
 
 .contest {
   height: 90% !important;
+  background-color: rgba(100, 100, 100, 1) !important;
+  color: white !important;
+  border-radius: 25px !important;
+  border-radius: 25px !important;
 }
 
 .row {
   margin: 2em !important;
+}
+
+.project-grid {
+  margin-bottom: 2em !important;
 }
 
 .show-overview {
