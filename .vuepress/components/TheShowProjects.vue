@@ -1,417 +1,75 @@
-<template>
-  <div class="theme-container">
-    <section class="hero is-primary is-fullheight show-bg show-banner">
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <the-show-nav-bar />
 
-          <img class="show-hero-img" src="/the-show/hero.png" />
-
-          <div id="club-banners" class="section is-small">
-            <div class="container">
-              <nav class="level">
-                <div v-for="society in societies" class="level-item has-text-centered society">
-                  <div>
-                    <figure class="image is-96x96">
-                      <img
-                        @click="openSocietySite(society.link)"
-                        :src="`/logos/${society.name}.png`"
-                      />
-                    </figure>
-                  </div>
-                </div>
-              </nav>
-            </div>
+<template>  
+  <div>
+    <div class="columns row" v-for="i in rowCount">
+        <div class="column is-one-quater" v-for="j in cols">
+          <div v-if="itemExists(i,j)" class="card rounded-card project-box">
+              <div class="title has-text-centered">{{ getItem(i,j).name }}</div>
+              <div card-content>{{ getItem(i,j).desc }}</div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section id="countdown" class="is-small">
-      <the-show-countdown />
-    </section>    
-    <section id="about" class="hero is-primary is-medium show-banner">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="section-title">About</h1>
-          <div class="box-style">
-            <div class="contests-text-container">
-            <p class="is-size-5"
-            >Celebrating the culmination of a year-long commitment to changing the culture surrounding the computer science student experience. By inspiring a new standard for what can be achieved when a group of individuals dedicated to seeing a better future comes together to truly “Do My Best”. This final event is dedicated to showcasing a model of harmonious coexistence of different groups of individuals. As the layers of toxic, competitive, elitism are slowly being peeled away, what remains is a culture of unity, support, engagement, and inclusivity for all.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="hero show-banner-repeat">
-    <section id="contests" class="hero projects-section show-banner">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="section-title">Contests</h1>
-          <div class="box-style">
-            <div class="contests-text-container">
-            <p
-              class="is-size-5"
-            >We have Instagram and Discord contests going until the day of The Show so make sure you go check them out! 🎉🥳</p>
-            </div>
-            <div class="columns row">
-              <div class="column is-one-half" v-for="contest in contests">
-                <div class="box has-text-centered contest">
-                  <figure class="image is-128x128 mb-12 is-inline-block">
-                    <img :src="`/the-show/assets/${contest.image}.png`" />
-                  </figure>
-                  <div class="is-size-5" v-html="contest.text"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    </section>
-
-    <section class="hero show-banner-repeat">
-    <section id="projects" class="hero projects-section show-banner">
-        <div class="hero-body">
-          <div class="container">
-            <h1 class="section-title">Projects</h1>
-            <div class="box-style">
-              <div class="projects-text-container">
-              <span
-                class="is-size-5"
-              >Why call it The Show? Cause we’ve got amazing students projects we want to showcase! Your fellow students have been working hard all year long to develop innovative and cool ideas! Walk around our science fair and chat with the developers about their experience working on the project.</span>
-              </div>
-              <div class="project-grid">
-                <the-show-projects :items="projects"></the-show-projects>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-  </section>
-
-  <section id="prizes" class="hero show-banner-repeat">
-
-    <section id="prize-title" class="hero">
-      <prize-overview/>
-    </section>
-    <section id="premuim-prizes">
-      <prize-item-row-with-title :items="premiumPrizes" title="Premium Pool" titleAlignment="left" :numberOfPrizes="3"/>
-    </section>
-    <section id="gold-prizes">
-      <prize-item-row-with-title :items="goldPrizes" title="Gold Pool" titleAlignment="right" :numberOfPrizes="6"/>
-    </section>
-    <section id="silver-prizes">
-      <prize-item-row-with-title :items="silverPrizes" title="Silver Pool" titleAlignment="left" :numberOfPrizes="6"/>
-    </section>
-    <section id="bronze-prizes">
-      <prize-item-row-with-title :items="bronzePrizes" title="Bronze Pool" titleAlignment="right" :numberOfPrizes="3"/>
-    </section>
-  
-    <div id="club-banners" class="section is-small">
-      <div class="container">
-        <nav class="level">
-          <div v-for="society in societies" class="level-item has-text-centered society">
-            <div>
-              <figure class="image is-128x128">
-                <img @click="openSocietySite(society.link)" :src="`/logos/${society.name}.png`" />
-              </figure>
-            </div>
-          </div>
-        </nav>
-      </div>
     </div>
-    </section>
-
   </div>
 </template>
 
 <script>
-import TheShowCountdown from "./TheShowCountdown";
-import ItemRowWithTitle from "./ItemRowWithTitle";
-import TheShowProjects from "./TheShowProjects";
-import PrizeItemRowWithTitle from "./PrizeItemRowWithTitle";
-import PrizeOverview from "./PrizeOverview";
-import Level from "./Level"
-import TheShowNavBar from "./TheShowNavBar";
-
 export default {
-  components: {
-    TheShowCountdown,
-    ItemRowWithTitle,
-    TheShowProjects,
-    PrizeItemRowWithTitle,
-    PrizeOverview,
-    Level,
-    TheShowNavBar
+  name: "the-show-projects",
+  props: {
+    cols: {
+      type: Number, 
+      default: 3
+    },
+    items: {
+      type: Array
+    }
   },
-  data() {
-    return {
-      navigationBar: [
-        { name: "About", anchor: "#overview" },
-        { name: "Activities", anchor: "#overview" },
-        { name: "Competition", anchor: "#overview" },
-        { name: "Workshop", anchor: "#overview" },
-        { name: "Projects", anchor: "#overview" },
-        { name: "Prizes", anchor: "#overview" }
-      ],
-      societies: [
-        { name: "wisc", link: "https://www.facebook.com/wiscutm" },
-        { name: "dsc", link: "https://utm.developerstudentclubs.ca/" },
-        { name: "mcss", link: "https://utmmcss.com" },
-        { name: "sam-inverted", link: "https://utmsam.sa.utoronto.ca/" },
-        { name: "robotics", link: "https://utmrobotics.com" }
-      ],
-      premiumPrizes: [
-        { text: "Nintendo Switch", image: "nintendo.svg" },
-        { text: "Raptors Tickets", image: "pass.svg" },
-        { text: "Monitor", image: "monitor.svg" }
-      ],
-      projects: [
-        {
-          name: "Arezue",
-          desc:
-            "We're creating a recruitment app that gives job seekers to get their dream job without facing discrimination."
-        },
-        {
-          name: "MapUTM",
-          desc:
-            "We're creating a web app to help students find rooms on campus through path routing and 3D visualization."
-        },
-        {
-          name: "Send Foodz",
-          desc:
-            "We're creating a service that helps grocery retailers donate to-be-discarded but edible produce to nearby food banks."
-        },
-        {
-          name: "ConnectEd",
-          desc:
-            "We're creating a platform that helps MCSS students connect with other students and discover new projects to collaborate on."
-        },
-        {
-          name: "Your List",
-          desc:
-            "We're creating a mobile app that allows you to create a shared shopping list for your family or roommates."
-        },
-        {
-          name: "Open Mind",
-          desc:
-            "We're creating an open standard for organizing learning and research notes using mind maps. "
-        },
-        {
-          name: "UofT Course Tools",
-          desc:
-            "We're unifying UofT's course data and building useful apps like a timetable planner and a course selection guide."
-        }
-      ],
-      contests: [
-        {
-          image: "discord_color",
-          text:
-            "Our Best Meme contest is happening on our <a href='http://discord.gg/fwdHJQa'>Discord Server</a> where the best meme maker wins a <b>Cherry MX Blue Mechanical Keyboard</b> (with 6 color backlit)!"
-        },
-        {
-          image: "instagram-color",
-          text:
-            "Follow us on Instagram @<a href='https://www.instagram.com/p/B8sYu7CBIH6/'>utmmcss</a> to learn more about how you could win a <b>Google Home Mini</b>!"
-        }],
-      goldPrizes: [
-        { text: "Disney+ ", image: "disneyland.svg" },
-        { text: "$50 Uber Credit", image: "uber.svg" },
-        { text: "$50 Walmart Credit", image: "walmart.svg" },
-        { text: "Drawing Tablet", image: "tablet.svg" },
-        { text: "Backpack", image: "backpack.svg" },
-        { text: "Headphone", image: "headphones.svg" }
-      ],
-      silverPrizes: [
-        { text: "$20 Steam Credit", image: "steam.svg" },
-        { text: "$20 Amazon Credit", image: "amazon.svg" },
-        { text: "$20 The Alley Credit", image: "bubble-tea.svg" },
-        { text: "$20 Cineplex Credit", image: "cinema.svg" },
-        { text: "$20 Uber Credit", image: "uber.svg" },
-        { text: "$20 Walmart Credit", image: "walmart.svg" },
-      ],
-      bronzePrizes: [
-        { text: "$10 Steam Credit", image: "steam.svg" },
-        { text: "$10 Amazon Credit", image: "amazon.svg" },
-        { text: "$10 The Alley Credit", image: "bubble-tea.svg" },
-        { text: "$10 Cineplex Credit", image: "cinema.svg" },
-        { text: "$10 Uber Credit", image: "uber.svg" },
-        { text: "$10 Walmart Credit", image: "walmart.svg" },
-      ]
-    };
-  },
-  methods: {
-    openSocietySite(link) {
-      window.open(link);
+  computed: {
+    rowCount() {
+      const quotient = Math.floor(this.items.length / this.cols);
+      const remainder = this.items.length % this.cols;
+      return quotient + (remainder === 0 ? 0 : 1);
+    }
+  }, 
+  methods:{
+    itemIndex: function(row, col){
+      return (row - 1) * this.cols + (col -1)
+    }, 
+    getItem: function(row, col){
+      return this.items[this.itemIndex(row,col)]
+    },
+    itemExists: function(row, col){
+      return this.getItem(row,col) != null
     }
   }
 };
 </script>
 
-
 <style scoped>
-
-#soon {
-  padding: 6rem;
-}
-
-.projects-section {
-  padding: 2em 0;
-}
-
-.section-title{
-  font-size: 42px;
-  color: white;
-  font-weight: 600;
-  margin-bottom: 12px;
-}
-
-.box-style {
+.project-box {
+  padding: 12px;
+  height: 90%;
   border-radius: 25px !important;
-  background-color: rgba(70, 70, 70, 1) !important;
-  color: white !important;
-  padding: 20px !important;
-  margin: 0px !important;
-}
-
-.projects-text-container {
-  margin: 2em;
-}
-
-.workshops-section {
-  padding: 2em 0;
-  background-color: #3eaf7c;
-}
-
-.workshops-text-container {
-  margin: 2em;
-}
-
-.contests-text-container {
-  margin: 2em;
-}
-
-
-.contest {
-  height: 90% !important;
   background-color: rgba(100, 100, 100, 1) !important;
   color: white !important;
-  border-radius: 25px !important;
-  border-radius: 25px !important;
+  margin: 10px !important;
+  /* padding: 20px !important;
+  margin: 0px !important; */
+}
+
+p {
+  color: white !important;
+  margin: 10px !important;
 }
 
 .row {
-  margin: 2em !important;
+    margin: 1em !important;
 }
 
-.project-grid {
-  margin-bottom: 2em !important;
-}
-
-
-.show-overview {
-  margin: 0 16em;
-  text-align: justify;
-}
-.icon {
-  position: relative;
-  left: 40px;
-  top: 25px;
-  width: 48px;
-  height: 48px;
-  cursor: pointer;
-  z-index: 9999;
-  color: white;
-}
-.grand-prizes-title {
-  margin: 0px !important;
-}
-
-.grand-prizes-container {
-  margin: 0px !important;
-}
-
-.grand-prize {
-  flex-direction: column !important;
-  display: flex !important;
-  align-items: center;
-}
-
-.grand-prize-image {
-  margin-bottom: 12px;
-}
-
-.hero-desc-bg {
-  background: #8c64e1 !important;
-}
-
-.show-details {
-  color: white;
-  font-weight: bold;
-  font-size: 42px;
-  text-shadow: white 0px 0px 10px;
-}
-
-.show-banner {
-  background: url(/the-show/hero-bg.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.show-banner-repeat {
-  background: url(/the-show/hero-bg-full.png);
-  background-size: 100% 35%;
-  background-repeat: repeat-y;
-}
-
-.show-hero-img {
-  animation: bobble 2.5s ease-out infinite;
-  width: 80%;
-  height: 80%;
-}
-
-@keyframes bobble {
-  0% {
-    transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: ease-out;
-  }
-  25% {
-    transform: translate3d(8px, 16px, 0px);
-    animation-timing-function: ease-out;
-  }
-  50% {
-    transform: translate3d(0px, 16px, 0px);
-    animation-timing-function: ease-out;
-  }
-  75% {
-    transform: translate3d(8px, 0px, 0px);
-    animation-timing-function: ease-out;
-  }
-  100% {
-    transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: ease-out;
-  }
-}
-
-/* .show-bg {
-  background: url(/the-show/hero-bg.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
-
-.society:hover {
-  cursor: pointer;
-}
-
-.bg-black {
-  background: #000000;
-}
+.title{
+  font-size: 36px !important;
+  color: white !important;
+} 
 </style>
 
 <style scoped>
