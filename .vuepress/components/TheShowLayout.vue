@@ -59,7 +59,7 @@
                 <p class="is-size-5"> Bring that competitive spirit cause we’ve got great challenges! Every time you win a competition you’ll earn raffle tickets that you can then enter in our raffle giveaways. Check out our <b>PRIZES</b> section below to see what you could win!</p>
               </div>
               <div class="project-grid">
-                <the-show-projects :items="competitions"></the-show-projects>
+                <the-show-grid :items="competitions"></the-show-grid>
               </div>
             </div>
           </div>
@@ -77,7 +77,7 @@
                 <p class="is-size-5">It wouldn’t be a night of the nerds without some learning and what better way than by having workshops! We’ve even got 2 workshops that are led by Google employees themselves!</p>
               </div>
               <div class="project-grid">
-                <the-show-projects :items="workshops"></the-show-projects>
+                <the-show-grid :items="workshops"></the-show-grid>
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@
                 <p class="is-size-5"> We’ve got lots of fun games and activities going on throughout the night, so come and unwind!</p>
               </div>
               <div class="project-grid">
-                <the-show-projects :items="activities"></the-show-projects>
+                <the-show-grid :items="activities"></the-show-grid>
               </div>
             </div>
           </div>
@@ -142,7 +142,7 @@
                 >Why call it The Show? Cause we’ve got amazing students projects we want to showcase! Your fellow students have been working hard all year long to develop innovative and cool ideas! Walk around our science fair and chat with the developers about their experience working on the project.</span>
                 </div>
                 <div class="project-grid">
-                  <the-show-projects :items="projects"></the-show-projects>
+                  <the-show-grid :items="projects"></the-show-grid>
                 </div>
               </div>
             </div>
@@ -188,7 +188,7 @@
 <script>
 import TheShowCountdown from "./TheShowCountdown";
 import ItemRowWithTitle from "./ItemRowWithTitle";
-import TheShowProjects from "./TheShowProjects";
+import TheShowGrid from "./TheShowGrid";
 import PrizeItemRowWithTitle from "./PrizeItemRowWithTitle";
 import PrizeOverview from "./PrizeOverview";
 import Level from "./Level"
@@ -198,7 +198,7 @@ export default {
   components: {
     TheShowCountdown,
     ItemRowWithTitle,
-    TheShowProjects,
+    TheShowGrid,
     PrizeItemRowWithTitle,
     PrizeOverview,
     Level,
@@ -320,9 +320,9 @@ export default {
         {name: "Poker Tournament", desc: "Can you keep a poker while you face off against other students in our poker tournament"},
       ],
       workshops: [
-        {name: "The SPRINT Workshop with a GOOGLE REP", desc: "Learn more about SPRINT, an industry-standard process, from a Google Developer first hand!"},
-        {name: "Flutter Workshop with a GOOGLE ENGINEER", desc: "Come learn more about Google's open-source UI software development kit, Flutter, from a Google Engineer themselves!"},
-        {name: "Personal Branding Workshop with RBC REP", desc: "It’s important to establish a brand for yourself that promotes what you stand for when headed off to the industry and who better to help you learn about establishing your own sense of brand than with a RBC Rep"},
+        {name: "The SPRINT Workshop by Google", desc: "Learn more about SPRINT, an industry-standard process, from a Google Developer first hand!"},
+        {name: "Flutter Workshop by Google", desc: "Come learn more about Flutter, an open-source UI software development kit from a Google Engineer!"},
+        {name: "Personal Branding Workshop by RBC", desc: "Learn how to establish a brand for yourself to help you enter the industry!"},
         {name: "3D Printing Workshop", desc: "Learn the basics of how 3D printing to works to help you get started on your own 3D printing projects"},
         {name: "Building Your Own Buzzer", desc: "Build a buzzer with the Robotics Team and then use that buzzer at our trivia game!"},
         {name: "Machine Learning Workshop", desc: "Learn the basics of Machine Learning with us"},
