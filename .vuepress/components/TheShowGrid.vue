@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="columns row" v-for="i in rowCount">
-        <div class="column is-one-third" v-for="j in cols">
+        <div class="column is-one-quater" v-for="j in cols">
           <div v-if="itemExists(i,j)" class="card rounded-card project-box">
               <div class="title has-text-centered">{{ getItem(i,j).name }}</div>
-              <div card-content>{{ getItem(i,j).desc }}</div>
+              <div >{{ getItem(i,j).desc }}</div>
           </div>
         </div>
     </div>
@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: "the-show-projects",
+  name: "the-show-grid",
   props: {
     cols: {
       type: Number, 
@@ -46,9 +46,11 @@ export default {
 
 <style scoped>
 .project-box {
-  border-radius: 8px;
   padding: 12px 20px;
   height: 100%;
+  border-radius: 25px !important;
+  background-color: rgba(100, 100, 100, 1) !important;
+  color: white !important;
 }
 
 .row {
@@ -56,8 +58,9 @@ export default {
 }
 
 .title{
-  font-size: 36px !important;
-  color: #3eaf7c !important;
+  font-size: 24px !important;
+  color: white !important;
+  height: 48px;
 } 
 </style>
 
