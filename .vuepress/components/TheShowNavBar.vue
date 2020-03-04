@@ -27,9 +27,10 @@ export default {
     return {
       navigationBar: [
         { name: "About", anchor: "#about" },
-        { name: "Activities", anchor: "#soon" },
-        { name: "Competitions", anchor: "#soon" },
-        { name: "Workshops", anchor: "#soon" },
+        { name: "Competitions", anchor: "#competitions" },
+        { name: "Workshops", anchor: "#workshops" },
+        { name: "Activities", anchor: "#activities" },
+        { name: "Contests", anchor: "#contests" },
         { name: "Projects", anchor: "#projects" },
         { name: "Prizes", anchor: "#prizes" }
       ]
