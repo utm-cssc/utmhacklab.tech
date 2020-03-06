@@ -7,7 +7,7 @@
           <figure class="image is-48x48 tickets-icon">
             <img src="/icons/tickets.svg" />
             </figure>
-            TICKETS
+            GET TICKETS
             </a>
         </div>
       </div>
