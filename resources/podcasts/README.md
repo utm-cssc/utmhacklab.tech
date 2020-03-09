@@ -21,3 +21,7 @@ The following clips are taken from Hacklab coordinator [Arsala's appearance](htt
 ## The YCombinator Podcast
 
 <LevelWithButton image="https://cdn-images-1.listennotes.com/podcasts/startup-school-by-y-combinator-startup-3ZNs7Cfkp_A-1hQ3NxfDCKY.1400x1400.jpg" link="https://blog.ycombinator.com/category/podcast/" desc="A show about technology in business, research, and art. YCombinator  talks with people who are shaping the future." button="Listen" />
+
+::: tip Podcasts like this
+Check out more podcasts like YCombinator [here](https://www.producthunt.com/alternatives/y-combinator-podcast)
+:::

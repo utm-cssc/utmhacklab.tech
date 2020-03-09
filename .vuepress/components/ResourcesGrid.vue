@@ -64,6 +64,13 @@ export default {
           link: "/resources/vue/",
           desc:
             "Develop web applications easily with a community powered javascript framework!"
+        },
+        {
+          title: "Mindset",
+          icon: "mindset.svg",
+          link: "/resources/mindset/",
+          desc:
+            "Cultivating a growth mindset can help us overcome limiting beliefs about our capabilities!"
         }
       ]
     };
