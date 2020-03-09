@@ -24,7 +24,7 @@ export default {
   },
   data() {
     return {
-      cols: 3,
+      cols: 4,
       items: [
         {
           title: "Course Supplements",

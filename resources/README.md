@@ -1,16 +1,17 @@
 ---
 sidebar: false
+home: true
+heroText: Resources
+heroImage: /logos/hacklab.png
+tagline: The Hacklab creates and curates resources that benefit students academically and professionally.
 ---
 
-# Resources
-
-The Hacklab creates and curates resources that benefit students academically and professionally.
 
 <ResourcesGrid />
 
 <!-- ## Free Packs for Students -->
 
-
+<!-- 
 ## All About Job Applications
 
 <LevelWithButton link="/resources/job-apps" image="https://caccf.ca/wp-content/uploads/2019/04/apply-jobs-eng.jpg" desc="If you want help with your resume, or you're looking to apply for an internship or a full-time job, check out our job application guide." button="Take me there!"/>
@@ -65,4 +66,4 @@ MindMeister is an online mind mapping tool that lets you capture, develop and sh
 
 ![News Feed Eradicator For Facebook](./fb-newsfeed-eradicator.jpg)
 
-Find yourself spending too much time on Facebook? Eradicate distractions by replacing your entire news feed with an inspiring quote!
+Find yourself spending too much time on Facebook? Eradicate distractions by replacing your entire news feed with an inspiring quote! -->

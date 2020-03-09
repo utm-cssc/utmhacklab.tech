@@ -30,7 +30,7 @@ Hacklab coordinators and members R&D processes and technologies that help studen
 
 With the interest of students in mind, we curate resources from around the internet and produce original content. 
 
-Check out our [resources](/resources)
+<ResourcesGrid />
 
 ## The support wing for MCS societies
 

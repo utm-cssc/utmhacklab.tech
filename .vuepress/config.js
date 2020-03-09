@@ -26,12 +26,7 @@ module.exports = {
                 ariaLabel: 'Languages',
                 nav: [
                     {
-                        text: 'Resources', items: [
-                            { text: 'Home', link: '/resources/' },
-                            { text: 'Motivated Learning', link: '/resources/#getting-motivated' },
-                            { text: 'Code Collaboration', link: '/resources/#collaboration' },
-                            { text: 'Tools for focusing', link: '/resources/#focus' },
-                        ]
+                        text: 'Resources', link: '/resources/'
                     },
                     { text: 'The Show', link: '/the-show/' },
                     {
@@ -41,8 +36,6 @@ module.exports = {
                         ]
                     },
                     { text: 'Credits', link: '/credits/' },
-
-                    // { text: 'International Students', link: '/international/' },
                 ],
             },
             '/zh/': {
