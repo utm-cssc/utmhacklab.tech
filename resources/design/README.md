@@ -8,13 +8,28 @@ You may want to use design to explain, to tell a story, to plan, to problem-solv
 
 Often, people think design is about the way things look. That’s just one element of design.
 
-## [Figma](https://www.figma.com/)
+## UI Design
 
-![Figma](./figma.png)
+UI design stands for “user interface.” The user interface is the graphical layout of an application. It consists of the buttons users click on, the text they read, the images, sliders, text entry fields, and all the rest of the items the user interacts with. This includes screen layout, transitions, interface animations, and every single micro-interaction. Any sort of visual element, interaction, or animation must all be designed.
 
-Figma helps teams create, test, and ship better designs from start to finish.
+## Why is UI Design important?
 
-[__Figma for Students__](https://www.figma.com/education/)
+Interactive wireframes and mockups imitate the look and behaviour of the UI. Such prototypes facilitate iterative updates based on stakeholder and user feedback, ensuring the product functions well and meets design goals.
+
+
+
+### Tools
+
+#### Figma
+
+<LevelWithButton desc="Figma helps teams create, test, and ship better designs from start to finish." link="https://www.figma.com/"  image="/images/figma.png" button="Start Designing"/>
+
+::: tip Figma for students
+Figma provides free collaborative teams for student groups!
+
+Get the discount [here](https://www.figma.com/education/)
+:::
+
 
 ## [Framer](https://www.framer.com/)
 
