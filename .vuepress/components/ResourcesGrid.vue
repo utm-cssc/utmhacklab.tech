@@ -30,13 +30,13 @@ export default {
           title: "Course Supplements",
           icon: "course-supplements.svg",
           link: "/resources/courses/",
-          desc: "Curated tools resources that supplement UTM course content."
+          desc: "Curated tools resources that supplement UTM course content!"
         },
         {
           title: "Design",
           icon: "design.svg",
           link: "/resources/design/",
-          desc: "Often, people think design is about the way things look. That’s just one element of design."
+          desc: "Often, people think design is about the way things look. That’s just one element of design!"
         },
         {
           title: "Android Development",
@@ -50,13 +50,13 @@ export default {
           icon: "web.svg",
           link: "/resources/web/",
           desc:
-            "Build sites and apps for the world's open and universal computing platform. "
+            "Build sites and apps for the world's open and universal computing platform!"
         },
         {
           title: "Podcasts",
           icon: "podcast.svg",
           link: "/resources/podcasts/",
-          desc: "Curated tools resources that supplement UTM course content."
+          desc: "Learn on the go with entertaining, informative, and awe-inspiring podcasts!"
         },
         {
           title: "Vue",
