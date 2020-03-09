@@ -1,61 +1,70 @@
 <template>
   <div>
     <div class="columns row" v-for="i in rowCount">
-      <div class="column is-one-quarter" v-for="j in cols">
-        <a class="box resource-box" v-if="itemExists(i,j)" :href="getItem(i,j).link">
-          <figure class="image is-32x32 resource-icon">
-            <img :src="`/icons/${getItem(i,j).icon}`" />
-          </figure>
-          <div class="resource-title">{{getItem(i,j).name}}</div>
-        </a>
+      <div class="column resources-grid-column" v-for="j in cols">
+        <resources-grid-item
+          v-if="itemExists(i,j)"
+          :title="getItem(i,j).title"
+          :link="getItem(i,j).link"
+          :iconFileName="getItem(i,j).icon"
+          :desc="getItem(i,j).desc"
+        ></resources-grid-item>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import ResourcesGridItem from "./ResourcesGridItem";
+
 export default {
   name: "resources-grid",
+  components: {
+    ResourcesGridItem
+  },
   data() {
     return {
-      cols: 4,
+      cols: 3,
       items: [
         {
-          name: "Course Supplements",
+          title: "Course Supplements",
           icon: "course-supplements.svg",
           link: "/resources/courses/",
           desc: "Curated tools resources that supplement UTM course content."
         },
         {
-          name: "Design",
+          title: "Design",
           icon: "design.svg",
           link: "/resources/design/",
-          desc: "Curated tools resources that supplement UTM course content."
+          desc: "Often, people think design is about the way things look. That’s just one element of design."
         },
         {
-          name: "Android Development",
+          title: "Android Development",
           icon: "android.svg",
           link: "/resources/android/",
-          desc: "Build apps for phones, tablets, cars and the next billion mobile users on Android!"
+          desc:
+            "Build apps for phones, tablets, cars and the next billion mobile users on Android!"
         },
         {
-          name: "Web Development",
+          title: "Web Development",
           icon: "web.svg",
           link: "/resources/web/",
-          desc: "Build sites and complex apps for the world's most open and universal computing platform. "
+          desc:
+            "Build sites and apps for the world's open and universal computing platform. "
         },
         {
-          name: "Podcasts",
+          title: "Podcasts",
           icon: "podcast.svg",
           link: "/resources/podcasts/",
           desc: "Curated tools resources that supplement UTM course content."
         },
-        // {
-        //   name: "Vue",
-        //   icon: "vue.svg",
-        //   link: "/resources/vue/",
-        //   desc: "Develop web applications easily with a community powered javascript framework!"
-        // }
+        {
+          title: "Vue",
+          icon: "vue.svg",
+          link: "/resources/vue/",
+          desc:
+            "Develop web applications easily with a community powered javascript framework!"
+        }
       ]
     };
   },
@@ -82,30 +91,9 @@ export default {
 
 
 <style scoped>
-a {
-  text-decoration: none !important;
-}
-.box.resource-box {
-  background: #11991c;
-  max-width: 172px;
-  height: 72%;
-  transition: all 0.2s ease-in-out;
-}
-
-.box.resource-box:hover {
-  opacity: 0.75;
-}
-
-.resource-icon {
-  margin-bottom: 32px;
-}
-
-.resource-title {
-  font-size: 20px;
-  color: #ffffff;
-  font-weight: 500;
-  word-wrap: break-word;
-  line-height: 1.2em;
+.resources-grid-column {
+  width: 31%;
+  margin-bottom: 36px;
 }
 </style>
 
