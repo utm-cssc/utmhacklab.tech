@@ -15,7 +15,22 @@ module.exports = {
         lastUpdated: 'Last Updated',
         searchPlaceholder: 'Explore...',
         smoothScroll: true,
-        sidebar: 'auto',
+        sidebar: {
+            '/resources/design/': [{
+                title: 'Design',
+                children: [
+                    '',
+                    'ui-design/',
+                    'ux-design/',
+                    'learn/',
+                    'inspiration/',
+                    'color/',
+                    'free-assets/',
+                    'prototyping-tools/',
+                    
+                ]
+            }]
+        },
         locales: {
             '/': {
                 // text for the language dropdown
