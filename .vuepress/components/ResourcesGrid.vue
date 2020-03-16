@@ -40,6 +40,13 @@ export default {
             "The best content from the internet can help you filter the signal from the noise."
         },
         {
+          title: "Resume",
+          icon: "resume.svg",
+          link: "/resources/resume/",
+          desc:
+            "Learn how to stand out with the first piece of information employers see about you."
+        },
+        {
           title: "Design",
           icon: "design.svg",
           link: "/resources/design/",
