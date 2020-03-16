@@ -33,10 +33,17 @@ export default {
           desc: "Curated tools resources that supplement UTM course content!"
         },
         {
+          title: "Curated Collections",
+          icon: "collections.svg",
+          link: "/resources/collections/",
+          desc: "The best content from the internet can help you filter the signal from the noise."
+        },
+        {
           title: "Design",
           icon: "design.svg",
           link: "/resources/design/",
-          desc: "Often, people think design is about the way things look. That’s just one element of design!"
+          desc:
+            "Often, people think design is about the way things look. That’s just one element of design!"
         },
         {
           title: "Android Development",
@@ -56,7 +63,8 @@ export default {
           title: "Podcasts",
           icon: "podcast.svg",
           link: "/resources/podcasts/",
-          desc: "Learn on the go with entertaining, informative, and awe-inspiring podcasts!"
+          desc:
+            "Learn on the go with entertaining, informative, and awe-inspiring podcasts!"
         },
         {
           title: "Vue",
