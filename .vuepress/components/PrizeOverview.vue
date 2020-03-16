@@ -109,7 +109,7 @@ export default {
         { ptext: "<b>Checkout a<br />Project</b>", tickets: "🎟️" },
         { ptext: "<b>Attend a<br />Workshop</b>", tickets: "🎟️🎟️" },
         { ptext: "<b>Attend a<br />Competition</b>", tickets: "🎟️" },
-        { ptext: "<b>Attend an<br />Acitivity</b>", tickets: "🎟️" }
+        { ptext: "<b>Attend an<br />Activity</b>", tickets: "🎟️" }
       ]
     };
   }

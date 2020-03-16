@@ -296,7 +296,12 @@ export default {
           name: "UofT Course Tools",
           desc:
             "We're unifying UofT's course data and building useful apps like a timetable planner and a course selection guide."
-        }
+        },
+        {
+          name: "Muse",
+          desc:
+            "We are creating a model that can understand emotions in text and generate unique music that fits that emotion."
+        },
       ],
       contests: [
         {
