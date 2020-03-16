@@ -2,7 +2,7 @@
     "scripts": {
         "start": "vuepress dev",
         "build": "rm -rf docs;mkdir docs;vuepress build;echo utmhacklab.tech > docs/CNAME",
-        "deploy-docs": "npm run build;git add --a;git commit -m\"Deploying new website build\";git push;"
+        "deploy": "npm run build;git add --a;git commit -m\"Deploying new website build\";git push;"
     },
     "devDependencies": {
         "vuepress": "^1.3.1"
