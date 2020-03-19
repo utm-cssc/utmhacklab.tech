@@ -2,10 +2,8 @@
 sidebar: false
 home: true
 heroText: Resources
-heroImage: /logos/hacklab.png
 tagline: The Hacklab creates and curates resources that benefit students academically and professionally.
 ---
-
 
 <ResourcesGrid />
 

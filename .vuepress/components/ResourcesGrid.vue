@@ -87,6 +87,13 @@ export default {
           link: "/resources/mindset/",
           desc:
             "Cultivating a growth mindset can help us overcome limiting beliefs about our capabilities!"
+        },
+        {
+          title: "Robotics",
+          icon: "robotics.svg",
+          link: "/resources/robotics/",
+          desc:
+            "Embedded intelligence is everywhere... Robotics isn't just the future, it's the now!"
         }
       ]
     };
