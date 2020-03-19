@@ -43,7 +43,8 @@ module.exports = {
                     {
                         text: 'Resources', link: '/resources/'
                     },
-                    { text: 'The Show', link: '/the-show/' },
+                    { text: 'Projects', link: '/projects/' },
+                    // { text: 'The Show', link: '/the-show/' },
                     {
                         text: 'Communities', items: [
                             { text: 'UTM Clubs', link: '/clubs/' },
