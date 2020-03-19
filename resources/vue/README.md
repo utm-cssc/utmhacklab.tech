@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # Vue
 
 ## What is Vue?
@@ -12,8 +16,6 @@ It consists of an approachable core library that focuses on the view layer only,
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/247494684?autoplay=1&color=4fc08d&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-
-
 ## How do I get Started?
 
 ### Intro to Vue.js Video Course
@@ -21,7 +23,54 @@ It consists of an approachable core library that focuses on the view layer only,
 <LevelWithButton image="https://firebasestorage.googleapis.com/v0/b/vue-mastery.appspot.com/o/flamelink%2Fmedia%2F1578365059649_0.gif?alt=media&token=cbde36f7-8aff-4ed0-a72f-eae0462814bc"
 desc="In this course, you will learn the fundamentals of Vue as you build the a product page!" button="Start Learning!" link="https://www.vuemastery.com/courses/intro-to-vue-js/vue-instance" />
 
+## Cheat Sheets
+
+Cheat sheets save you time and energy by giving you essential syntax at your fingertips. 
+
+
+<div class="scrolling-wrapper">
+  
+  <div class="scroll-child">
+
+   ### Vue Essentials Cheat Sheet
+
+   <iframe src="https://www.vuemastery.com/pdf/Vue-Essentials-Cheat-Sheet.pdf" width="480" height="640"></iframe>
+   </div>
+
+   <div class="scroll-child">
+
+   ### Vue 3 Cheat Sheet
+
+   <iframe src="https://www.vuemastery.com/pdf/Vue-3-Cheat-Sheet.pdf" width="480" height="640"></iframe>
+   </div>
+
+   <div class="scroll-child">
+
+   ### Nuxt Essentials Cheat Sheet
+
+   <iframe src="https://www.vuemastery.com/pdf/Nuxtjs-Cheat-Sheet.pdf" width="480" height="640"></iframe>
+   </div>
+
+</div>
+
+### VueX Cheat Sheet
+
+<LevelWithButton image="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.onlinecode.org%2Fwp-content%2Fuploads%2F2017%2F05%2Fflow-of-vuejs-vuex.png" link="https://vuejs-tips.github.io/vuex-cheatsheet/" button="Check it out!" desc="Essential syntax for Vue's official state management library at your fingertips!"/>
+
+
 <style scoped>
+.scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+}
+.scroll-child {
+    flex: 0 0 auto;
+    margin-right: 36px;
+    font-size: 24px
+  }
+
 .vue-mastery {
     background-color: #3eaf7c;
     padding: 1em 1.25em;
