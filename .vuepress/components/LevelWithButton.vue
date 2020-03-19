@@ -2,11 +2,11 @@
   <div class="level level-container">
     <!-- Left side -->
     <div class="level-left">
-      <div v-if="!imageRight">
+      <a :href="link" v-if="!imageRight">
         <figure class="image">
           <img :src="image" />
         </figure>
-      </div>
+      </a>
       <div v-else>
         <div class="is-size-10 desc">{{desc}}</div>
         <a :href="link" class="action-button">
@@ -17,11 +17,11 @@
 
     <!-- Right side -->
     <div class="level-right">
-      <div v-if="imageRight">
+      <a :href="link" v-if="imageRight">
         <figure class="image">
           <img :src="image" />
         </figure>
-      </div>
+      </a>
       <div v-else>
         <div class="is-size-10 desc align-right">{{desc}}</div>
         <a :href="link" class="action-button">
@@ -78,6 +78,7 @@ export default {
 a {
   color: #3eaf7c !important;
   font-weight: 500;
+  text-decoration: none !important;
 }
 
 a.action-button:hover {
