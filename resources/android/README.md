@@ -16,22 +16,14 @@
 
 This roadmap is publicly available on [Github](https://github.com/MindorksOpenSource/android-developer-roadmap)
 
-
 ## Android Jetpack
 
-Android Jetpack is a set of components, tools and architectural guidance that make it quick and easy to build great Android apps.  
+Android Jetpack is a set of components, tools and architectural guidance that make it quick and easy to build great Android apps.
 
-Components are individually adoptable but built to work together while taking advantage of Kotlin language features that make you more productive. 
+Components are individually adoptable but built to work together while taking advantage of Kotlin language features that make you more productive.
 
-Jetpack manages tedious activities like background tasks, navigation, and lifecycle management, so you can eliminate boilerplate code and focus on what makes your app great. 
-
+Jetpack manages tedious activities like background tasks, navigation, and lifecycle management, so you can eliminate boilerplate code and focus on what makes your app great.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLWz5rJ2EKKc9mxIBd0DRw9gwXuQshgmn2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Learn More about Android Jetpack](https://developer.android.com/jetpack)
-
-
-
-
-
-
