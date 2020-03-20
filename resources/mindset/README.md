@@ -2,7 +2,7 @@
 
 Our mindset shapes our belief in what we can and can't do.
 
-**People with a fixed mindset believe** they are born naturally gifted at some things, and incapable at others. 
+**People with a fixed mindset believe** they are born naturally gifted at some things, and incapable at others.
 
 **People with a growth mindset believe** they can master anything if they try hard and persist.
 
@@ -27,6 +27,3 @@ Our mindset shapes our belief in what we can and can't do.
 ## Books
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T4PHa6w3Rto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-

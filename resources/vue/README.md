@@ -6,9 +6,9 @@ sidebar: auto
 
 ## What is Vue?
 
-Vue (pronounced like view) is a progressive framework for building user interfaces. 
+Vue (pronounced like view) is a progressive framework for building user interfaces.
 
-It is designed from the ground up to be incrementally adoptable, and can easily scale between a library and a framework depending on different use cases. 
+It is designed from the ground up to be incrementally adoptable, and can easily scale between a library and a framework depending on different use cases.
 
 It consists of an approachable core library that focuses on the view layer only, and an ecosystem of supporting libraries that helps you tackle complexity in large Single-Page Applications.
 
@@ -25,28 +25,27 @@ desc="In this course, you will learn the fundamentals of Vue as you build the a 
 
 ## Cheat Sheets
 
-Cheat sheets save you time and energy by giving you essential syntax at your fingertips. 
-
+Cheat sheets save you time and energy by giving you essential syntax at your fingertips.
 
 <div class="scrolling-wrapper">
   
   <div class="scroll-child">
 
-   ### Vue Essentials Cheat Sheet
+### Vue Essentials Cheat Sheet
 
    <iframe src="https://www.vuemastery.com/pdf/Vue-Essentials-Cheat-Sheet.pdf" width="480" height="640"></iframe>
    </div>
 
    <div class="scroll-child">
 
-   ### Vue 3 Cheat Sheet
+### Vue 3 Cheat Sheet
 
    <iframe src="https://www.vuemastery.com/pdf/Vue-3-Cheat-Sheet.pdf" width="480" height="640"></iframe>
    </div>
 
    <div class="scroll-child">
 
-   ### Nuxt Essentials Cheat Sheet
+### Nuxt Essentials Cheat Sheet
 
    <iframe src="https://www.vuemastery.com/pdf/Nuxtjs-Cheat-Sheet.pdf" width="480" height="640"></iframe>
    </div>
@@ -56,7 +55,6 @@ Cheat sheets save you time and energy by giving you essential syntax at your fin
 ### VueX Cheat Sheet
 
 <LevelWithButton image="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.onlinecode.org%2Fwp-content%2Fuploads%2F2017%2F05%2Fflow-of-vuejs-vuex.png" link="https://vuejs-tips.github.io/vuex-cheatsheet/" button="Check it out!" desc="Essential syntax for Vue's official state management library at your fingertips!"/>
-
 
 <style scoped>
 .scrolling-wrapper {
@@ -86,6 +84,3 @@ Cheat sheets save you time and energy by giving you essential syntax at your fin
     padding-left: 36px;
 }
 </style>
-
-
-

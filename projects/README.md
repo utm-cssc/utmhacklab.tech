@@ -24,11 +24,11 @@ Toonin is a Chrome Extension coupled with a web app that allows your friends to 
 
 **Contributors**:
 
-- Lakshya Gupta - **Primary Contact** 
+- Lakshya Gupta - **Primary Contact**
 
 :email: **lakshya.gupta**
 
-- Arsala Bangash - **Primary Contact** 
+- Arsala Bangash - **Primary Contact**
 
 :email: **arsala.bangash**
 
@@ -40,16 +40,15 @@ Nox is a platform designed to enhance the quality of lecture-style education by 
 
 <ProjectDemoButton link="https://csc398dev.utm.utoronto.ca" />
 
-
-- Shoaib Khan  - **Primary Contact** 
+- Shoaib Khan - **Primary Contact**
 
 :email: **shoaiba.khan**
 
-- Ali Chaudhry - **Primary Contact** 
+- Ali Chaudhry - **Primary Contact**
 
 :email: **achaudhral.chaudhry**
 
-- Tahir Muhammad - **Primary Contact** 
+- Tahir Muhammad - **Primary Contact**
 
 :email: **tahir.muhammad**
 
@@ -61,10 +60,9 @@ A tool to arrange courses into a timetable automatically. Currently supports UTM
 
 <ProjectDemoButton link="https://projectegu.github.io/TimerTable/"/>
 
-- Chao You  - **Primary Contact** 
+- Chao You - **Primary Contact**
 
 :email: **chao.you**
-
 
 ## UofT Course Tools
 
@@ -76,7 +74,6 @@ We're unifying UofT's course data, and using it to build tools such as a course 
 
 <ProjectDocsButton link="https://uoftcoursetools.tech/" />
 
-
-- Arsala Bangash  - **Primary Contact** 
+- Arsala Bangash - **Primary Contact**
 
 :email: **arsala.bangash**

@@ -1,8 +1,8 @@
 # Collections
 
-Curated collections of the best content from the internet can help you filter the signal from the noise. 
+Curated collections of the best content from the internet can help you filter the signal from the noise.
 
-We encourage you to explore these curated collections and subscribe to collections that you feel would be valuable in helping you along your journey of learning and creating. 
+We encourage you to explore these curated collections and subscribe to collections that you feel would be valuable in helping you along your journey of learning and creating.
 
 ## Awesome Resources
 
