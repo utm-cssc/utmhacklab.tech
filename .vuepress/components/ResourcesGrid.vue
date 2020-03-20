@@ -33,11 +33,11 @@ export default {
           desc: "Curated tools resources that supplement UTM course content!"
         },
         {
-          title: "Curated Collections",
-          icon: "collections.svg",
-          link: "/resources/collections/",
+          title: "Robotics",
+          icon: "robotics.svg",
+          link: "/resources/robotics/",
           desc:
-            "The best content from the internet can help you filter the signal from the noise."
+            "Embedded intelligence is everywhere... Robotics isn't just the future, it's the now!"
         },
         {
           title: "Resume",
@@ -52,6 +52,20 @@ export default {
           link: "/resources/design/",
           desc:
             "Often, people think design is about the way things look. That’s just one element of design!"
+        },
+        {
+          title: "Mindset",
+          icon: "mindset.svg",
+          link: "/resources/mindset/",
+          desc:
+            "Cultivating a growth mindset can help us overcome limiting beliefs about our capabilities!"
+        },
+        {
+          title: "Curated Collections",
+          icon: "collections.svg",
+          link: "/resources/collections/",
+          desc:
+            "The best content from the internet can help you filter the signal from the noise."
         },
         {
           title: "Android Development",
@@ -82,19 +96,13 @@ export default {
             "Develop web applications easily with a community powered javascript framework!"
         },
         {
-          title: "Mindset",
-          icon: "mindset.svg",
-          link: "/resources/mindset/",
+          title: "Glossary",
+          icon: "vue.svg",
+          link: "/glossary/",
           desc:
-            "Cultivating a growth mindset can help us overcome limiting beliefs about our capabilities!"
+            "Build your vocabulary of technical terminology!"
         },
-        {
-          title: "Robotics",
-          icon: "robotics.svg",
-          link: "/resources/robotics/",
-          desc:
-            "Embedded intelligence is everywhere... Robotics isn't just the future, it's the now!"
-        }
+        
       ]
     };
   },
