@@ -1,6 +1,6 @@
 ---
 sidebar: auto
---- 
+---
 
 # Robotics
 
@@ -16,7 +16,7 @@ A robot is an programmable automated machine.
 
 ## Overview of Mobile Robotics
 
-A robot is regarded as an intelligent computer that can use sensors and act on the world. 
+A robot is regarded as an intelligent computer that can use sensors and act on the world.
 
 ### Kinematics and Dynamics
 
