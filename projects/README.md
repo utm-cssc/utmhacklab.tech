@@ -14,6 +14,18 @@ If you have a project you'd like featured, you can:
 
 - Engage with us in person by visiting our office at UTM in Deerfield Hall Room 2014.
 
+## Backendless.io
+
+Backendless is a PAAS that helps with speed, deployment, auto-scaling and geo-analytics for the creation and maintainence of backend applications out of the box. All this is maintained while having a 0% learning curve for existing Php and SQL developers. More advanced features like Transaction Control, oauth 2.0 and an evergrowing set of extensions are also available via the backendless market.
+
+<ProjectDemoButton link="http://www.backendless.io" />
+
+**Contributors**:
+
+- Rahul Ravindran - **Primary Contact** 
+
+:email: **rahulravindran.in@gmail.com**
+
 ## Toonin
 
 Toonin is a Chrome Extension coupled with a web app that allows your friends to Tune In to what you're listening to.
