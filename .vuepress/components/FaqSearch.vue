@@ -1,7 +1,13 @@
 <template>
   <div class="search-engines-container">
-    <a target="_blank" v-for="engine in searchEngines" :href="getQueryLink(engine.name)" class="mr16">
-      <figure class="image is-48x48">
+    <div />
+    <a
+      target="_blank"
+      v-for="engine in searchEngines"
+      :href="getQueryLink(engine.name)"
+      class="mr24"
+    >
+      <figure class="image is-36x36">
         <img class="icon" :src="`/icons/${engine.icon}`" />
       </figure>
     </a>
@@ -17,45 +23,48 @@ export default {
     }
   },
   methods: {
-      getQueryLink(engine) {
-          switch(engine) {
-              case "Duck Duck Go": {
-                  return `https://duckduckgo.com/?q=${this.query}&kp=-1&kl=us-en`
-              }
-              case "Google": {
-                  return `https://duckduckgo.com/?q=${this.query + " g!"}&kp=-1&kl=us-en`
-              }
-              case "Youtube": {
-                  return `https://duckduckgo.com/?q=${this.query + " yt!"}&kp=-1&kl=us-en`
-              }
-              case "Wolfram": {
-                  return `https://duckduckgo.com/?q=${this.query}&kp=-1&kl=us-en`
-              }
-          }
+    getQueryLink(engine) {
+      switch (engine) {
+        case "Duck Duck Go": {
+          return `https://duckduckgo.com/?q=${this.query}&kp=-1&kl=us-en`;
+        }
+        case "Google": {
+          return `https://duckduckgo.com/?q=${this.query +
+            " g!"}&kp=-1&kl=us-en`;
+        }
+        case "Youtube": {
+          return `https://duckduckgo.com/?q=${this.query +
+            " yt!"}&kp=-1&kl=us-en`;
+        }
+        case "Wolfram": {
+          return `https://duckduckgo.com/?q=${(this.query +
+            " wa!")}&kp=-1&kl=us-en`;
+        }
       }
+    }
   },
   data() {
-      return {
-          searchEngines: [
-              {
-                  name: "Duck Duck Go",
-                  icon:  "ddg.svg"
-              },
-              {
-                  name: "Google",
-                  icon:  "google.svg"
-              },
-              {
-                  name: "Youtube",
-                  icon:  "youtube.svg"
-              },
-            //   {
-            //       name: "Wolfram",
-            //       icon:  "wolfram.svg"
-            //   }
-          ]
-      }
-  },
+    return {
+      searchEngines: [
+        {
+          name: "Duck Duck Go",
+          icon: "ddg.svg"
+        },
+        {
+          name: "Google",
+          icon: "google.svg"
+        },
+        {
+          name: "Youtube",
+          icon: "youtube.svg"
+        },
+        {
+          name: "Wolfram",
+          icon: "wolfram.svg"
+        }
+      ]
+    };
+  }
 };
 </script>
 
@@ -65,7 +74,13 @@ a {
 }
 
 .search-engines-container {
-    display: flex;
+  display: inline-flex;
+  margin-left: 24px;
+}
+
+.is-36x36 {
+  width: 36px;
+  height: 36px;
 }
 </style>
 

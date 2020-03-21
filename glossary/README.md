@@ -7,7 +7,7 @@ Sometimes a short and simple explanation is all you need to get your head around
 
 ## Web 
 
-### HTML
+### HTML <FaqSearch query="What is HTML"/>
 
 
 
