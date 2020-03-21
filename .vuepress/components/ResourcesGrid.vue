@@ -33,6 +33,13 @@ export default {
           desc: "Curated tools resources that supplement UTM course content!"
         },
         {
+          title: "Glossary",
+          icon: "glossary.svg",
+          link: "/glossary/",
+          desc:
+            "Build your understanding of technical terminology!"
+        },
+        {
           title: "Robotics",
           icon: "robotics.svg",
           link: "/resources/robotics/",
@@ -95,13 +102,7 @@ export default {
           desc:
             "Develop web applications easily with a community powered javascript framework!"
         },
-        {
-          title: "Glossary",
-          icon: "vue.svg",
-          link: "/glossary/",
-          desc:
-            "Build your vocabulary of technical terminology!"
-        },
+        
         
       ]
     };
