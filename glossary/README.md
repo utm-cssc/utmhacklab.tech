@@ -151,6 +151,64 @@ There are two main goals of time series analysis:
 
 _From [Glossary Tech](https://glossarytech.com/)_
 
+## Blockchain <FaqSearch query="Blockchain"/>
+
+### Altcoin <FaqSearch query="Altcoin"/>
+
+Altcoin is an abbreviation of “Bitcoin alternative”. 
+
+Currently, the majority of altcoins are forks of Bitcoin with usually minor changes to the proof of work (POW) algorithm of the Bitcoin blockchain. 
+
+The most prominent altcoin is Litecoin. Litecoin introduces changes to the original Bitcoin protocol such as decreased block generation time, increased maximum number of coins and different hashing algorithm. 
+
+_From [Blockchain Hub](https://blockchainhub.net/blockchain-glossary/)_
+
+### ASIC <FaqSearch query="ASIC Blockchain"/>
+
+An “Application Specific Integrated Circuit” is a silicon chip specifically designed to do a single task. 
+
+In the case of Bitcoin, they are designed to process SHA-256 hashing problems to mine new bitcoins. ASICs are considered to be much more efficient than conventional hardware(CPUs, GPUs). 
+
+Using a regular computer for Bitcoin mining is seen as unprofitable and only results in higher electricity bills. 
+
+_From [Blockchain Hub](https://blockchainhub.net/blockchain-glossary/)_
+
+### Bitcoin <FaqSearch query="Bitcoin"/>
+
+Bitcoin is a decentralized digital currency without a central bank or single administrator that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries.
+
+Bitcoin is a cryptocurrency that:
+
+- Runs on a global peer to peer network
+- Is decentralised (no single entity can control it)
+- Is open source
+- Bypasses middlemen or central authority with no issuer or acquirer
+- Anyone with a computer or smartphone can use it
+
+_From [Blockchain Hub](https://blockchainhub.net/blockchain-glossary/)_
+
+### Ethereum <FaqSearch query="Ethereum"/>
+
+Ethereum is an open software platform based on blockchain technology that enables developers to write smart contracts and build and deploy decentralized applications(Dapps). 
+
+The native token of the blockchain is called Ether which is used to pay for transaction fees, miner rewards and other services on the network. 
+
+The main innovation of Ethereum is the Ethereum Virtual Machine (EVM) which runs on the Ethereum network and enables anyone to run any application. The EVM makes the process of developing blockchain applications much easier. 
+
+Before the emergence of Ethereum, developers had to develop a dedicated blockchain for each application they wanted to create. This process is time-consuming and resource-intensive. 
+
+As opposed to Bitcoin, its scripting language is Turing-complete and full-featured, expanding the kinds of smart contracts that it can support. The Ethereum project wants to “decentralize the web” by introducing four components as part of its roadmap: 
+
+- Static content publication
+- Dynamic messages
+- Trustless transactions
+- An integrated user-interface
+
+_From [Blockchain Hub](https://blockchainhub.net/blockchain-glossary/)_
+
+
+
+
 
 
 
