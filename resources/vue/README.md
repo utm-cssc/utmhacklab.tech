@@ -56,6 +56,26 @@ Cheat sheets save you time and energy by giving you essential syntax at your fin
 
 <LevelWithButton image="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.onlinecode.org%2Fwp-content%2Fuploads%2F2017%2F05%2Fflow-of-vuejs-vuex.png" link="https://vuejs-tips.github.io/vuex-cheatsheet/" button="Check it out!" desc="Essential syntax for Vue's official state management library at your fingertips!"/>
 
+## VS Code Extensions
+
+### Vetur
+
+<LevelWithButton image="https://octref.gallerycdn.vsassets.io/extensions/octref/vetur/0.24.0/1583367754374/Microsoft.VisualStudio.Services.Icons.Default" link="https://marketplace.visualstudio.com/items?itemName=octref.vetur" button="Check it out!" desc="Get powerful syntax highlighting for .vue files in VS Code!"/>
+
+### Vue VS Code Snippets
+
+<LevelWithButton :imageRight="false" image="https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/vue-snippet-hero.gif" link="https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets" button="Check it out!" desc="Snippets that will supercharge your Vue workflow"/>
+
+## Curated Libraries
+
+### Awesome Vue Resources
+
+<LevelWithButton image="https://github.com/sindresorhus/awesome/raw/master/media/logo.png" link="https://github.com/vuejs/awesome-vue" button="Check it out!" desc="A curated list of awesome resources, projects, and other things related to Vue.js"/>
+
+### AwesomeJS Libraries
+
+<LevelWithButton :imageRight="false" image="https://pbs.twimg.com/profile_images/1179900479054200832/GiffpVcI_400x400.png" link="https://awesomejs.dev/for/vue/" button="Check it out!" desc="Find awesome packages for Vue on AwesomeJS!"/>
+
 <style scoped>
 .scrolling-wrapper {
   display: flex;
