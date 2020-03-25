@@ -4,6 +4,7 @@
     @mouseleave="hovered = false"
     class="box resource-box"
     :href="link"
+    :style="{ background: color}"
   >
     <figure class="resource-icon">
       <img class="icon" :src="`/icons/${iconFileName}`" />
@@ -36,6 +37,11 @@ export default {
     desc: {
       type: String,
       required: true
+    },
+    color: {
+      type: String,
+      required: false,
+      default: '#11991c'
     }
   },
   data() {
@@ -67,7 +73,6 @@ a {
 }
 
 .box.resource-box {
-  background: #11991c;
   max-width: 172px;
   height: 100%;
   transition: all 0.2s ease-in-out;

@@ -1,5 +1,25 @@
-## UTM Courses
+---
+sidebar: false
+home: true
+heroText: UTM Courses
+tagline: We encourage students to supplement the learning materials from class with resources from the wider internet.
+---
 
-We encourage students to supplement the learning materials from class with resources from the wider internet. We've curated materials for a number of MCS courses below.
+<ResourcesGrid :items="courses" color="#103667"/>
 
-**[CSC358 Principles of Computer Networks](/resources/csc358)**
+<script>
+export default {
+  data() {
+    return {
+      courses: [
+        {
+          title: "CSC358",
+          icon: "course-supplements.svg",
+          link: "/resources/csc358/",
+          desc: "Principles of Computer Networks"
+        },
+      ]
+    }
+  }
+}
+</script>
