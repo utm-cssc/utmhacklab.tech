@@ -13,8 +13,13 @@ export default {
     return {
       courses: [
         {
+          title: "CSC207",
+          icon: "csc207.svg",
+          link: "/resources/csc207/",
+          desc: "Intro to Software Design"
+        },{
           title: "CSC358",
-          icon: "course-supplements.svg",
+          icon: "csc358.svg",
           link: "/resources/csc358/",
           desc: "Principles of Computer Networks"
         },

@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # CSC358: Principles of Computer Networks
 
 ## Videos
