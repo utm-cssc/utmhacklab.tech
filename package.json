@@ -5,6 +5,7 @@
         "deploy": "npm run build;git add --a;git commit -m\"Deploying new website build\";git push;"
     },
     "devDependencies": {
+        "@vuepress/plugin-google-analytics": "^1.4.0",
         "vuepress": "^1.4.0"
     },
     "dependencies": {

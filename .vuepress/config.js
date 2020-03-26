@@ -27,7 +27,7 @@ module.exports = {
                     'color/',
                     'free-assets/',
                     'prototyping-tools/',
-                    
+
                 ]
             }]
         },
@@ -96,5 +96,13 @@ module.exports = {
             .use('vue-svg-loader')
             .loader('vue-svg-loader')
             .end()
-    }
+    },
+    plugins: [
+        [
+          '@vuepress/google-analytics',
+          {
+            'ga': 'UA-161995016-1' 
+          }
+        ]
+      ]
 }
