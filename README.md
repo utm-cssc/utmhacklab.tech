@@ -43,7 +43,11 @@ Learn more about the clubs available to you [here](/clubs)
 
 The Hacklab is still setting up its near to long term infrastructure. 
 
-At the moment, the best way to get involved is to check out the resources on this website, visit our [digital community on Microsoft Teams](https://teams.microsoft.com), and engage with us in person by visiting our office at UTM in Deerfield Hall Room 2014. Check out our office hour timings [here](/office-hours)
+At the moment, the best ways to get involved are:
+
+- Joining our digital communities on [Discord](https://discord.gg/gPX54wF) or  [Microsoft Teams](https://teams.microsoft.com/l/team/19%3a9a293cfeb0d44967babe95ceaeff8fe2%40thread.skype/conversations?groupId=2dba53aa-e8b2-4a9b-a206-92677860a263&tenantId=78aac226-2f03-4b4d-9037-b46d56c55210)
+- Contributing to this website. [Learn how!](/contributing)
+- Engaging with us in person by visiting our office at UTM in Deerfield Hall Room 2014. We'll be posting our offic hours for the upcoming term soon!
 
 ::: tip Don't be shy
 

@@ -48,6 +48,7 @@ module.exports = {
                     {
                         text: 'Communities', items: [
                             { text: 'UTM Clubs', link: '/clubs/' },
+                            { text: 'Discord', link: 'https://discord.gg/gPX54wF' }
                             { text: 'Microsoft Teams', link: '/microsoft-teams/' },
                         ]
                     },
@@ -99,10 +100,10 @@ module.exports = {
     },
     plugins: [
         [
-          '@vuepress/google-analytics',
-          {
-            'ga': 'UA-161995016-1' 
-          }
+            '@vuepress/google-analytics',
+            {
+                'ga': 'UA-161995016-1'
+            }
         ]
-      ]
+    ]
 }
