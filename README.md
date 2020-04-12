@@ -51,7 +51,7 @@ At the moment, the best ways to get involved are:
 - Contributing to this website. [Learn how!](/contributing)
 - Engaging with us in person by visiting our office at UTM in Deerfield Hall Room 2014. We'll be posting our office hours for the upcoming term soon!
 
-::: tip don't be shy
+::: tip Don't be shy
 
 If you come visit us in person when our doors are open, we'll do our best to ensure that you are heard :slightly_smiling_face:
 :::
