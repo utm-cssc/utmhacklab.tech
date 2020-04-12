@@ -28,23 +28,24 @@ sidebar: auto
 ##### Qualifications 
 - 1+ years of experience in applying and landing internships/PEY .
 - A deep understanding of  the technical interview process and what makes a strong technical resume.
-- Excellent interpersonal and highly developed communication skills (verbal and written) .
+- Excellent interpersonal and highly developed communication skills (verbal and written).
 - Leadership acumen and expereince.
 - Train associates to help support student career growth.
 
 
 #### Responsibilities
+- Create and advertise bookable appointment slots on the HL website for mentorship and general advice.
 - Hold office hours to help students with resume critiques, career advice, and technical interview questions.
 - Organize and run weekly technical interview workshops: Discuss a problem and facilitate group problem solving.
-- Collaborate with outreach director to curate an online list of career-related resources using Markdown and Vuepress (Ex [Here](https://docs.google.com/document/d/11zgd7rl9bimzh-2R4dDid7wtZui_dNIHCWQdUk23LVY/edit)).
+- Collaborate with the outreach director to curate an online list of career-related resources using Markdown and Vuepress (Ex [Here](https://docs.google.com/document/d/11zgd7rl9bimzh-2R4dDid7wtZui_dNIHCWQdUk23LVY/edit)).
 
 ### Outreach Director
 
 #### Qualifications
 - 1+ years of experience in applying and landing internships/PEY .
-- A solid understanding of internship and PEY process.
+- A solid understanding of the internship and PEY process.
 - Excellent interpersonal and communication  and skills (verbal and written) .
-- Detail-oriented: Able to handle multiple projects at once and prioritize effectively.
+- The ability to handle multiple projects at once and prioritize effectively.
 - Leadership acumen and experience.
 
 #### Responsibilities
@@ -76,7 +77,7 @@ Co-Host events to improve student experience such as a PoST and PEY Information 
 - Host general inquiry feedback office hours online and on campus
 #### Qualifications
 - A passion and a clear vision for improving the Computer Science Student community.
-- Compassion for understanding the landscape of the Computer Science Student experience from all its different communities. 
+- An understanding of the computer science student experience from all of its communities.
 - Excellent interpersonal and highly developed communication skills (verbal and written).
 - Detail-oriented: handle multiple projects at once and prioritize effectively.
 - Leadership acumen and the passion to apply it to empower students in their pursuit of a tech career.
@@ -101,6 +102,6 @@ Co-Host events to improve student experience such as a PoST and PEY Information 
 - A passion and a clear vision for improving the Computer Science Student community.
 - Compassion for understanding the landscape of the Computer Science Student experience from all its different communities. 
 - Excellent interpersonal and highly developed communication skills (verbal and written).
-- Detail-oriented: ability to handle multiple projects at once and prioritize effectively.
+- The ability to handle multiple projects at once and prioritize effectively.
 - Leadership acumen and the passion to apply it to empower students in their pursuit of a tech career.
 - A proven track record of one’s ability to scope workload.
