@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[29],{356:function(t,e,n){"use strict";n.r(e);var i={mounted:function(){window.location.href="https://www.eventbrite.ca/e/the-show-a-night-of-the-nerds-tickets-93866562415"}},o=n(28),s=Object(o.a)(i,(function(){var t=this.$createElement;return(this._self._c||t)("div")}),[],!1,null,null,null);e.default=s.exports}}]);
