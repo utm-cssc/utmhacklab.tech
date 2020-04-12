@@ -22,6 +22,11 @@ export default {
           icon: "csc358.svg",
           link: "/resources/csc358/",
           desc: "Principles of Computer Networks"
+        },{
+          title: "MAT102",
+          icon: "mat102.svg",
+          link: "/resources/mat102/",
+          desc: "Intro to Mathematical Proofs"
         },
       ]
     }
