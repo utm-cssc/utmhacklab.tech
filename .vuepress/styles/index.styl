@@ -1,58 +1,79 @@
 img {
-    border-radius: 8px;
+  border-radius: 8px;
 }
 
 h2 {
-    border-bottom: none !important;
-    color: #3eaf7c;
+  border-bottom: none !important;
+  color: #3eaf7c;
 }
 
 iframe {
-    border-radius: 8px;
-    margin-top: 16px;
+  border-radius: 8px;
+  margin-top: 16px;
 }
 
 .navbar .site-name {
-    color: #3eaf7c;
+  color: #3eaf7c;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
 
 body {
-    font-family: Poppins !important;
-    font-size: 20px !important;
+  font-family: Poppins !important;
+  font-size: 20px !important;
 }
 
 a.header-anchor {
-    margin-left: -1.1em !important;
+  margin-left: -1.1em !important;
 }
 
+marginer(min, max, step) {
+  .mt{min} {
+    margin-top: min px;
+  }
 
+  .mb{min} {
+    margin-bottom: min px;
+  }
 
-marginer(min, max, step)
-  .mt{min}
-    margin-top (min px)
-  .mb{min}
-    margin-bottom (min px)
-  .ml{min}
-    margin-left (min px)
-  .mr{min}
-    margin-right (min px)
-  if min < max
-    marginer(min + step, max, step)
+  .ml{min} {
+    margin-left: min px;
+  }
 
-paddinger(min, max, step)
-  .pt{min}
-    padding-top (min px)
-  .pb{min}
-    padding-bottom (min px)
-  .pl{min}
-    padding-left (min px)
-  .pr{min}
-    padding-right (min px)
-  if min < max
-    paddinger(min + step, max, step)
+  .mr{min} {
+    margin-right: min px;
+  }
 
-marginer(4, 64, 4)
+  if (min < max) {
+    marginer(min + step, max, step);
+  }
+}
 
-paddinger(4, 64, 4)
+paddinger(min, max, step) {
+  .pt{min} {
+    padding-top: min px;
+  }
+
+  .pb{min} {
+    padding-bottom: min px;
+  }
+
+  .pl{min} {
+    padding-left: min px;
+  }
+
+  .pr{min} {
+    padding-right: min px;
+  }
+
+  if (min < max) {
+    paddinger(min + step, max, step);
+  }
+}
+
+marginer(4, 64, 4);
+paddinger(4, 64, 4);
+
+p
+  margin-top: 12px;
+  margin-bottom: 12px;

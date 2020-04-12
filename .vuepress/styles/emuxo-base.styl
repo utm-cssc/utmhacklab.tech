@@ -1,0 +1,201 @@
+$box-shadow-input-focus = 0px 0px 4px rgba(0, 0, 0, 0.2)
+
+*
+  box-sizing: border-box
+
+body
+  margin: 0px
+
+h1, h2, h3, h4, h5, h6
+  font-weight: normal
+
+a
+  text-decoration: none
+
+code
+  background-color: rgba(0, 0, 0, 0.1)
+
+// Form Elements
+
+// Buttons
+
+button
+  outline: none
+  border: none
+  cursor: pointer
+
+button.em-button
+  padding: 10px 15px
+  min-width: 100px
+  color: rgba(0, 0, 0, 0.5); // This may be need to changed programmatically - based on background-color chosen during theming.
+  border-radius: 5px
+
+  &:focus
+    box-shadow: $box-shadow-input-focus
+
+button.em-button-link
+  display: inline
+  padding: 0
+  margin: 0
+  background: none
+
+.button-container
+  display: flex
+  justify-content: flex-end
+
+// Textbox + Textarea
+
+.em-textbox, .em-textarea
+  display: inline-block
+  width: 345px // So 2 textboxes take up full width of em-row.
+
+  label
+    margin: 0 0 0 2px
+    display: block
+
+  input, textarea
+    display: block
+    width: 100%
+    margin: 5px 0 0 0
+    padding: 10px
+    border: none
+    outline: none
+    background-color: rgba(0, 0, 0, 0.05)
+    border-radius: 5px
+
+    &:focus
+      background-color: rgba(0, 0, 0, 0.03)
+      box-shadow: $box-shadow-input-focus
+
+    &:disabled
+      background: none
+      cursor: not-allowed
+
+  textarea
+    height: 5em
+
+  p
+    color: grey
+    margin: 5px 0 0 2px
+    &:first-child
+      min-height: 1.5em
+
+// Checkbox
+
+.em-checkbox
+  display: flex
+  position: relative // So we can hide <input type="checkbox">.
+  cursor: pointer
+
+  input[type="checkbox"]
+    // Hide the <input> but preserve tab-ability.
+    opacity: 0
+    z-index: -1
+    position: absolute
+
+  > span
+    display: inline-block
+    max-height: 2.2em
+    vertical-align: top
+
+  input[type="checkbox"] + span
+    padding: 6px 12px 10px 12px
+    border: solid 2px rgba(0, 0, 0, 0.1)
+    border-radius: 5px
+    transition: background-color 250ms ease-in
+
+  // A CSS checkmark from https://codepen.io/lajlev/pen/diKbz.
+  span span.em-checkbox-check
+    display: block
+    width: 10px
+    height: 20px
+    border: solid #fff
+    border-width: 0 2px 2px 0
+    transform: rotate(45deg)
+
+  input[type="checkbox"] + span span.em-checkbox-check
+    opacity: 0
+
+  input[type="checkbox"]:checked + span
+    border: solid 2px rgba(0, 0, 0, 0)
+
+  input[type="checkbox"]:checked + span span.em-checkbox-check
+    opacity: 1
+
+  input[type="checkbox"]:focus + span
+    outline: none
+    box-shadow: $box-shadow-input-focus
+
+  input[type="checkbox"]:disabled
+    + span
+    + span + span
+      opacity: 0.5
+      cursor: not-allowed
+
+  span:nth-child(3)
+    margin: 10px 0 0 10px
+
+// Selection
+
+.em-selection
+
+  input
+    display: none
+
+  input[type="radio"] + span
+    display: inline-block
+    margin: 10px 10px 0 0
+    color: rgb(0, 0, 0)
+    opacity: 0.7
+    cursor: pointer
+
+    &:hover
+      opacity: 1
+
+  input[type="radio"]:checked + span
+    opacity: 1
+
+  input[type="radio"]:disabled + span
+    opacity: 0.5
+    cursor: not-allowed
+
+// Dashboard + Navigation
+
+.em-dashboard
+  height: 100vh
+
+.em-dashboard-main, .em-dashboard-nav
+  vertical-align: top
+
+.em-dashboard-main
+  display: inline-block
+  width: 80%
+  height: 100vh
+  overflow-y: scroll
+
+.em-dashboard-nav
+  display: inline-block
+  width: 20%
+  height: 100vh
+
+  nav
+    margin: auto
+    max-width: 200px
+    padding: 40px 20px 20px 20px
+    margin: auto
+
+  nav ul
+    padding: 0
+    list-style: none
+
+  nav ul li
+    padding: 5px 0
+
+@media(max-width:600px)
+
+  .em-dashboard-main
+    width: 100%
+
+  .em-dashboard-nav
+    display: none // TODO: Remove this!
+    width: 100%

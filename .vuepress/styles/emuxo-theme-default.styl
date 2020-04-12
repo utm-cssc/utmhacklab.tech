@@ -1,0 +1,54 @@
+$color-blue = #4193f2
+$color-red = #dc46a0
+$color-green = #6bba7a
+$font-size-small = 14px
+$font-size-normal = 18px
+
+body, button, textarea, input[type=text], input[type=password], input[type=number], textarea
+  font-family: 'Muli', sans-serif;
+  font-size: $font-size-normal
+  line-height: 1.5
+
+body
+  color: rgb(60, 60, 60)
+
+h1
+  font-size: 40px
+h2
+  font-size: 30px
+h3
+  font-size: 22px
+
+button.em-button
+  background-color: $color-green
+  color: white;
+
+button.em-button-link
+  color: $color-blue
+  font-size: $font-size-normal
+
+.em-textbox, .em-textarea
+  label
+    font-size: $font-size-small
+  p
+    font-size: $font-size-small
+    &.em-error
+      color: $color-red
+
+.em-checkbox
+  input[type="checkbox"]:checked + span
+    background-color: $color-green
+
+.em-selection
+  input[type="radio"]:checked + span
+    color: $color-green
+
+a
+  color: $color-blue
+
+.em-color-red
+  color: $color-red
+.em-color-green
+  color: $color-green
+.em-color-blue
+  color: $color-blue

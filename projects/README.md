@@ -16,7 +16,11 @@ If you have a project you'd like featured, you can:
 
 ## Backendless.io
 
-Backendless is a PAAS that helps with speed, deployment, auto-scaling and geo-analytics for the creation and maintainence of backend applications out of the box. All this is maintained while having a 0% learning curve for existing Php and SQL developers. More advanced features like Transaction Control, oauth 2.0 and an evergrowing set of extensions are also available via the backendless market.
+Backendless is a PAAS that helps with speed, deployment, auto-scaling and geo-analytics for the creation and maintainence of backend applications out of the box. 
+
+All this is maintained while having a 0% learning curve for existing Php and SQL developers. 
+
+More advanced features like Transaction Control, oauth 2.0 and an evergrowing set of extensions are also available via the backendless market.
 
 <ProjectDemoButton link="http://www.backendless.io" />
 
@@ -29,6 +33,7 @@ Backendless is a PAAS that helps with speed, deployment, auto-scaling and geo-an
 ## Toonin
 
 Toonin is a Chrome Extension coupled with a web app that allows your friends to Tune In to what you're listening to.
+
 
 <GithubRepoButton link="https://github.com/grey-software/toonin" class="mr16"/>
 
@@ -47,6 +52,7 @@ Toonin is a Chrome Extension coupled with a web app that allows your friends to 
 ## Nox
 
 Nox is a platform designed to enhance the quality of lecture-style education by enabling students to anonymously pose questions and collectively rate their comfort level of the course material, all in real time.
+
 
 <GithubRepoButton link="https://github.com/ShoaibAhmadKhan/Nox" class="mr16"/>
 
@@ -68,6 +74,7 @@ Nox is a platform designed to enhance the quality of lecture-style education by 
 
 A tool to arrange courses into a timetable automatically. Currently supports UTM and St. George campuses. Uses an efficient algorithm to find up to millions of solutions in seconds.
 
+
 <GithubRepoButton link="https://github.com/ProjectEGU/TimerTable" class="mr16"/>
 
 <ProjectDemoButton link="https://projectegu.github.io/TimerTable/"/>
@@ -79,6 +86,7 @@ A tool to arrange courses into a timetable automatically. Currently supports UTM
 ## UofT Course Tools
 
 We're unifying UofT's course data, and using it to build tools such as a course guide and timetable planner.
+
 
 <GithubRepoButton link="https://github.com/UTM-Hacklab/UofTCourseTools" class="mr16"/>
 

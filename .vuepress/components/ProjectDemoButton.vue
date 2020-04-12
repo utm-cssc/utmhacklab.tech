@@ -1,6 +1,6 @@
 <template>
   <a :href="link">
-    <button class="button is-medium is-rounded">
+    <button class="em-button">
       <span class="icon">
         <i class="fas fa-play-circle"></i>
       </span>
@@ -20,20 +20,20 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
-@import "../../node_modules/bulma/bulma.sass";
-</style>
-
 <style scoped>
 a {
   text-decoration: none !important;
 }
 
-.button {
-  background: #3eaf7c;
+.em-button {
+  background: #3eaf7c !important;
 }
 
 span {
   color: white;
 }
+</style>
+
+<style lang="stylus" scoped>
+@require '../styles/emuxo.styl';
 </style>
