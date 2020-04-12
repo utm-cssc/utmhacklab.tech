@@ -100,7 +100,7 @@ Co-Host events to improve student experience such as a PoST and PEY Information 
 
 #### Qualifications
 - A passion and a clear vision for improving the Computer Science Student community.
-- Compassion for understanding the landscape of the Computer Science Student experience from all its different communities. 
+- An understanding of the computer science student experience from all of its communities.
 - Excellent interpersonal and highly developed communication skills (verbal and written).
 - The ability to handle multiple projects at once and prioritize effectively.
 - Leadership acumen and the passion to apply it to empower students in their pursuit of a tech career.
