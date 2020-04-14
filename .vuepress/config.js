@@ -44,7 +44,6 @@ module.exports = {
                         text: 'Resources', link: '/resources/'
                     },
                     { text: 'Projects', link: '/projects/' },
-                    // { text: 'The Show', link: '/the-show/' },
                     {
                         text: 'Communities', items: [
                             { text: 'UTM Clubs', link: '/clubs/' },
@@ -60,7 +59,6 @@ module.exports = {
                 label: '简体中文',
                 nav: [
                     { text: '首页', link: '/zh/' },
-                    { text: 'The Show', link: '/the-show/' },
                     { text: '关于', link: '/zh/about/' },
                     { text: '社团', link: '/zh/clubs/' },
                     { text: '工作时间', link: '/zh/office-hours/' },
