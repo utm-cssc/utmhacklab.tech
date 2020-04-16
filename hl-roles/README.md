@@ -3,11 +3,14 @@ sidebar: auto
 ---
 
 # Hacklab Roles 
-![Team](./team.png)
+Start your application [here](https://docs.google.com/forms/d/1EIXS36IaynALgIn8FekugMmZqNL_Rm6vrikrdm8yXbA/edit?usp=sharing)!
+![](./Hacklab_recruiting.png)
+
 ## Technology Team
+![](./Hacklab_recruiting_techteam.png)
 
 ### Technology Director
-
+Start your application [here](https://docs.google.com/forms/d/1EIXS36IaynALgIn8FekugMmZqNL_Rm6vrikrdm8yXbA/edit?usp=sharing)!
 #### Responsibilities
 - Manage the hacklab website repository.
 - Host office hours (with or without appointment) to provide student guidance.
@@ -22,16 +25,9 @@ sidebar: auto
 - The constant drive to learn and adapt to new technology and environment
 
 ## Professional Team
-
+![](./Hacklab_recruiting_professional.png)
 ### Career Success Director
-
-##### Qualifications 
-- 1+ years of experience in applying and landing internships/PEY .
-- A deep understanding of  the technical interview process and what makes a strong technical resume.
-- Excellent interpersonal and highly developed communication skills (verbal and written).
-- Leadership acumen and expereince.
-- Train associates to help support student career growth.
-
+Start your application [here](https://docs.google.com/forms/d/1EIXS36IaynALgIn8FekugMmZqNL_Rm6vrikrdm8yXbA/edit?usp=sharing)!
 
 #### Responsibilities
 - Create and advertise bookable appointment slots on the HL website for mentorship and general advice.
@@ -39,14 +35,15 @@ sidebar: auto
 - Organize and run weekly technical interview workshops: Discuss a problem and facilitate group problem solving.
 - Collaborate with the outreach director to curate an online list of career-related resources using Markdown and Vuepress (Ex [Here](https://docs.google.com/document/d/11zgd7rl9bimzh-2R4dDid7wtZui_dNIHCWQdUk23LVY/edit)).
 
-### Outreach Director
-
-#### Qualifications
+#### Qualifications 
 - 1+ years of experience in applying and landing internships/PEY .
-- A solid understanding of the internship and PEY process.
-- Excellent interpersonal and communication  and skills (verbal and written) .
-- The ability to handle multiple projects at once and prioritize effectively.
-- Leadership acumen and experience.
+- A deep understanding of  the technical interview process and what makes a strong technical resume.
+- Excellent interpersonal and highly developed communication skills (verbal and written).
+- Leadership acumen and expereince.
+- Train associates to help support student career growth.
+
+### Outreach Director
+Start your application [here](https://docs.google.com/forms/d/1EIXS36IaynALgIn8FekugMmZqNL_Rm6vrikrdm8yXbA/edit?usp=sharing)!
 
 #### Responsibilities
 - Organize a timeline of events for the year that will connect students with career opportunities.
@@ -57,10 +54,19 @@ sidebar: auto
 - Market proposed events. 
 - Curate job opportunities for students. 
 
+#### Qualifications
+- 1+ years of experience in applying and landing internships/PEY .
+- A solid understanding of the internship and PEY process.
+- Excellent interpersonal and communication  and skills (verbal and written) .
+- The ability to handle multiple projects at once and prioritize effectively.
+- Leadership acumen and experience.
+
+
 
 ## Management Team
-
+![](./Hacklab_recruiting_management.png)
 ### General Manager
+Start your application [here](https://docs.google.com/forms/d/1EIXS36IaynALgIn8FekugMmZqNL_Rm6vrikrdm8yXbA/edit?usp=sharing)!
 
 #### Responsibilities
 - Coordinate and facilitate initiatives from all Computer Science related entities, such as MCSS, DSC, and CS faculty
@@ -84,6 +90,7 @@ Co-Host events to improve student experience such as a PoST and PEY Information 
 - A proven track record of one’s ability to scope workload.
 
 ### Operation Officer
+Start your application [here](https://docs.google.com/forms/d/1EIXS36IaynALgIn8FekugMmZqNL_Rm6vrikrdm8yXbA/edit?usp=sharing)!
 
 #### Responsibilities
 - Define, enforce and maintain a HackLab etiquette. 
