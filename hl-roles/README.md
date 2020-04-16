@@ -3,7 +3,7 @@ sidebar: auto
 ---
 
 # Hacklab Roles 
-Start your application [here](https://docs.google.com/forms/d/1EIXS36IaynALgIn8FekugMmZqNL_Rm6vrikrdm8yXbA/edit?usp=sharing)!
+Start your application [here](https://forms.gle/kENLX2CAEEmSLddP7)!
 ![](./Hacklab_recruiting.png)
 
 ## Technology Team

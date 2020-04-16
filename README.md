@@ -2,7 +2,9 @@
 home: true
 heroText: UTM Hacklab
 heroImage: /logos/hacklab.png
-tagline: Supporting UTM MCS Students
+tagline: We're Hiring for 2020-2021!
+actionText: Apply Now
+actionLink: https://forms.gle/kENLX2CAEEmSLddP7
 features:
 - title: 🏫 Office Space and Guidance
   details: The Hacklab provides a space for students at UTM with guidance on their academic and professional roadmaps by students from the community. 
