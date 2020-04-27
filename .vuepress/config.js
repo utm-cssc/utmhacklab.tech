@@ -49,6 +49,7 @@ module.exports = {
                             { text: 'UTM Clubs', link: '/clubs/' },
                             { text: 'Discord', link: 'https://discord.gg/gPX54wF' },
                             { text: 'Microsoft Teams', link: '/microsoft-teams/' },
+                            { text: 'Micro-Enterprise', link: '/micro-enterprise/' }
                         ]
                     },
                     { text: 'Credits', link: '/credits/' },
