@@ -139,6 +139,13 @@ export default {
           desc:
             "Develop web applications easily with a community powered javascript framework!"
         }, 
+        {
+          title: "ReactJS",
+          icon: "react.svg",
+          link: "/resources/react/",
+          desc:
+            "A JavaScript Library for building dynamic user interfaces"
+        },
       ]
     }
   }
