@@ -94,7 +94,7 @@ export default {
           link: "/resources/docker/",
           desc:
             "Containerize your applications with ease and deploy them anywhere!"
-        },
+        }
       ]
     }
   }

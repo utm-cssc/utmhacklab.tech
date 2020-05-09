@@ -139,6 +139,13 @@ export default {
           desc:
             "Develop web applications easily with a community powered javascript framework!"
         }, 
+        {
+          title: "Docker",
+          icon: "docker.svg",
+          link: "/resources/docker/",
+          desc:
+            "Containerize your applications with ease and deploy them anywhere!"
+        }        
       ]
     }
   }
