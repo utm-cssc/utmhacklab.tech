@@ -107,20 +107,5 @@ Deploy and scale your applications with container orchestration systems!
     flex: 0 0 auto;
     margin-right: 36px;
     font-size: 24px
-  }
-
-.vue-mastery {
-    background-color: #3eaf7c;
-    padding: 1em 1.25em;
-    border-radius: 6px;
-    color: #FFFFFF;
-    position: relative;
-    margin-top: 1em;
-}
-
-.vue-mastery a {
-    color: #FFFFFF !important;
-    position: relative;
-    padding-left: 36px;
 }
 </style>
