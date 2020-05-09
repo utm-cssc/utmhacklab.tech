@@ -7,10 +7,35 @@ sidebar: auto
 ## Website vs Web Application
 
 ### Website
-A website is a page on the internet you can access through your browser. Websites are rendered in your browser using HTMl. You can style your HTML page using CSS as well as use JavaScript to give your page some functionality.
+A website is a page on the internet you can access through your browser. Websites are rendered in your browser using HTML. You can style your HTML page using CSS as well as use JavaScript to give your page some functionality.
 
 ### Web Application
-A web application is a type of website users can use to access and manipulate data. Web applications are built-on the idea of user interaction and are intended to provide a specific functionality for the user. Facebook, Gmail and Twitter are all examples of web applications. 
+A web application is a type of website users can use to access and manipulate data. Web applications are built-on the idea of user interaction and are intended to provide a specific functionality for the user. Web applications use a layered approached referred to as "full-stack" conisiting of a frontend, backend and a database. Facebook, Gmail and Twitter are all examples of web applications. Keep reading to learn more about web development! 
+
+## The development stack
+
+### The Frontend
+The frontend is what a user sees and is rendered on the client-side. Traditionally, these pages were built using HTML, CSS and JavaScript. However, for a web application, there are often many repetitive components that appear on multiple pages in addition to the fact that the frontend needs to be constantly updated. For this purpose, most frontend developers use frontend libraries or frameworks. Some of the most famous examples include ReactJs, AngularJS, Angular and Vue.js. These tools are built for the purpose of creating interactive user interfaces (UI) so that they are dynamically updated as data is being manipulated within the application. Furthermore, they provide a pre-defined skeletal structure to your UI development so that you don't have to spend time sorting out your HTML and CSS files.
+
+Want to learn more on how to create dynamic UIs for your web application?
+<LevelWithButton button="Start Learning ReactJS" link="https://www.codecademy.com/learn/react-101"/>
+
+<LevelWithButton button="Start Learning Angular" link="https://angular.io/"/>
+
+<LevelWithButton button="Start Learning Vue" link="https://utmhacklab.tech/resources/vue/#what-is-vue"/>
+
+### The Backend
+The backend is a server-side element of the stack where the business logic takes place. The backend is what gives your application the functionality it needs. Here is where data in manipulated and either sent to the frontend for display or to the database for storage (more on this later). It can be written in any progamming language and thus there are plenty of framework options when it comes to backend development. The most famous ones include ExpressJS (written in NodeJS), Django (written in Python), Laravel (written in PHP), Spring (written in Java) and ASP.NET (written in C#). These web frameworks are made with built-in frontend views/templates you could use, however, most developers are opting to connect backend frameworks with frontend web libraries and frameworks. 
+
+Want to learn more about backend web frameworks?
+
+<LevelWithButton button="Start Learning Django" link="https://www.djangoproject.com/start/" />
+<LevelWithButton button="Start Learning Spring" link="https://spring.io/guides/gs/spring-boot/" />
+<LevelWithButton button="Start Learning ASP.NET" link="https://www.w3schools.com/asp/default.ASP"/>
+<LevelWithButton button="Start Learning Laravel" link="https://www.tutorialspoint.com/laravel/index.htm"/>
+<LevelWithButton button="Start Learning ExpressJS" link="https://www.tutorialspoint.com/expressjs/index.htm" />
+
+
 
 ## How do I get started with web development
 
