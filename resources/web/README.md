@@ -35,7 +35,18 @@ Want to learn more about backend web frameworks?
 <LevelWithButton button="Start Learning Laravel" link="https://www.tutorialspoint.com/laravel/index.htm"/>
 <LevelWithButton button="Start Learning ExpressJS" link="https://www.tutorialspoint.com/expressjs/index.htm" />
 
+### The Database
+We have discussed the frontend and the backend, but we are missing one key aspect, where do we store all the data? As you may have guessed, it's the database! The two most well-know types of databases are SQL Relational Database Management Systems (RDBMS) and NoSQL (non-RDBMS). SQL databases are databases consisting of tables where data in the tables are connected through unique IDs called "keys". These are probably the most commonly used databases in industry right now, but they are currently being replaced by NoSQL databases. These databases store data in a non-structured method therefore data can be retrieved and added in a more dynamic manner. 
 
+Examples of SQL databases includes:
+<LevelWithButton button="MySQL" link="https://www.mysql.com/"/>
+<LevelWithButton button="MS SQL Server" link="https://www.microsoft.com/en-ca/sql-server/sql-server-2019"/>
+<LevelWithButton button="Oracle DB" link="https://www.oracle.com/ca-en/database/"/>
+
+Examples of NoSQL databases include:
+<LevelWithButton button="MongoDB" link="https://www.mongodb.com/"/>
+<LevelWithButton button="CouchDB" link="https://couchdb.apache.org/"/>
+<LevelWithButton button="DynamoDB" link="https://aws.amazon.com/dynamodb/"/>
 
 ## How do I get started with web development
 
