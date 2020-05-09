@@ -15,7 +15,7 @@ Docker accelerates a developers workflow while providing the flexibility with us
 
 
 
-## What are containers?
+## What are Containers?
 
 Containers are lightweight, standalone, executable packages that can be easily run from one computer to the next.
  
@@ -31,7 +31,7 @@ button="Check it out!" link="https://www.netapp.com/us/info/what-are-containers.
 
 <div style="padding:0 0 0 0;position:relative;"><iframe width="560" height="315" src="https://www.youtube.com/embed/_dfLOzuIg2o?controls=0&amp;start=18&end=242" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-## How do I get Started?
+## How do I get started?
 
 ### Docker 101 for developers!
 
@@ -54,7 +54,7 @@ Cheat sheets save you time and energy by giving you essential syntax at your fin
 
 ### Docker Compose Cheat Sheet
 
-   <iframe src="https://cheatography.com/gauravpandey44/cheat-sheets/docker-compose/pdf" width="480" height="640"></iframe>
+   <iframe src="https://cheatography.com//gauravpandey44/cheat-sheets/docker-compose/pdf_bw/" width="480" height="640"></iframe>
    </div>
 
 </div>
@@ -84,7 +84,7 @@ Cheat sheets save you time and energy by giving you essential syntax at your fin
 ### Awesome Docker
 <LevelWithButton :imageRight="false" image="https://deploybot.com/assets/blog/Using-Docker-Containersposting.png" link="https://github.com/veggiemonk/awesome-docker#contents-" button="Check it out!" desc="A curated list of awesome resources, projects, tools and other things related to Docker!"/>
 
-## Next Steps
+## Next Steps: Container Orchestration
 Comfortable with Docker and want to take your learning to the next step?
 Deploy and scale your applications with container orchestration systems!
 
@@ -93,7 +93,7 @@ Deploy and scale your applications with container orchestration systems!
 
 ### Docker Swarm
 
-<LevelWithButton :imageRight="false" image="https://raw.githubusercontent.com/play-with-docker/play-with-docker/master/www/assets/swarm.png" link="https://github.com/veggiemonk/awesome-docker#awesome-lists" button="Explore Docker Swarm!" desc="Another widely used orchestration system for managing containers!"/>
+<LevelWithButton :imageRight="false" image="https://raw.githubusercontent.com/play-with-docker/play-with-docker/master/www/assets/swarm.png" link="https://rominirani.com/docker-swarm-tutorial-b67470cf8872" button="Explore Docker Swarm!" desc="Another widely used orchestration system for managing containers!"/>
 
 
 <style scoped>
