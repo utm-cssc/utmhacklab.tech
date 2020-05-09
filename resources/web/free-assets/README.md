@@ -1,3 +1,0 @@
-## Free Icons
-
-## Free Illustrations
