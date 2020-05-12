@@ -5,7 +5,7 @@ sidebar: auto
 # Web Development
 
 ## Frontend Development
-<LevelWithButton desc="Frontend Development is the process of implementing user interfaces for web applications. As a frontend developer, you create the portion of the website that people interact with and ensure that the design requirements for you application are met" link="https://frontendmasters.com/books/front-end-handbook/2018/what-is-a-FD.html" button="Learn more about it here!" image="https://invexi.com/wp-content/uploads/2015/06/frontend.jpg"/>
+<LevelWithButton desc="Frontend Development is the process of implementing user interfaces for web applications. As a frontend developer, you create the portion of the website that people interact with and ensure that the design requirements for how your application should 'look' and 'feel' are met" link="https://frontendmasters.com/books/front-end-handbook/2018/what-is-a-FD.html" button="Learn more about it here!" image="https://invexi.com/wp-content/uploads/2015/06/frontend.jpg"/>
 
 ## Backend Development
 <LevelWithButton :imageRight="false" desc="Backend Development is the process of developing the business logic and functionality of your tool. As a backend developer, your responsibility is to write clean and scalable code which allows the transfer of data between the web browser and database server as per your application's description. Usually, this involves working with databases to store data from users which is then extracted from the database and used in other parts of the application" link="https://learntocodewith.me/posts/backend-development/" button="Learn more about backend development!" image="https://www.thebalancecareers.com/thmb/934mZp4W5j4MSCHusNcXGY0MXI8=/1500x1000/filters:fill(auto,1)/backenddeveloper-2502825a14ff440eb775dc4244e7ed4d.png"/>
@@ -63,3 +63,7 @@ font-size: 24px
 
 ### Django
 <LevelWithButton :imageRight="false" desc="Django is a Python-based web framework. Django is becoming extremely popula due to python being the default language for most Machine Learning developers. Django is a very comprehensive and advanced tool, but if you plan to do data analytic and machine learning with your web application, Django might be a framework you may want to consider." link="https://realpython.com/tutorials/django/" button="Get started with Django" image="https://www.sayonetech.com/media/uploads/zinnia/Python-Django-Web-Development.jpg" />
+
+## Web Content Accessibility Guide 2.0 (WCAG 2.0)
+<LevelWithButton desc="Your web application is something that everyone should be able to use. Often, some of your users may require certain accesibility features on your web application so that they may experience the full benefits of your application. Many regions have requirements for web content accessibility as part of their legislation (such as Ontario as part of the AODA). Luckily, the W3 Consortium has published international guidelines on web content accessibility in what is know as 'WCAG 2.0' " button="Learn more about web content accessibility" image="https://www.w3.org/blog/wp-content/uploads/2018/09/wcag_blog-1.png" link="https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG"/> 
+
