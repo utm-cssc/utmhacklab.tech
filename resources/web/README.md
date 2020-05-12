@@ -4,51 +4,13 @@ sidebar: auto
 
 # Web Development
 
-## Website vs Web Application
+## Frontend Development
+<LevelWithButton desc="Frontend Development is the process of implementing user interfaces for web applications. As a frontend developer, you create the portion of the website that people interact with and ensure that the design requirements for you application are met" link="https://frontendmasters.com/books/front-end-handbook/2018/what-is-a-FD.html" button="Learn more about it here!" image="https://invexi.com/wp-content/uploads/2015/06/frontend.jpg"/>
 
-### Website
-A website is a page on the internet you can access through your browser. Websites are rendered in your browser using HTML. You can style your HTML page using CSS as well as use JavaScript to give your page some functionality.
+## Backend Development
+<LevelWithButton :imageRight="false" desc="Backend Development is the process of developing the business logic and functionality of your tool. As a backend developer, your responsibility is to write clean and scalable code which allows the transfer of data between the web browser and database server as per your application's description. Usually, this involves working with databases to store data from users which is then extracted from the database and used in other parts of the application" link="https://learntocodewith.me/posts/backend-development/" button="Learn more about backend development!" image="https://www.thebalancecareers.com/thmb/934mZp4W5j4MSCHusNcXGY0MXI8=/1500x1000/filters:fill(auto,1)/backenddeveloper-2502825a14ff440eb775dc4244e7ed4d.png"/>
 
-### Web Application
-A web application is a type of website users can use to access and manipulate data. Web applications are built-on the idea of user interaction and are intended to provide a specific functionality for the user. Web applications use a layered approached referred to as "full-stack" conisiting of a frontend, backend and a database. Facebook, Gmail and Twitter are all examples of web applications. Keep reading to learn more about web development! 
-
-## The development stack
-
-### The Frontend
-The frontend is what a user sees and is rendered on the client-side. Traditionally, these pages were built using HTML, CSS and JavaScript. However, for a web application, there are often many repetitive components that appear on multiple pages in addition to the fact that the frontend needs to be constantly updated. For this purpose, most frontend developers use frontend libraries or frameworks. Some of the most famous examples include ReactJs, AngularJS, Angular and Vue.js. These tools are built for the purpose of creating interactive user interfaces (UI) so that they are dynamically updated as data is being manipulated within the application. Furthermore, they provide a pre-defined skeletal structure to your UI development so that you don't have to spend time sorting out your HTML and CSS files.
-
-Want to learn more on how to create dynamic UIs for your web application?
-<LevelWithButton button="Start Learning ReactJS" link="https://www.codecademy.com/learn/react-101"/>
-
-<LevelWithButton button="Start Learning Angular" link="https://angular.io/"/>
-
-<LevelWithButton button="Start Learning Vue" link="https://utmhacklab.tech/resources/vue/#what-is-vue"/>
-
-### The Backend
-The backend is a server-side element of the stack where the business logic takes place. The backend is what gives your application the functionality it needs. Here is where data in manipulated and either sent to the frontend for display or to the database for storage (more on this later). It can be written in any progamming language and thus there are plenty of framework options when it comes to backend development. The most famous ones include ExpressJS (written in NodeJS), Django (written in Python), Laravel (written in PHP), Spring (written in Java) and ASP.NET (written in C#). These web frameworks are made with built-in frontend views/templates you could use, however, most developers are opting to connect backend frameworks with frontend web libraries and frameworks. 
-
-Want to learn more about backend web frameworks?
-
-<LevelWithButton button="Start Learning Django" link="https://www.djangoproject.com/start/" />
-<LevelWithButton button="Start Learning Spring" link="https://spring.io/guides/gs/spring-boot/" />
-<LevelWithButton button="Start Learning ASP.NET" link="https://www.w3schools.com/asp/default.ASP"/>
-<LevelWithButton button="Start Learning Laravel" link="https://www.tutorialspoint.com/laravel/index.htm"/>
-<LevelWithButton button="Start Learning ExpressJS" link="https://www.tutorialspoint.com/expressjs/index.htm" />
-
-### The Database
-We have discussed the frontend and the backend, but we are missing one key aspect, where do we store all the data? As you may have guessed, it's the database! The two most well-know types of databases are SQL Relational Database Management Systems (RDBMS) and NoSQL (non-RDBMS). SQL databases are databases consisting of tables where data in the tables are connected through unique IDs called "keys". These are probably the most commonly used databases in industry right now, but they are currently being replaced by NoSQL databases. These databases store data in a non-structured method therefore data can be retrieved and added in a more dynamic manner. 
-
-Examples of SQL databases includes:
-<LevelWithButton button="MySQL" link="https://www.mysql.com/"/>
-<LevelWithButton button="MS SQL Server" link="https://www.microsoft.com/en-ca/sql-server/sql-server-2019"/>
-<LevelWithButton button="Oracle DB" link="https://www.oracle.com/ca-en/database/"/>
-
-Examples of NoSQL databases include:
-<LevelWithButton button="MongoDB" link="https://www.mongodb.com/"/>
-<LevelWithButton button="CouchDB" link="https://couchdb.apache.org/"/>
-<LevelWithButton button="DynamoDB" link="https://aws.amazon.com/dynamodb/"/>
-
-## How do I get started with web development
+## How do I get started with web development?
 
 ### Scrimba
 
@@ -60,3 +22,44 @@ Examples of NoSQL databases include:
 ### Backend Web Developer Roadmap
 
 <LevelWithButton desc="A community-created roadmap for modern backend web development." image="/images/backend-roadmap.png" button="Check it out!" link="https://roadmap.sh/backend" />
+
+## HTML, CSS & JavaScript Cheat sheets!
+<div class="scrolling-wrapper">
+<div class="scroll-child">
+<iframe src="https://lifeyourway.net/printables/blogging-html-cheat-sheet.pdf" width="550px" height="500px"></iframe>
+</div>
+<div class="scroll-child">
+<iframe src="https://courses.cs.washington.edu/courses/cse154/16sp/cheat-sheets/css-cheat-sheet.pdf" width="580px" height="500px"></iframe>
+</div>
+  <div class="scroll-child">
+   <iframe src="https://cheatography.com/davechild/cheat-sheets/javascript/pdf/" width="600px" height="500px"></iframe>
+  </div>
+</div>
+
+<style scoped>                                                                                                          
+.scrolling-wrapper {                                                                                                      
+display: flex;                                                                                                          
+flex-wrap: nowrap;                                                                                                      
+overflow-x: auto;                                                                                                                                                                                                                             
+}                                                                                                                       
+.scroll-child {                                                                                                             
+flex: 0 0 auto;                                                                                                        
+ margin-right: 36px;                                                                                                     
+font-size: 24px                                                                                                       
+}                                                                                                                     
+</style>                                                                                                                                 
+
+## Some Popular Web Development tools 
+
+### ReactJS
+
+<LevelWithButton desc="ReactJS is a frontend library created by facebook to help create modern and responsive UIs. It's one of the most well-known frameworks out there and is really easy to learn! Checkout this tutorial!" button="Get started with ReactJS!" link="https://reactjs.org/tutorial/tutorial.html" image="https://miro.medium.com/max/900/1*EntHChgUyirgbZ9A3zTxkA.png" />
+
+### VueJS
+<LevelWithButton :imageRight="false" desc="Another well-known UI framework is VueJS. The hacklab has composed for you a comprehensive resource page to help you get started with VueJS." link="https://utmhacklab.tech/resources/vue/" button="Get Started with VueJS!" image="https://octref.gallerycdn.vsassets.io/extensions/octref/vetur/0.24.0/1583367754374/Microsoft.VisualStudio.Services.Icons.Default" />
+
+### NodeJS & ExpressJS
+<LevelWithButton desc="NodeJS is probably the up and coming backend development tool of the decade. ExpressJS is a backend framework built on NodeJS. They are easily integrable with any frontend framework and are extremely easy to learn if you have only done frontend development in the past" link="https://www.guru99.com/node-js-express.html" button="Let's get started!" image="https://miro.medium.com/max/365/1*Jr3NFSKTfQWRUyjblBSKeg.png"/>
+
+### Django
+<LevelWithButton :imageRight="false" desc="Django is a Python-based web framework. Django is becoming extremely popula due to python being the default language for most Machine Learning developers. Django is a very comprehensive and advanced tool, but if you plan to do data analytic and machine learning with your web application, Django might be a framework you may want to consider." link="https://realpython.com/tutorials/django/" button="Get started with Django" image="https://www.sayonetech.com/media/uploads/zinnia/Python-Django-Web-Development.jpg" />
