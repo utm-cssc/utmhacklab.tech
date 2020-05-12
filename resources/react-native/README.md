@@ -7,7 +7,7 @@ sidebar: auto
 ## What is React Native?
 React Native is a JavaScript framework for writing real, natively rendering mobile applications for iOS and Android. It’s based on React, Facebook’s JavaScript library for building user interfaces, but instead of targeting the browser, it targets mobile platforms.
 
-In other words: web developers can now write mobile applications that look and feel truly “native,” all from the comfort of a JavaScript library that we already know and love. Plus, because most of the code you write can be shared between platforms, React Native makes it easy to simultaneously develop for both Android and iOS.
+In other words: web developers can now write mobile applications that look and feel truly “native”, all with the comfort of a JavaScript library that we already know and love. Plus, because most of the code you write can be shared between platforms, React Native makes it easy to develop for both Android and iOS simultaneously.
 
 ### Why React Native?
 <div style="padding:56.25% 0 0 0;position:relative;">
@@ -25,7 +25,7 @@ Essential Syntaxs for React Native from
 [NativeBase](https://docs.nativebase.io/docs/CheatSheet.html)
 
 ## Further Steps
-We at the Hacklab believe in learning by doing. So here are some ideas for a few projects that you can work on to hone your skills.
+We ,at the Hacklab, believe in learning by doing. So here are some ideas for a few projects that you can work on to hone your skills.
 
 ### Create a simple application
 #### Expense Tracker app

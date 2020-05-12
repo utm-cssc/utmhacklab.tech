@@ -5,7 +5,7 @@ sidebar: auto
 # React
 
 ## What is React
-React (also known as ReactJS or React.js) is an open-source declarative, efficient and flexiable JavaScript library for building user interfaces. React was developed by Facebook and first deployed in the Facebook news feed in 2011. 
+React (also known as ReactJS or React.js) is an open-source declarative, efficient and flexible JavaScript library for building user interfaces. React was developed by Facebook and first deployed in the Facebook news feed in 2011. 
 
 React.js lets you compose complex UIs from small, isolated and resuable pieces of code called "components". In terms of websites and web applications, UIs are the collection of on-screen menus, search bars, buttons, and anything else someone interacts with to use a website or app. 
 
@@ -21,22 +21,17 @@ JSX (short for JavaScript eXtension) is a React extension that makes it easy for
 ### Virtual DOM
 React.js creates a Virtual DOM which is the copy of site's DOM. React uses this copy to see what parts of the actual DOM is changed when an event happens (like a user clicking a button) and selectively updates the DOM only.
 
+<LevelWithButton :image-right=false link="https://skillcrush.com/blog/what-is-react-js/#dom" desc="Find more about React and their benefits!" image="https://mk0skillcrush9jajt6o.kinstacdn.com/wp-content/themes/skillcrush-corgi/img/retina-icons/Skillcrush_Logo@2x.png" button="Click here!" />
+
 ### Companies using React
-<div style="padding-bottom:30px" />
-<div style="display:inline;position:relative;">
-    <!-- Facebook image -->
-    <img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" style="width:100px;height:100px;position:relative;">
-    <!-- Netflix image -->
-    <img src="https://miro.medium.com/max/3150/1*ty4NvNrGg4ReETxqU2N3Og.png" style="width:125px;height:100px;position:relative;">
-    <!-- Dropbox image -->
-    <img src="https://i.pcmag.com/imagery/reviews/01eqrJlwTzs4ACRmWo01fCt-9.fit_scale.size_1028x578.v_1569483324.jpg" style="width:125px;height:100px;position:relative;">
-    <!-- Microsoft image -->
-    <img src="https://pngimg.com/uploads/microsoft/microsoft_PNG18.png" style="width:95px;height:100px;position:relative;">
-    <!-- Apple image -->
-    <img src="https://image.flaticon.com/icons/png/512/37/37150.png" style="width:100px;height:100px;position:relative;padding-left:10px;">
-    <!-- Whatsapp image -->
-    <img src="https://image.flaticon.com/icons/svg/1383/1383269.svg" style="width:125px;height:100px;position:relative;">
-</div>
+<ImagesGridHorizontal :images="
+[{src:'https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png', width:'95px', height:'100px'}, 
+{src:'https://miro.medium.com/max/3150/1*ty4NvNrGg4ReETxqU2N3Og.png', width:'130px', height:'100px'},
+{src:'https://image.flaticon.com/icons/svg/1383/1383269.svg', width:'100px', height:'100px'}, 
+{src:'https://image.flaticon.com/icons/png/512/37/37150.png', width:'100px', height:'100px'}, 
+{src:'https://i.pcmag.com/imagery/reviews/01eqrJlwTzs4ACRmWo01fCt-9.fit_scale.size_1028x578.v_1569483324.jpg', width:'125px', height:'100px'}, 
+{src:'https://pngimg.com/uploads/microsoft/microsoft_PNG18.png', width:'95px', height:'100px'},
+]" />
 
 ### React is Awesome
 <div style="padding:56.25% 0 0 0;position:relative;">
