@@ -4,11 +4,16 @@ sidebar: auto
 
 # Web Development
 
+Web development is when you create pages, sites or applications people can access over the internet. As a web developer, you have the option of a broad set of rapidly evolving tools to work with. If you want to learn more about the different aspects of web development and
+how to get started, continue reading below!
+
 ## Frontend Development
-<LevelWithButton desc="Frontend Development is the process of implementing user interfaces for web applications. As a frontend developer, you create the portion of the website that people interact with and ensure that the design requirements for how your application should 'look' and 'feel' are met" link="https://frontendmasters.com/books/front-end-handbook/2018/what-is-a-FD.html" button="Learn more about it here!" image="https://invexi.com/wp-content/uploads/2015/06/frontend.jpg"/>
+Frontend Development is the process of implementing user interfaces for web applications. As a frontend developer, you create the portion of the website that people interact with and ensure that the design requirements for how your application should 'look' and 'feel' are met
+<LevelWithButton desc="Learn more about what you need to become a successful frontend web developer!" link="https://frontendmasters.com/books/front-end-handbook/2018/what-is-a-FD.html" button="Check it out!" image="https://invexi.com/wp-content/uploads/2015/06/frontend.jpg"/>
 
 ## Backend Development
-<LevelWithButton :imageRight="false" desc="Backend Development is the process of developing the business logic and functionality of your tool. As a backend developer, your responsibility is to write clean and scalable code which allows the transfer of data between the web browser and database server as per your application's description. Usually, this involves working with databases to store data from users which is then extracted from the database and used in other parts of the application" link="https://learntocodewith.me/posts/backend-development/" button="Learn more about backend development!" image="https://www.thebalancecareers.com/thmb/934mZp4W5j4MSCHusNcXGY0MXI8=/1500x1000/filters:fill(auto,1)/backenddeveloper-2502825a14ff440eb775dc4244e7ed4d.png"/>
+Backend Development is the process of developing the business logic and functionality of your tool. As a backend developer, your responsibility is to write clean and scalable code which allows the transfer of data between the web browser and database server as per your application's description. Usually, this involves working with databases to store data from users which is then extracted from the database and used in other parts of the application
+<LevelWithButton :imageRight="false" desc="Want to learn more about the scope of a backend developers' job?" link="https://learntocodewith.me/posts/backend-development/" button="Get started now!" image="https://www.thebalancecareers.com/thmb/934mZp4W5j4MSCHusNcXGY0MXI8=/1500x1000/filters:fill(auto,1)/backenddeveloper-2502825a14ff440eb775dc4244e7ed4d.png"/>
 
 ## How do I get started with web development?
 
