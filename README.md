@@ -146,6 +146,12 @@ export default {
           desc:
             "A JavaScript Library for building dynamic user interfaces"
         },
+          title: "Docker",
+          icon: "docker.svg",
+          link: "/resources/docker/",
+          desc:
+            "Containerize your applications with ease and deploy them anywhere!"
+        }        
       ]
     }
   }
