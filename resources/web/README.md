@@ -13,7 +13,7 @@ Frontend Development is the process of implementing user interfaces for web appl
 
 ## Backend Development
 Backend Development is the process of developing the business logic and functionality of your tool. As a backend developer, your responsibility is to write clean and scalable code which allows the transfer of data between the web browser and database server as per your application's description. Usually, this involves working with databases to store data from users which is then extracted from the database and used in other parts of the application
-<LevelWithButton :imageRight="false" desc="Want to learn more about the scope of a backend developers' job?" link="https://learntocodewith.me/posts/backend-development/" button="Get started now!" image="https://www.thebalancecareers.com/thmb/934mZp4W5j4MSCHusNcXGY0MXI8=/1500x1000/filters:fill(auto,1)/backenddeveloper-2502825a14ff440eb775dc4244e7ed4d.png"/>
+<LevelWithButton :imageRight="false" desc="Checkout this video on how to get started as a backend developer" link="https://www.youtube.com/watch?v=0Kv_k4ypj6o" button="Get Started Now!" image="https://codecondo.com/wp-content/uploads/2017/09/back-end-developer.jpg"/>
 
 ## How do I get started with web development?
 
@@ -54,7 +54,16 @@ font-size: 24px
 }                                                                                                                     
 </style>                                                                                                                                 
 
-## Some Popular Web Development tools 
+## What Web Development Tools Are There?
+
+### Top 10 Frontend Libraries
+
+<LevelWithButton :imageRight="false" desc="Javascript frameworks are the way-to-go with frontend development. Checkout this list on the top 10 frameworks to get started with UI" link="https://medium.com/javarevisited/10-of-the-most-popular-javascript-frameworks-libraries-for-web-development-in-2019-a2c8cea68094" image="https://miro.medium.com/max/3840/1*4cFhtuq6zRDqJ6p4s2pQ6g.jpeg" button="Check it out!" /> 
+
+### Web development tools you should know
+<LevelWithButton desc="Here are some essential tools you should know before you start your next project!" link="https://www.freecodecamp.org/news/handy-web-development-toolkit/" image="https://www.freecodecamp.org/news/content/images/size/w2000/2020/04/screely-1586183781361.png" button="Check it out!" /> 
+
+## Selected Resources
 
 ### ReactJS
 
@@ -67,7 +76,9 @@ font-size: 24px
 <LevelWithButton desc="NodeJS is probably the up and coming backend development tool of the decade. ExpressJS is a backend framework built on NodeJS. They are easily integrable with any frontend framework and are extremely easy to learn if you have only done frontend development in the past" link="https://www.guru99.com/node-js-express.html" button="Let's get started!" image="https://miro.medium.com/max/365/1*Jr3NFSKTfQWRUyjblBSKeg.png"/>
 
 ### Django
-<LevelWithButton :imageRight="false" desc="Django is a Python-based web framework. Django is becoming extremely popula due to python being the default language for most Machine Learning developers. Django is a very comprehensive and advanced tool, but if you plan to do data analytic and machine learning with your web application, Django might be a framework you may want to consider." link="https://realpython.com/tutorials/django/" button="Get started with Django" image="https://www.sayonetech.com/media/uploads/zinnia/Python-Django-Web-Development.jpg" />
+Django is a Python-based web framework. Django is becoming extremely popula due to python being the default language for most Machine Learning developers. Django is a very comprehensive and advanced tool, but if you plan to do data analytic and machine learning with your web application, Django might be a framework you may want to consider.
+<LevelWithButton :imageRight="false" desc="If you would like to get started with django, here are step-by-step tutorials on building various types applications" link="https://realpython.com/tutorials/django/" button="Get started with Django" image="https://www.sayonetech.com/media/uploads/zinnia/Python-Django-Web-Development.jpg" />
 
 ## Web Content Accessibility Guide 2.0 (WCAG 2.0)
-<LevelWithButton desc="Your web application is something that everyone should be able to use. Often, some of your users may require certain accesibility features on your web application so that they may experience the full benefits of your application. Many regions have requirements for web content accessibility as part of their legislation (such as Ontario as part of the AODA). Luckily, the W3 Consortium has published international guidelines on web content accessibility in what is know as 'WCAG 2.0' " button="Learn more about web content accessibility" image="https://www.w3.org/blog/wp-content/uploads/2018/09/wcag_blog-1.png" link="https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG"/>
+Your web application is something that everyone should be able to use. Often, some of your users may require certain accesibility features on your web application so that they may experience the full benefits of your application. Many regions have requirements for web content accessibility as part of their legislation (such as Ontario as part of the AODA). Luckily, the W3 Consortium has published international guidelines on web content accessibility in what is know as 'WCAG 2.0' 
+<LevelWithButton desc="The WCAG2.0 is fairly extensive and provides a very comprehensive set of guidelines. Get started now!" button="Learn more about web content accessibility" image="https://www.w3.org/blog/wp-content/uploads/2018/09/wcag_blog-1.png" link="https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG"/>
