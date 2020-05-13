@@ -9,23 +9,60 @@ React Native is a JavaScript framework for writing real, natively rendering mobi
 
 In other words: web developers can now write mobile applications that look and feel truly “native”, all with the comfort of a JavaScript library that we already know and love. Plus, because most of the code you write can be shared between platforms, React Native makes it easy to develop for both Android and iOS simultaneously.
 
-### Why React Native?
+## Why React Native?
 <div style="padding:56.25% 0 0 0;position:relative;">
     <iframe width="443" height="240" src="https://www.youtube.com/embed/FJ6tXatsq1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" allowfullscreen></iframe>
 </div>
+
+### Companies using React Native
+<ImagesGridHorizontal :images="
+[{src:'https://reactnative.dev/img/showcase/instagram.png', width:'95px', height:'100px'}, 
+{src:'https://reactnative.dev/img/showcase/skype.png', width:'100px', height:'100px'},
+{src:'https://reactnative.dev/img/showcase/discord.png', width:'100px', height:'100px'}, 
+{src:'https://reactnative.dev/img/showcase/tesla.png', width:'100px', height:'100px'}, 
+{src:'https://reactnative.dev/img/showcase/walmart.png', width:'100px', height:'100px'}, 
+{src:'https://reactnative.dev/img/showcase/ubereats.png', width:'100px', height:'100px'},
+{src:'https://reactnative.dev/img/showcase/pinterest.png', width:'100px', height:'100px'}
+]" />
 
 ## Getting Started
 #### React Native for you!
 <LevelWithButton desc="In this series of videos, you will be introduced fundamental concepts of React Native." link="https://www.youtube.com/playlist?list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ" image="/images/react-native.png" button="Start Learning!"></LevelWithButton>
 
-<LevelWithButton :image-right=false desc="These official documentation can help you out..." link="https://reactnative.dev" image="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" button="Read Docs" />
+#### CS50: Mobile App Development with React Native
+<LevelWithButton :image-right=false image="https://www.harvard.edu/sites/default/files/user13/harvard_shield.png" desc="Learn about mobile app development with React Native, offered by Harvard University." link="https://online-learning.harvard.edu/course/cs50s-mobile-app-development-react-native?gclid=CjwKCAjwkun1BRAIEiwA2mJRWdbcLlJoxHpDS1-Pv9ezjxWPqTlQB70tzZtwav8-cMLrBdK6hn-xkhoCw9cQAvD_BwE" button="Start Learning!" />
+
+## Cheat Sheets
+Cheat sheets save you time and energy by giving you essential syntax at your fingertips.
+
+### React Syntaxes
+<iframe src="https://ihatetomatoes.net/wp-content/uploads/2017/01/react-cheat-sheet.pdf" width="700" height="550"></iframe>
+
+### React Native Styling Cheat Sheet
+<LevelWithButton :image-right=false desc="Check out the styling cheat sheet" link="https://github.com/vhpoet/react-native-styling-cheat-sheet" image="https://camo.githubusercontent.com/4009dd58f523f3933a60531e33cf1366497fc92e/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f42356139626b4c6f75456c4f4d2f67697068792e676966" button="Click here!" />
 
 ## Essential Syntax
 Essential Syntaxs for React Native from
 [NativeBase](https://docs.nativebase.io/docs/CheatSheet.html)
 
+## VS Code Extensions
+### ES7 React/Redux/React-Native Snippets
+<LevelWithButton desc="Simple extensions for React, Redux and Graphql in JS/TS with ES7 syntax" image="https://dsznajder.gallerycdn.vsassets.io/extensions/dsznajder/es7-react-js-snippets/2.7.1/1585251666137/Microsoft.VisualStudio.Services.Icons.Default" link="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets" button="Check it out!" />
+
+#### Babel
+<LevelWithButton :image-right=false link="https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel" desc="VSCode syntax highlighting for today's JavaScript, ported from gandm's language-babel for Atom." image="https://mgmcdermott.gallerycdn.vsassets.io/extensions/mgmcdermott/vscode-language-babel/0.0.27/1586099951273/Microsoft.VisualStudio.Services.Icons.Default" button="Check it out!" />
+
+#### React Native Tools
+<LevelWithButton desc="Debugging and integrated commands for React Native" image="https://github.com/Microsoft/vscode-react-native/raw/master/images/react-features.gif" link="https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native" button="Check it out!" />
+
+## Useful Resource
+### Official GitHub
+<LevelWithButton :image-right=false image="/icons/github.svg" link="https://github.com/facebook/react-native" button="Check it out!" desc="The official React Native github repository"></LevelWithButton>
+
+
+
 ## Further Steps
-We ,at the Hacklab, believe in learning by doing. So here are some ideas for a few projects that you can work on to hone your skills.
+We, at the Hacklab, believe in learning by doing. So here are some ideas for a few projects that you can work on to hone your skills.
 
 ### Create a simple application
 #### Expense Tracker app

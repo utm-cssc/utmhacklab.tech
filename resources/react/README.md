@@ -58,7 +58,7 @@ Cheat sheets save you time and energy by giving you essential syntax at your fin
 <iframe src="https://ihatetomatoes.net/wp-content/uploads/2017/01/react-cheat-sheet.pdf" width="700" height="550"></iframe>
 
 ## Essential Syntax
-<LevelWithButton image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXIBfv1fJT1JwlMhw4y7s7vjrhOGue9mFD2aB9mGbUor02-PPn&usqp=CAU" link="https://devhints.io/react" button="Read Docs" desc="Essential Syntaxs for React from devhints.io"></LevelWithButton>
+<LevelWithButton image="https://assets.devhints.io/previews/react.jpg?t=20200403231925" link="https://devhints.io/react" button="Read Docs" desc="Essential Syntaxs for React from devhints.io"></LevelWithButton>
 
 ## VS Code Extensions
 ### glean
@@ -72,7 +72,7 @@ Cheat sheets save you time and energy by giving you essential syntax at your fin
 
 ## Useful Resources
 ### Awesome React
-<LevelWithButton desc="A collection of awesome things regarding the React ecosystem." image="https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667" link="https://github.com/enaqx/awesome-react" button="Check it out!" />
+<LevelWithButton desc="A collection of awesome things regarding the React ecosystem." image="https://github.com/sindresorhus/awesome/raw/master/media/logo.png" link="https://github.com/enaqx/awesome-react" button="Check it out!" />
 
 ### Official GitHub
 <LevelWithButton :image-right=false image="/icons/github.svg" link="https://github.com/facebook/react" button="Check it out!" desc="The official Reactjs github repository"></LevelWithButton>

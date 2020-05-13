@@ -102,6 +102,13 @@ export default {
           desc:
             "A JavaScript Library for building dynamic user interfaces"
         },
+        {
+          title: "React Native",
+          icon: "react-native.svg",
+          link: "/resources/react-native/",
+          desc:
+            "React Native is a JS framework for writing natively rendering mobile applications for iOS and Android!"
+        },
       ]
     }
   }
