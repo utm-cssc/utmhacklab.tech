@@ -1,6 +1,7 @@
 # Web Development
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Frontend Development
 <LevelWithButton desc="Frontend Development is the process of implementing user interfaces for web applications. As a frontend developer, you create the portion of the website that people interact with and ensure that the design requirements for how your application should 'look' and 'feel' are met" link="https://frontendmasters.com/books/front-end-handbook/2018/what-is-a-FD.html" button="Learn more about it here!" image="https://invexi.com/wp-content/uploads/2015/06/frontend.jpg"/>
 
@@ -11,6 +12,9 @@
 =======
 ## How do I get started with web development
 >>>>>>> parent of bcfe67a... Add a description of site vs application to web dev resource
+=======
+## How do I get started with web development
+>>>>>>> parent of 55b174f... commit
 
 ### Scrimba
 
@@ -23,6 +27,7 @@
 ### Backend Web Developer Roadmap
 
 <LevelWithButton desc="A community-created roadmap for modern backend web development." image="/images/backend-roadmap.png" button="Check it out!" link="https://roadmap.sh/backend" />
+<<<<<<< HEAD
 
 ## HTML, CSS & JavaScript Cheat sheets!
 <div class="scrolling-wrapper">
@@ -68,3 +73,5 @@ font-size: 24px
 ## Web Content Accessibility Guide 2.0 (WCAG 2.0)
 <LevelWithButton desc="Your web application is something that everyone should be able to use. Often, some of your users may require certain accesibility features on your web application so that they may experience the full benefits of your application. Many regions have requirements for web content accessibility as part of their legislation (such as Ontario as part of the AODA). Luckily, the W3 Consortium has published international guidelines on web content accessibility in what is know as 'WCAG 2.0' " button="Learn more about web content accessibility" image="https://www.w3.org/blog/wp-content/uploads/2018/09/wcag_blog-1.png" link="https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG"/> 
 
+=======
+>>>>>>> parent of 55b174f... commit
