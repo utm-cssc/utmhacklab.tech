@@ -64,7 +64,7 @@ font-size: 24px
 When you start developing your web application, you will need an array of tools to keep help your development agile and your code scalable. This includes using version control (like Git) and deployment containers (like Docker). 
 <LevelWithButton desc="Here are some essential tools you should definetly know before you start your next project!" link="https://www.freecodecamp.org/news/handy-web-development-toolkit/" image="https://www.freecodecamp.org/news/content/images/size/w2000/2020/04/screely-1586183781361.png" button="Check it out!" /> 
 
-## Selected tools to help you get started!
+## Selected frameworks to help you get started!
 
 ### ReactJS
 
