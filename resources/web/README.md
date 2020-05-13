@@ -1,9 +1,6 @@
----    
-sidebar: auto
----      
-
 # Web Development
 
+<<<<<<< HEAD
 ## Frontend Development
 <LevelWithButton desc="Frontend Development is the process of implementing user interfaces for web applications. As a frontend developer, you create the portion of the website that people interact with and ensure that the design requirements for how your application should 'look' and 'feel' are met" link="https://frontendmasters.com/books/front-end-handbook/2018/what-is-a-FD.html" button="Learn more about it here!" image="https://invexi.com/wp-content/uploads/2015/06/frontend.jpg"/>
 
@@ -11,10 +8,14 @@ sidebar: auto
 <LevelWithButton :imageRight="false" desc="Backend Development is the process of developing the business logic and functionality of your tool. As a backend developer, your responsibility is to write clean and scalable code which allows the transfer of data between the web browser and database server as per your application's description. Usually, this involves working with databases to store data from users which is then extracted from the database and used in other parts of the application" link="https://learntocodewith.me/posts/backend-development/" button="Learn more about backend development!" image="https://www.thebalancecareers.com/thmb/934mZp4W5j4MSCHusNcXGY0MXI8=/1500x1000/filters:fill(auto,1)/backenddeveloper-2502825a14ff440eb775dc4244e7ed4d.png"/>
 
 ## How do I get started with web development?
+=======
+## How do I get started with web development
+>>>>>>> parent of bcfe67a... Add a description of site vs application to web dev resource
 
 ### Scrimba
 
 <LevelWithButton  desc="Scrimba is a next-generation platform for learning how to code. Scrimba's screencasts enable you to interact with the code directly in the player. This way, you'll have more fun and learn faster." image="https://scrimba.com/static/art/castcover.png" button="Start Learning" link="https://scrimba.com" />
+
 ### Frontend Web Developer Roadmap
 
 <LevelWithButton :imageRight="false"  desc="A community-created roadmap for modern frontend web development." image="/images/frontend-roadmap.png" button="Check it out!" link="https://roadmap.sh/frontend" />
