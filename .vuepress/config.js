@@ -29,7 +29,14 @@ module.exports = {
                     'prototyping-tools/',
 
                 ]
-            }]
+            }],
+            '/resources/REST/': [{
+                title: 'REST',
+                children: [
+                    '',
+                    'Learn/',
+                ]
+            }],
         },
         locales: {
             '/': {
@@ -39,13 +46,14 @@ module.exports = {
                 label: 'English',
                 // Aria Label for locale in the dropdown
                 ariaLabel: 'Languages',
-                nav: [
-                    {
-                        text: 'Resources', link: '/resources/'
+                nav: [{
+                        text: 'Resources',
+                        link: '/resources/'
                     },
                     { text: 'Projects', link: '/projects/' },
                     {
-                        text: 'Communities', items: [
+                        text: 'Communities',
+                        items: [
                             { text: 'UTM Clubs', link: '/clubs/' },
                             { text: 'Discord', link: 'https://discord.gg/gPX54wF' },
                             { text: 'Microsoft Teams', link: '/microsoft-teams/' },
