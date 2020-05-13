@@ -63,7 +63,7 @@ font-size: 24px
 ### Web development tools you should know
 <LevelWithButton desc="Here are some essential tools you should know before you start your next project!" link="https://www.freecodecamp.org/news/handy-web-development-toolkit/" image="https://www.freecodecamp.org/news/content/images/size/w2000/2020/04/screely-1586183781361.png" button="Check it out!" /> 
 
-## Selected Resources
+## Selected tools to help you get started!
 
 ### ReactJS
 
