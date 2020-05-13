@@ -42,8 +42,6 @@ React.js creates a Virtual DOM which is the copy of site's DOM. React uses this 
 <LevelWithButton desc="A community-created roadmap for Reactjs." image="https://rwieruch-public.sfo2.cdn.digitaloceanspaces.com/road-to-react/cover.png" link="https://www.roadtoreact.com" button="Check it out!" />
 
 ## Getting Started
-### React101: The Beginner's Guide to React
-<LevelWithButton desc="Free course for React newbies and those looking to get a better understanding of React fundamentals." image="https://d2eip9sf3oo6c2.cloudfront.net/series/square_covers/000/000/160/full/EGH_BeginnersReact2.png" link="https://egghead.io/courses/the-beginner-s-guide-to-react" button="Check it out!" />
 
 ### Introduction to Reactjs
 <LevelWithButton :image-right=false image="/images/reactCourse.png" link="https://www.youtube.com/playlist?list=PL55RiY5tL51oyA8euSROLjMFZbXaV7skS" button="Start Learning!" desc="In this series of videos, you will be introduced fundamental concepts of React as you build a small project."></LevelWithButton>
