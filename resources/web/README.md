@@ -61,7 +61,8 @@ font-size: 24px
 <LevelWithButton :imageRight="false" desc="Javascript frameworks are the way-to-go with frontend development. Checkout this list on the top 10 frameworks to get started with UI" link="https://medium.com/javarevisited/10-of-the-most-popular-javascript-frameworks-libraries-for-web-development-in-2019-a2c8cea68094" image="https://miro.medium.com/max/3840/1*4cFhtuq6zRDqJ6p4s2pQ6g.jpeg" button="Check it out!" /> 
 
 ### Web development tools you should know
-<LevelWithButton desc="Here are some essential tools you should know before you start your next project!" link="https://www.freecodecamp.org/news/handy-web-development-toolkit/" image="https://www.freecodecamp.org/news/content/images/size/w2000/2020/04/screely-1586183781361.png" button="Check it out!" /> 
+When you start developing your web application, you will need an array of tools to keep help your development agile and your code scalable. This includes using version control (like Git) and deployment containers (like Docker). 
+<LevelWithButton desc="Here are some essential tools you should definetly know before you start your next project!" link="https://www.freecodecamp.org/news/handy-web-development-toolkit/" image="https://www.freecodecamp.org/news/content/images/size/w2000/2020/04/screely-1586183781361.png" button="Check it out!" /> 
 
 ## Selected tools to help you get started!
 
