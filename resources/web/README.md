@@ -56,28 +56,36 @@ font-size: 24px
 
 ## What Web Development Tools Are There?
 
+### Web Frameworks
+A web framework is a tool that you could use as the skeleton for your application. It's helpful to use web frameworks because often, they have built-in features (such as user authentication capabilities) which you can use for development thus saving you time and increasing productivity. Furthermore, frameworks are helpful when building larger applications because they are "scalable". This means you can easily add implement features to your application in a way that follows a pattern such that other portions of your application are not impacted in a way that follows a pattern such that other portions of your application are not impacted. Frameworks are available for both backend and frontend development.
+
 ### Top 10 Frontend Libraries
 
 <LevelWithButton :imageRight="false" desc="Javascript frameworks are the way-to-go with frontend development. Checkout this list on the top 10 frameworks to get started with UI" link="https://medium.com/javarevisited/10-of-the-most-popular-javascript-frameworks-libraries-for-web-development-in-2019-a2c8cea68094" image="https://miro.medium.com/max/3840/1*4cFhtuq6zRDqJ6p4s2pQ6g.jpeg" button="Check it out!" /> 
 
+### Backend Frameworks
+<LevelWithButton desc="Here are a list of video tutorials you could use if you want to get started with a backend framework" link="https://dev.to/iamsaeeddev/5-free-tutorials-you-should-complete-to-master-the-back-end-3077" image="https://kellton-revamp-prod.s3.amazonaws.com/s3fs-public/inline-images/Backend%20Frameworks-02.jpg" button="Check it out!" />
+
+
 ### Web development tools you should know
 When you start developing your web application, you will need an array of tools to keep help your development agile and your code scalable. This includes using version control (like Git) and deployment containers (like Docker). 
-<LevelWithButton desc="Here are some essential tools you should definetly know before you start your next project!" link="https://www.freecodecamp.org/news/handy-web-development-toolkit/" image="https://www.freecodecamp.org/news/content/images/size/w2000/2020/04/screely-1586183781361.png" button="Check it out!" /> 
+<LevelWithButton :imageRight="false" desc="Here are some essential tools you should definetly know before you start your next project!" link="https://www.freecodecamp.org/news/handy-web-development-toolkit/" image="https://www.freecodecamp.org/news/content/images/size/w2000/2020/04/screely-1586183781361.png" button="Check it out!" /> 
 
 ## Selected frameworks to help you get started!
 
 ### ReactJS
 
-<LevelWithButton desc="ReactJS is a frontend library created by facebook to help create modern and responsive UIs. It's one of the most well-known frameworks out there and is really easy to learn! Checkout this tutorial!" button="Get started with ReactJS!" link="https://reactjs.org/tutorial/tutorial.html" image="https://miro.medium.com/max/900/1*EntHChgUyirgbZ9A3zTxkA.png" />
+<LevelWithButton desc="ReactJS is a frontend library created by facebook to help create modern and responsive UIs. It's one of the most well-known frameworks out there!" button="Get started with ReactJS!" link="https://utmhacklab.tech/resources/react/" image="https://miro.medium.com/max/900/1*EntHChgUyirgbZ9A3zTxkA.png" />
 
 ### VueJS
-<LevelWithButton :imageRight="false" desc="Another well-known UI framework is VueJS. The hacklab has composed for you a comprehensive resource page to help you get started with VueJS." link="https://utmhacklab.tech/resources/vue/" button="Get Started with VueJS!" image="https://octref.gallerycdn.vsassets.io/extensions/octref/vetur/0.24.0/1583367754374/Microsoft.VisualStudio.Services.Icons.Default" />
+
+<LevelWithButton :imageRight="false" desc="VueJS is a frontend framework designed for building UIs and single-page applications. It is a highly-scalable framework and can be easily adopted for a plethora of use cases." link="https://utmhacklab.tech/resources/vue/" button="Get Started with VueJS!" image="https://octref.gallerycdn.vsassets.io/extensions/octref/vetur/0.24.0/1583367754374/Microsoft.VisualStudio.Services.Icons.Default" />
 
 ### NodeJS & ExpressJS
-<LevelWithButton desc="NodeJS is probably the up and coming backend development tool of the decade. ExpressJS is a backend framework built on NodeJS. They are easily integrable with any frontend framework and are extremely easy to learn if you have only done frontend development in the past" link="https://www.guru99.com/node-js-express.html" button="Let's get started!" image="https://miro.medium.com/max/365/1*Jr3NFSKTfQWRUyjblBSKeg.png"/>
+<LevelWithButton desc="NodeJS is what allows you to use Javascript for backend development. ExpressJS is a backend web framework built on NodeJS. They are easily integrable with any frontend framework and are particularly notorious for allowing developers to create full-stack applications using a single programming language." link="https://www.guru99.com/node-js-express.html" button="Let's get started!" image="https://miro.medium.com/max/365/1*Jr3NFSKTfQWRUyjblBSKeg.png"/>
 
 ### Django
-Django is a Python-based web framework. Django is becoming extremely popula due to python being the default language for most Machine Learning developers. Django is a very comprehensive and advanced tool, but if you plan to do data analytic and machine learning with your web application, Django might be a framework you may want to consider.
+Django is a Python-based web framework. Django is becoming extremely popular due to python being the default language for most Machine Learning developers. Django is a very comprehensive and advanced tool, but if you plan to do data analytics and machine learning with your web application, Django might be a framework you may want to consider.
 <LevelWithButton :imageRight="false" desc="If you would like to get started with django, here are step-by-step tutorials on building various types applications" link="https://realpython.com/tutorials/django/" button="Get started with Django" image="https://www.sayonetech.com/media/uploads/zinnia/Python-Django-Web-Development.jpg" />
 
 ## Web Content Accessibility Guide 2.0 (WCAG 2.0)
