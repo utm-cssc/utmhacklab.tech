@@ -35,13 +35,13 @@ In other words: web developers can now write mobile applications that look and f
 ## Cheat Sheets
 Cheat sheets save you time and energy by giving you essential syntax at your fingertips.
 
-### React Syntaxes
+### React syntax
 <iframe src="https://ihatetomatoes.net/wp-content/uploads/2017/01/react-cheat-sheet.pdf" width="700" height="550"></iframe>
 
 ### React Native Styling Cheat Sheet
 <LevelWithButton :image-right=false desc="Check out the styling cheat sheet" link="https://github.com/vhpoet/react-native-styling-cheat-sheet" image="https://camo.githubusercontent.com/4009dd58f523f3933a60531e33cf1366497fc92e/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f42356139626b4c6f75456c4f4d2f67697068792e676966" button="Click here!" />
 
-## Essential Syntax
+## Essential syntax for React Native
 Essential Syntaxs for React Native from
 [NativeBase](https://docs.nativebase.io/docs/CheatSheet.html)
 
