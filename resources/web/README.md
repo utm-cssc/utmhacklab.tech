@@ -57,7 +57,7 @@ font-size: 24px
 ## What Web Development Tools Are There?
 
 ### Web Frameworks
-A web framework is a tool that you could use as the skeleton for your application. It's helpful to use web frameworks because often, they have built-in features (such as user authentication capabilities) which you can use for development thus saving you time and increasing productivity. Furthermore, frameworks are helpful when building larger applications because they are "scalable". This means you can easily implement features to your application in a way that follows a pattern such that other portions of your application are not impacted in a way that follows a pattern such that other portions of your application are not impacted. Frameworks are available for both backend and frontend development.
+A web framework is a tool that you could use as the skeleton for your application. It's helpful to use web frameworks because often, they have built-in features (such as user authentication capabilities) which you can use for development thus saving you time and increasing productivity. Furthermore, frameworks are helpful when building larger applications because they are "scalable". This means you can easily implement features to your application in a way that follows a pattern such that other portions of your application are not impacted and your code is easily understandable if you want to make changes in the future. Frameworks are available for both backend and frontend development.
 
 ### Top 10 Frontend Libraries
 
