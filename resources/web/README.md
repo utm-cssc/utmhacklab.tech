@@ -86,7 +86,7 @@ When you start developing your web application, you will need an array of tools 
 
 ### Django
 Django is a Python-based web framework. Django is becoming extremely popular due to python being the default language for most Machine Learning developers. Django is a very comprehensive and advanced tool, but if you plan to do data analytics and machine learning with your web application, Django might be a framework you may want to consider.
-<LevelWithButton :imageRight="false" desc="If you would like to get started with django, here are step-by-step tutorials on building various types applications" link="https://realpython.com/tutorials/django/" button="Get started with Django" image="https://www.sayonetech.com/media/uploads/zinnia/Python-Django-Web-Development.jpg" />
+<LevelWithButton :imageRight="false" desc="If you would like to get started with django, here are step-by-step tutorials on building various types of applications" link="https://realpython.com/tutorials/django/" button="Get started with Django" image="https://www.sayonetech.com/media/uploads/zinnia/Python-Django-Web-Development.jpg" />
 
 ## Web Content Accessibility Guide 2.0 (WCAG 2.0)
 Your web application is something that everyone should be able to use. Often, some of your users may require certain accesibility features on your web application so that they may experience the full benefits of your application. Many regions have requirements for web content accessibility as part of their legislation (such as Ontario as part of the AODA). Luckily, the W3 Consortium has published international guidelines on web content accessibility in what is know as 'WCAG 2.0' 
