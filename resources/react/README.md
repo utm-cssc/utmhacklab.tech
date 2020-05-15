@@ -62,9 +62,6 @@ Cheat sheets save you time and energy by giving you essential syntax at your fin
 ### glean
 <LevelWithButton desc="This extension provides refactoring tools for your React codebase" image="https://wix.gallerycdn.vsassets.io/extensions/wix/glean/4.21.1/1586120722660/Microsoft.VisualStudio.Services.Icons.Default" link="https://marketplace.visualstudio.com/items?itemName=wix.glean" button="Check it out!" />
 
-<!-- ### npm Intellisense
-<LevelWithButton :image-right=false desc="Visual Studio Code plugin that autocompletes npm modules in import statements" image="https://christian-kohler.gallerycdn.vsassets.io/extensions/christian-kohler/npm-intellisense/1.3.0/1487797010221/Microsoft.VisualStudio.Services.Icons.Default" link="https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense" button="Check it out!" /> -->
-
 ### ES7 React/Redux/React-Native Snippets
 <LevelWithButton :image-right=false desc="Simple extensions for React, Redux and Graphql in JS/TS with ES7 syntax" image="https://dsznajder.gallerycdn.vsassets.io/extensions/dsznajder/es7-react-js-snippets/2.7.1/1585251666137/Microsoft.VisualStudio.Services.Icons.Default" link="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets" button="Check it out!" />
 

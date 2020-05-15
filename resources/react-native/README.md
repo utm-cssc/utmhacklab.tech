@@ -26,6 +26,7 @@ In other words: web developers can now write mobile applications that look and f
 ]" />
 
 ## Getting Started
+
 #### React Native for you!
 <LevelWithButton desc="In this series of videos, you will be introduced fundamental concepts of React Native." link="https://www.youtube.com/playlist?list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ" image="/images/react-native.png" button="Start Learning!"></LevelWithButton>
 
@@ -49,16 +50,14 @@ Essential Syntaxs for React Native from
 ### ES7 React/Redux/React-Native Snippets
 <LevelWithButton desc="Simple extensions for React, Redux and Graphql in JS/TS with ES7 syntax" image="https://dsznajder.gallerycdn.vsassets.io/extensions/dsznajder/es7-react-js-snippets/2.7.1/1585251666137/Microsoft.VisualStudio.Services.Icons.Default" link="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets" button="Check it out!" />
 
-#### Babel
-<LevelWithButton :image-right=false link="https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel" desc="VSCode syntax highlighting for today's JavaScript, ported from gandm's language-babel for Atom." image="https://mgmcdermott.gallerycdn.vsassets.io/extensions/mgmcdermott/vscode-language-babel/0.0.27/1586099951273/Microsoft.VisualStudio.Services.Icons.Default" button="Check it out!" />
 
 #### React Native Tools
 <LevelWithButton desc="Debugging and integrated commands for React Native" image="https://github.com/Microsoft/vscode-react-native/raw/master/images/react-features.gif" link="https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native" button="Check it out!" />
 
-## Useful Resource
-### Official GitHub
-<LevelWithButton :image-right=false image="/icons/github.svg" link="https://github.com/facebook/react-native" button="Check it out!" desc="The official React Native github repository"></LevelWithButton>
+## Useful Resources
 
+### Official GitHub Repo
+<LevelWithButton :image-right=false image="/icons/github.svg" link="https://github.com/facebook/react-native" button="Check it out!" desc="The official React Native github repository"></LevelWithButton>
 
 
 ## Further Steps
