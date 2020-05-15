@@ -16,7 +16,7 @@ Web development is when you create pages, sites or applications people can acces
 
 
 ### What are Web Pages made of?
-The content of a webpage is rendered using HTML. HTML is a markup language which means its purpose is to render the information in the format you specified using the HTML syntax. These pages can be enhanced to look more user-friendly by adding color, frames and other aesthetic features using something called Cascading Style Sheets (CSS). If you want give your page some functionality when users interact with it (such as by changing content on the click of a button), you generally use a programming language called Javascript that runs in the browser. 
+The content of a webpage is rendered using HTML. HTML is a markup language which means its purpose is to render information in the format you specified using HTML syntax. These pages can be enhanced to look more user-friendly by adding color, frames and other aesthetic features using something called Cascading Style Sheets (CSS). If you want give your page some functionality when users interact with it (such as by changing content on the click of a button), you generally use a programming language called Javascript that runs in the browser. 
 <LevelWithButton desc="Web demystified is a web series created by Mozilla Hacks that introduces the fundamentals of web development. In particular, this series focuses on the tools at play when viewing a web page namely: HTML, CSS & Javascript." link="https://www.youtube.com/playlist?list=PLo3w8EB99pqLEopnunz-dOOBJ8t-Wgt2g" button="Check it out!" image="https://www.animatedvideo.com/blog/wp-content/uploads/2016/11/Video_Production_Agency-770x360.png" :imageRight="false" />  
 
 ## Frontend Development
