@@ -4,8 +4,20 @@ sidebar: auto
 
 # Web Development
 
-Web development is when you create pages, sites or applications people can access over the internet. As a web developer, you have the option of a broad set of rapidly evolving tools to work with. If you want to learn more about the different aspects of web development and
-how to get started, continue reading below!
+Web development is when you create pages, sites or applications people can access over the internet. As a web developer, you have the option of a broad set of rapidly evolving tools to work with. 
+
+## Web Fundamentals
+
+### What is the World Wide Web?
+<iframe src="https://www.youtube.com/embed/guvsH5OFizE" width="560" height="315" frameborder="0"></iframe>
+
+### What are Web Pages, Websites and Web applications?
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ylbQrYhfa18" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### What are Web Pages made of?
+The content of a webpage is rendered using HTML. HTML is a markup language which means its purpose is to render the information in the format you specified using the HTML syntax. These pages can be enhanced to look more user-friendly by adding color, frames and other aesthetic features using something called Cascading Style Sheets (CSS). If you want give your page some functionality when users interact with it (such as by changing content on the click of a button), you generally use a programming language called Javascript that runs in the browser. 
+<LevelWithButton desc="Web demystified is a web series created by Mozilla Hacks that introduces the fundamentals of web development. In particular, this series focuses on the tools at play when viewing a web page namely: HTML, CSS & Javascript." link="https://www.youtube.com/playlist?list=PLo3w8EB99pqLEopnunz-dOOBJ8t-Wgt2g" button="Check it out!" image="https://www.animatedvideo.com/blog/wp-content/uploads/2016/11/Video_Production_Agency-770x360.png" :imageRight="false" />  
 
 ## Frontend Development
 
@@ -15,9 +27,9 @@ Frontend Development is the process of implementing user interfaces for web appl
 
 ## Backend Development
 
-Backend Development is the process of developing the business logic and functionality of your tool. As a backend developer, your responsibility is to write clean and scalable code which allows the transfer of data between the web browser and database server as per your application's description. Usually, this involves working with databases to store data from users which is then extracted from the database and used in other parts of the application
+Backend Development is the process of developing the business logic and functionality of your tool. As a backend developer, your responsibility is to write clean and scalable code which allows the transfer of data between the web browser and database server as per your application's description. Usually, this involves working with databases to store data from users which is then extracted from the database and used in other parts of the application.
 
-<LevelWithButton :imageRight="false" desc="Checkout this video on how to get started as a backend developer" link="https://www.youtube.com/watch?v=0Kv_k4ypj6o" button="Get Started Now!" image="https://codecondo.com/wp-content/uploads/2017/09/back-end-developer.jpg"/>
+<LevelWithButton :imageRight="false" desc="Check out this video on how to get started as a backend developer" link="https://www.youtube.com/watch?v=0Kv_k4ypj6o" button="Get Started Now!" image="https://codecondo.com/wp-content/uploads/2017/09/back-end-developer.jpg"/>
 
 ## How do I get started with web development?
 
@@ -96,8 +108,7 @@ When you start developing your web application, you will need an array of tools 
 <LevelWithButton desc="NodeJS is what allows you to use Javascript for backend development. ExpressJS is a backend web framework built on NodeJS. They are easily integrable with any frontend framework and are particularly notorious for allowing developers to create full-stack applications using a single programming language." link="https://www.guru99.com/node-js-express.html" button="Let's get started!" image="https://miro.medium.com/max/365/1*Jr3NFSKTfQWRUyjblBSKeg.png"/>
 
 ### Django
-
-Django is a Python-based web framework. Django is becoming extremely popular due to python being the default language for most Machine Learning developers. Django is a very comprehensive and advanced tool, but if you plan to do data analytics and machine learning with your web application, Django might be a framework you may want to consider.
+Django is a Python-based web framework well-known for its scalability as well as its built-in components for authentication and data connections. Django is becoming extremely popular due to python being the default language for most Machine Learning developers.
 
 <LevelWithButton :imageRight="false" desc="If you would like to get started with django, here are step-by-step tutorials on building various types of applications" link="https://realpython.com/tutorials/django/" button="Get started with Django" image="https://www.sayonetech.com/media/uploads/zinnia/Python-Django-Web-Development.jpg" />
 
