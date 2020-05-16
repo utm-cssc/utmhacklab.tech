@@ -30,13 +30,6 @@ module.exports = {
 
                 ]
             }],
-            '/resources/REST/': [{
-                title: 'REST',
-                children: [
-                    '',
-                    'Learn/',
-                ]
-            }],
         },
         locales: {
             '/': {
