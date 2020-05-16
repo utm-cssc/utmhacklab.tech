@@ -66,14 +66,20 @@ Cheat sheets save you time and energy by giving you essential syntax at your fin
 <LevelWithButton :image-right=false desc="Simple extensions for React, Redux and Graphql in JS/TS with ES7 syntax" image="https://dsznajder.gallerycdn.vsassets.io/extensions/dsznajder/es7-react-js-snippets/2.7.1/1585251666137/Microsoft.VisualStudio.Services.Icons.Default" link="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets" button="Check it out!" />
 
 ## Useful Resources
-### Awesome resourses from React ecosystem
+### Awesome resourses from the React ecosystem
 <LevelWithButton desc="A collection of awesome things regarding the React ecosystem." image="https://github.com/sindresorhus/awesome/raw/master/media/logo.png" link="https://github.com/enaqx/awesome-react" button="Check it out!" />
 
-### Official GitHub
-<LevelWithButton :image-right=false image="/icons/github.svg" link="https://github.com/facebook/react" button="Check it out!" desc="The official Reactjs github repository"></LevelWithButton>
+### React Router
+<LevelWithButton :image-right=false desc="The library provides declarative routing for React" button="Check it out!" image="https://camo.githubusercontent.com/f63754b8412368e820601967af6dea84312b925b/68747470733a2f2f7265616374747261696e696e672e636f6d2f72656163742d726f757465722f616e64726f69642d6368726f6d652d313434783134342e706e67" link="https://github.com/ReactTraining/react-router" />
+
+### Using Google Maps in React
+<LevelWithButton desc="This library provides React.js Google Maps integration component that yu can use in your app" image="https://miro.medium.com/max/3200/1*qXcjSfRj0C0ir2yMsYiRyw.jpeg" link="https://github.com/tomchentw/react-google-maps" button="Check it out!" />
 
 ### Official Documentation
-<LevelWithButton image="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" link="https://reactjs.org/" button="Read Docs" desc="The official Reactjs documentation can help you understand important concepts and refer to the API"></LevelWithButton>
+<LevelWithButton :image-right=false image="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" link="https://reactjs.org/" button="Read Docs" desc="The official Reactjs documentation can help you understand important concepts and refer to the API"></LevelWithButton>
+
+### Official GitHub
+<LevelWithButton image="/icons/github.svg" link="https://github.com/facebook/react" button="Check it out!" desc="The official Reactjs github repository for you to check out new updates and also contribute to repository in the future."></LevelWithButton>
 
 ## Further Steps
 We at the Hacklab believe in learning by doing. So here are some ideas for a few projects that you can work on to hone your skills.
@@ -86,8 +92,11 @@ We at the Hacklab believe in learning by doing. So here are some ideas for a few
 #### SnapShot
 <Level desc="This application searches and displays the pictures that the user searches for." image="https://github.com/Yog9/SnapShot/raw/master/snapscout.png"></Level>
 
-#### GIFs
+#### Giphy Clone
 <Level desc="Create a single page web application which uses a search input and Giphy’s API to display giphs on a page." image="https://miro.medium.com/max/1000/1*B_Ny6pA3KiFfl_9EhZfziQ.png"></Level>
+
+### Try some interview questions
+<LevelWithButton :image-right=false desc="13 Essential React Interview Questions to try out" image="https://media-exp1.licdn.com/dms/image/C560BAQEJlZg66jWL4w/company-logo_200_200/0?e=2159024400&v=beta&t=wezZWtcLiFf4WisIPTFrpeNPo6ERqeQ6bXIJ7bhOkdk" link="https://www.toptal.com/react/interview-questions" button="Check it out!" />
 
 ### Learn React Native
 <LevelWithButton :image-right=false desc="React Native allows you to create native apps for Android and iOS. Entend your knowledge to make mobile applications." image="https://www.mindinventory.com/blog/wp-content/uploads/2018/11/ios-android-development-using-react-native.png" button="Check it out!" link="/resources/react-native"></LevelWithButton>

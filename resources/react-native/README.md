@@ -52,12 +52,24 @@ Essential Syntaxs for React Native from
 
 
 #### React Native Tools
-<LevelWithButton desc="Debugging and integrated commands for React Native" image="https://github.com/Microsoft/vscode-react-native/raw/master/images/react-features.gif" link="https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native" button="Check it out!" />
+<LevelWithButton desc="For debugging and integrated commands in React Native" image="https://github.com/Microsoft/vscode-react-native/raw/master/images/react-features.gif" link="https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native" button="Check it out!" />
 
 ## Useful Resources
 
+### React Navigation
+<LevelWithButton desc="This library allows you to add routes and navigation for your React Native apps" link="https://reactnavigation.org/" image="https://reactnavigation.org/img/spiro.svg" button="Chack it out!" />
+
+### React Native vector icons
+<LevelWithButton :image-right=false desc="Customizable Icons for React Native with support for NavBar/TabBar/ToolbarAndroid, image source and full styling." link="https://oblador.github.io/react-native-vector-icons/" image="https://cloud.githubusercontent.com/assets/378279/12009887/33f4ae1c-ac8d-11e5-8666-7a87458753ee.png" button="Check it out!" />
+
+### React Native device info
+<LevelWithButton desc="This library provides the device information for React Native iOS and Android applications" link="https://github.com/react-native-community/react-native-device-info" button="Check it out!" image="https://miro.medium.com/max/3200/1*qXcjSfRj0C0ir2yMsYiRyw.jpeg" />
+
+### Offical Documentation
+<LevelWithButton :image-right=false image="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" link="https://reactnative.dev/" button="Read Docs" desc="The official React Native documentation can help you understand important concepts and refer to the API"></LevelWithButton>
+
 ### Official GitHub Repo
-<LevelWithButton :image-right=false image="/icons/github.svg" link="https://github.com/facebook/react-native" button="Check it out!" desc="The official React Native github repository"></LevelWithButton>
+<LevelWithButton image="/icons/github.svg" link="https://github.com/facebook/react-native" button="Check it out!" desc="The official React Native github repository for you to check out new updates and also contribute to repository in the future."></LevelWithButton>
 
 
 ## Further Steps
