@@ -142,7 +142,21 @@ export default {
           link: "/resources/docker/",
           desc:
             "Containerize your applications with ease and deploy them anywhere!"
-        }        
+        },
+        {
+          title: "ReactJS",
+          icon: "react.svg",
+          link: "/resources/react/",
+          desc:
+            "A JavaScript Library for building dynamic user interfaces"
+        },
+        {
+          title: "React Native",
+          icon: "react-native.svg",
+          link: "/resources/react-native/",
+          desc:
+            "React Native is a JS framework for writing natively rendering mobile applications for iOS and Android!"
+        },
       ]
     }
   }

@@ -48,3 +48,7 @@ Icons made by <a href="https://www.flaticon.com/authors/darius-dan" title="Dariu
 
 ## <div>Icons made by <a href="https://www.iconfinder.com/Flatart" title="Flatart">FlatArt</a> from <a href="https://www.iconfinder.com/" title="IconFinder">www.iconfinder.com</a></div>
 <div>Icons made by <a href="https://www.iconfinder.com/Flatart" title="Flatart">FlatArt</a> from <a href="https://www.iconfinder.com/" title="IconFinder">www.iconfinder.com</a></div>
+
+## <div>Icons made by <a href="https://github.com/alansouzati" title="Alan">Alan Souza</a> from <a href="https://icons.grommet.io/" title="Grommet">www.icons.grommet.io/</a></div>
+<div>Icons made by <a href="https://github.com/alansouzati" title="Alan">Alan Souza</a> from <a href="www.icons.grommet.io/" title="Grommet">https://icons.grommet.io/</a></div>
+
