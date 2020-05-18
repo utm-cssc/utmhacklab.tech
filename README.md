@@ -2,15 +2,13 @@
 home: true
 heroText: UTM Hacklab
 heroImage: /logos/hacklab.png
-tagline: We're Hiring for 2020-2021!
-actionText: Apply Now
-actionLink: https://forms.gle/kENLX2CAEEmSLddP7
+tagline: Supporting UTM MCS Students
 features:
-- title: 🏫 Office Space and Guidance
+- title: Office Space and Guidance
   details: The Hacklab provides a space for students at UTM with guidance on their academic and professional roadmaps by students from the community. 
-- title: 🔎 Research and Development
+- title: Research and Development
   details: We R&D creative processes and tools for the student community to succeed. 
-- title: 🌲 Supporting MCS societies
+- title: Supporting MCS societies
   details: The Hacklab provides space and resources for MCS clubs that serve particular student needs and concerns.   
 footer: UTM Hacklab DH2014
 --- 
@@ -48,7 +46,6 @@ The Hacklab is still setting up its near to long term infrastructure.
 
 At the moment, the best ways to get involved are:
 
-- [Join](/hl-roles) Our Team
 - Joining our digital communities on [Discord](https://discord.gg/gPX54wF) or  [Microsoft Teams](https://teams.microsoft.com/l/team/19%3a9a293cfeb0d44967babe95ceaeff8fe2%40thread.skype/conversations?groupId=2dba53aa-e8b2-4a9b-a206-92677860a263&tenantId=78aac226-2f03-4b4d-9037-b46d56c55210)
 - Contributing to this website. [Learn how!](/contributing)
 - Engaging with us in person by visiting our office at UTM in Deerfield Hall Room 2014. We'll be posting our office hours for the upcoming term soon!
