@@ -93,7 +93,7 @@ We at the Hacklab believe in learning by doing. So here are some ideas for a few
 <Level desc="This application searches and displays the pictures that the user searches for." image="https://github.com/Yog9/SnapShot/raw/master/snapscout.png"></Level>
 
 #### Giphy Clone
-<Level desc="Create a single page web application which uses a search input and Giphy’s API to display giphs on a page." image="https://miro.medium.com/max/1000/1*B_Ny6pA3KiFfl_9EhZfziQ.png"></Level>
+<Level desc="Create a single page web application which uses a search input and Giphy’s API to display gifs on a page." image="https://miro.medium.com/max/1000/1*B_Ny6pA3KiFfl_9EhZfziQ.png"></Level>
 
 ### Try some interview questions
 <LevelWithButton :image-right=false desc="13 Essential React Interview Questions to try out" image="https://media-exp1.licdn.com/dms/image/C560BAQEJlZg66jWL4w/company-logo_200_200/0?e=2159024400&v=beta&t=wezZWtcLiFf4WisIPTFrpeNPo6ERqeQ6bXIJ7bhOkdk" link="https://www.toptal.com/react/interview-questions" button="Check it out!" />
