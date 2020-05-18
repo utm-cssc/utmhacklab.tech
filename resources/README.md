@@ -109,6 +109,12 @@ export default {
           desc:
             "React Native is a JS framework for writing natively rendering mobile applications for iOS and Android!"
         },
+          title: "REST",
+          icon: "rest.svg",
+          link: "/resources/REST/",
+          desc:
+            "Learn one of the most powerful APIs, the REST API!"
+        },
       ]
     }
   }
