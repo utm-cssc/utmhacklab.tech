@@ -16,18 +16,33 @@ Web development is when you create pages, sites or applications people can acces
 
 
 ### What are Web Pages made of?
-The content of a webpage is rendered using HTML. HTML is a markup language which means its purpose is to render information in the format you specified using HTML syntax. These pages can be enhanced to look more user-friendly by adding color, frames and other aesthetic features using something called Cascading Style Sheets (CSS). If you want give your page some functionality when users interact with it (such as by changing content on the click of a button), you generally use a programming language called Javascript that runs in the browser. 
-<LevelWithButton desc="Web demystified is a web series created by Mozilla Hacks that introduces the fundamentals of web development. In particular, this series focuses on the tools at play when viewing a web page namely: HTML, CSS & Javascript." link="https://www.youtube.com/playlist?list=PLo3w8EB99pqLEopnunz-dOOBJ8t-Wgt2g" button="Check it out!" image="https://www.animatedvideo.com/blog/wp-content/uploads/2016/11/Video_Production_Agency-770x360.png" :imageRight="false" />  
+The content of a webpage is rendered using HTML. HTML is a markup language which means its purpose is to render information in the format you specified using HTML syntax.
+
+ These pages can be enhanced to look more user-friendly by adding color, frames and other aesthetic features using something called Cascading Style Sheets (CSS). 
+
+If you want give your page some functionality when users interact with it (such as by changing content on the click of a button), you generally use a programming language called Javascript that runs in the browser. 
+
+### Web Demystified
+
+<LevelWithButton desc="A video series created by Mozilla Hacks that introduces the fundamentals of web development by focusing on HTML, CSS & Javascript." link="https://www.youtube.com/playlist?list=PLo3w8EB99pqLEopnunz-dOOBJ8t-Wgt2g" button="Check it out!" image="https://www.animatedvideo.com/blog/wp-content/uploads/2016/11/Video_Production_Agency-770x360.png" :imageRight="false" />  
 
 ## Frontend Development
 
 Frontend Development is the process of implementing user interfaces for web applications. As a frontend developer, you create the portion of the website that people interact with and ensure that the design requirements for how your application should 'look' and 'feel' are met.
 
+### Frontend Masters
+
 <LevelWithButton desc="Learn more about what you need to become a successful frontend web developer!" link="https://frontendmasters.com/books/front-end-handbook/2018/what-is-a-FD.html" button="Check it out!" image="https://invexi.com/wp-content/uploads/2015/06/frontend.jpg"/>
 
 ## Backend Development
 
-Backend Development is the process of developing the business logic and functionality of your tool. As a backend developer, your responsibility is to write clean and scalable code which allows the transfer of data between the web browser and database server as per your application's description. Usually, this involves working with databases to store data from users which is then extracted from the database and used in other parts of the application.
+Backend Development is the process of developing the business logic and functionality of your tool. 
+
+As a backend developer, your responsibility is to write clean and scalable code which allows the transfer of data between the web browser and database server as per your application's description. 
+
+Usually, this involves working with databases to store data from users which is then extracted from the database and used in other parts of the application.
+
+### What You Need to Know to be a Backend Developer
 
 <LevelWithButton :imageRight="false" desc="Check out this video on how to get started as a backend developer" link="https://www.youtube.com/watch?v=0Kv_k4ypj6o" button="Get Started Now!" image="https://codecondo.com/wp-content/uploads/2017/09/back-end-developer.jpg"/>
 
@@ -77,7 +92,9 @@ font-size:24px;
 
 ### Web Frameworks
 
-A web framework is a tool that you could use as the skeleton for your application. It's helpful to use web frameworks because often, they have built-in features (such as user authentication capabilities) which you can use for development thus saving you time and increasing productivity. Furthermore, frameworks are helpful when building larger applications because they are "scalable". This means you can easily implement features to your application in a way that follows a pattern such that other portions of your application are not impacted and your code is easily understandable if you want to make changes in the future. Frameworks are available for both backend and frontend development.
+A web framework is a tool that you could use as the skeleton for your application. It's helpful to use web frameworks because often, they have built-in features (such as user authentication capabilities) which you can use for development thus saving you time and increasing productivity. 
+
+Furthermore, frameworks are helpful when building larger applications because they are "scalable". This means you can easily implement features to your application in a way that follows a pattern such that other portions of your application are not impacted and your code is easily understandable if you want to make changes in the future. Frameworks are available for both backend and frontend development.
 
 ### Top 10 Frontend Libraries
 
