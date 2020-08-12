@@ -18,7 +18,7 @@
           <p class="desc">
             {{ desc }}
           </p>
-          <div v-if="link != ''">
+          <div v-if="link">
             <a
               :href="link"
               class="feature-btn"
