@@ -21,7 +21,7 @@ JSX (short for JavaScript eXtension) is a React extension that makes it easy for
 ### Virtual DOM
 React.js creates a Virtual DOM which is the copy of site's DOM. React uses this copy to see what parts of the actual DOM is changed when an event happens (like a user clicking a button) and selectively updates the DOM only.
 
-<LevelWithButton :image-right=false link="https://skillcrush.com/blog/what-is-react-js/#dom" desc="Find more about React and their benefits!" image="https://mk0skillcrush9jajt6o.kinstacdn.com/wp-content/themes/skillcrush-corgi/img/retina-icons/Skillcrush_Logo@2x.png" button="Click here!" />
+<!-- <LevelWithButton :image-right=false link="https://skillcrush.com/blog/what-is-react-js/#dom" desc="Find more about React and their benefits!" image="https://mk0skillcrush9jajt6o.kinstacdn.com/wp-content/themes/skillcrush-corgi/img/retina-icons/Skillcrush_Logo@2x.png" button="Click here!" />
 
 ### Companies using React
 <ImagesGridHorizontal :images="
@@ -102,4 +102,4 @@ We at the Hacklab believe in learning by doing. So here are some ideas for a few
 <LevelWithButton :image-right=false desc="React Native allows you to create native apps for Android and iOS. Entend your knowledge to make mobile applications." image="https://www.mindinventory.com/blog/wp-content/uploads/2018/11/ios-android-development-using-react-native.png" button="Check it out!" link="/resources/react-native"></LevelWithButton>
 
 ### Create your own project
-If you have a good application idea, and don't know where to start, Contact us at [Microsoft Teams](/microsoft-teams/) or meet us at room 2014 in UTM's Deerfield Hall building.
+If you have a good application idea, and don't know where to start, Contact us at [Microsoft Teams](/microsoft-teams/) or meet us at room 2014 in UTM's Deerfield Hall building. -->

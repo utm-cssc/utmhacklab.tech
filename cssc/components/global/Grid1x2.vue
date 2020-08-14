@@ -1,5 +1,5 @@
 <template>
-  <div class="my-5">
+  <div class="mb-5">
     <div class="row d-flex justify-content-between">
       <div
         class="col-md-5 py-5 px-4 d-flex justify-content-center"
@@ -11,7 +11,7 @@
         >
       </div>
       <div class="col-md-6 d-flex justify-content-center flex-column text-container">
-        <h3 class="feature-title">
+        <h3 v-if="title != ''" class="feature-title">
           {{ title }}
         </h3>
         <div>
@@ -22,7 +22,7 @@
             <a
               :href="link"
               class="feature-btn"
-            >Learn More →</a>
+            >{{ button }}</a>
           </div>
         </div>
       </div>
@@ -34,12 +34,16 @@
 export default {
   props: {
     imgSrc: String,
-    title: String,
+    title: {
+      type: String,
+      default: ''
+    },
     desc: String,
     reversed: {
       type: Boolean,
       default: false
     },
+    button: String,
     link: {
       type: String,
       default: ''

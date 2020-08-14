@@ -4,7 +4,7 @@
 
 ### Android Developer Guides by Google
 
-<LevelWithButton link="https://developer.android.com/guide" button="Start Learning" image="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Android_symbol_green_2.max-1500x1500.png" desc="Google offers documentation, codelabs, courses, and online traning to help you build on the Android platform!" />
+<grid-1-x-2 link="https://developer.android.com/guide" button="Start Learning" img-Src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Android_symbol_green_2.max-1500x1500.png" desc="Google offers documentation, codelabs, courses, and online traning to help you build on the Android platform!"></grid-1-x-2>
 
 ### Learn how to Build Android Apps with Android Jetpack and Kotlin
 
