@@ -24,31 +24,31 @@ export default {
   props: {
     link: {
       type: String,
-      required: true
+      required: true,
     },
     iconFileName: {
       type: String,
-      required: true
+      required: true,
     },
     title: {
       type: String,
-      required: true
+      required: true,
     },
     desc: {
       type: String,
-      required: true
+      required: true,
     },
     color: {
       type: String,
       required: false,
-      default: '#11991c'
-    }
+      default: "#11991c",
+    },
   },
   data() {
     return {
-      hovered: false
+      hovered: false,
     };
-  }
+  },
 };
 </script>
 
@@ -56,10 +56,7 @@ export default {
 a {
   text-decoration: none !important;
   min-height: 148px;
-}
-
-.row {
-  display: flex;
+  margin: 0 !important;
 }
 
 .box {
@@ -73,9 +70,11 @@ a {
 }
 
 .box.resource-box {
-  max-width: 172px;
-  height: 100%;
+  height: 212px;
   transition: all 0.2s ease-in-out;
+
+  flex: 1 1 172px;
+  margin: 5px !important;
 }
 
 .box.resource-box:hover {
